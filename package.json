@@ -2,7 +2,7 @@
   "name": "asn-nigeria",
   "version": "1.0.0",
   "private": true,
-  "description": "Local Nigerian ASN and IP allocation lists collected from AFRINIC statistics",
+  "description": "Local Nigerian ASN and IP allocation lists collected from AFRINIC and RIPE NCC statistics",
   "type": "commonjs",
   "scripts": {
     "build": "tsc -p tsconfig.json",

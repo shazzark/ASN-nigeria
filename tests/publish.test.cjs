@@ -1,48 +1,66 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { mkdtemp, readFile, readdir, rm, mkdir, writeFile } = require('node:fs/promises');
+const { mkdtemp, readFile, readdir, rm, mkdir, writeFile, stat, utimes, rename } = require('node:fs/promises');
 const { tmpdir } = require('node:os');
 const { join } = require('node:path');
-const { collectAfrinicData } = require('../dist/collect.js');
+const { collectDelegatedData } = require('../dist/collect.js');
 const { publishFiles } = require('../dist/output/publish.js');
-const { rename } = require('node:fs/promises');
 
-const fixture = [
-  '2|afrinic|fixture-serial|3|20260101|20260101|+0000',
-  'afrinic|*|asn|*|1|summary', 'afrinic|*|ipv4|*|1|summary', 'afrinic|*|ipv6|*|1|summary',
+function source(registry, serial, rows) {
+  const counts = Object.fromEntries(['asn', 'ipv4', 'ipv6'].map((type) => [type, rows.filter((row) => row.split('|')[2] === type).length]));
+  return [`2|${registry}|${serial}|${rows.length}|20260101|20260101|+0000`,
+    `${registry}|*|asn|*|${counts.asn}|summary`, `${registry}|*|ipv4|*|${counts.ipv4}|summary`, `${registry}|*|ipv6|*|${counts.ipv6}|summary`, ...rows].join('\n');
+}
+const afrRows = [
   'afrinic|NG|asn|64512|1|20200101|allocated|holder-asn',
-  'afrinic|NG|ipv4|192.0.2.1|2|20200102|assigned|holder-v4',
+  'afrinic|NG|ipv4|192.0.2.0|256|20200102|assigned|holder-v4',
   'afrinic|NG|ipv6|2001:db8::|32|20200103|allocated|holder-v6',
-].join('\n');
+];
+const ripeRows = [
+  'ripencc|NG|asn|64513|1|20210101|allocated|holder-asn-ripe',
+  'ripencc|NG|ipv4|198.51.100.0|256|20210102|assigned|holder-v4-ripe',
+  'ripencc|NG|ipv6|2001:db8:2::|48|20210103|allocated|holder-v6-ripe',
+];
+const fixture = (ripeSerial = 'ripe-serial') => ({
+  afrinic: source('afrinic', 'afri-serial', afrRows),
+  ripencc: source('ripencc', ripeSerial, ripeRows),
+});
 
-test('invalid source data preserves existing published outputs', async (t) => {
+async function snapshot(directory, prefix = '') {
+  const result = new Map();
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const relative = join(prefix, entry.name);
+    if (entry.isDirectory()) {
+      for (const [path, value] of await snapshot(join(directory, entry.name), relative)) result.set(path, value);
+    } else result.set(relative, await readFile(join(directory, entry.name), 'utf8'));
+  }
+  return result;
+}
+
+test('invalid source data from either registry preserves existing outputs', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  await collectAfrinicData(fixture, '2026-01-01T00:00:00.000Z', root);
-  async function snapshot(directory, prefix = '') {
-    const result = new Map();
-    for (const entry of await readdir(directory, { withFileTypes: true })) {
-      const relative = join(prefix, entry.name);
-      if (entry.isDirectory()) {
-        for (const [path, value] of await snapshot(join(directory, entry.name), relative)) result.set(path, value);
-      } else result.set(relative, await readFile(join(directory, entry.name), 'utf8'));
-    }
-    return result;
-  }
+  await collectDelegatedData(fixture(), '2026-01-01T00:00:00.000Z', root);
   const before = await snapshot(join(root, 'data'));
-  await assert.rejects(collectAfrinicData(fixture.replace('|3|', '|4|'), '2026-01-01T00:00:00.000Z', root), /count mismatch/);
+  const invalid = fixture();
+  invalid.ripencc = invalid.ripencc.replace('|3|', '|4|');
+  await assert.rejects(collectDelegatedData(invalid, '2026-01-02T00:00:00.000Z', root), /count mismatch/);
   assert.deepEqual(await snapshot(join(root, 'data')), before);
 });
 
-test('identical records leave every output and metadata unchanged', async (t) => {
+test('unchanged records leave list files untouched while changed source serial refreshes only provenance metadata', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  await collectAfrinicData(fixture, '2026-01-01T00:00:00.000Z', root);
-  const paths = ['metadata.json', 'IP.Nigeria.list', 'resources.json'];
-  const before = await Promise.all(paths.map((path) => readFile(join(root, 'data', path), 'utf8')));
-  await collectAfrinicData(fixture.replace('fixture-serial', 'new-global-serial'), '2026-01-02T00:00:00.000Z', root);
-  const after = await Promise.all(paths.map((path) => readFile(join(root, 'data', path), 'utf8')));
-  assert.deepEqual(after, before);
+  await collectDelegatedData(fixture(), '2026-01-01T00:00:00.000Z', root);
+  const listPath = join(root, 'data', 'IP.Nigeria.list');
+  const oldTime = new Date('2020-01-01T00:00:00.000Z');
+  await utimes(listPath, oldTime, oldTime);
+  const before = await stat(listPath);
+  await collectDelegatedData(fixture('ripe-serial-2'), '2026-01-02T00:00:00.000Z', root);
+  const after = await stat(listPath);
+  assert.equal(after.mtimeMs, before.mtimeMs);
+  const metadata = JSON.parse(await readFile(join(root, 'data', 'metadata.json'), 'utf8'));
+  assert.equal(metadata.sources.find((source) => source.registry === 'ripencc').sourceSerial, 'ripe-serial-2');
 });
 
 test('replacement failure restores every previously published file', async (t) => {

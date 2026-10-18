@@ -1,4 +1,4 @@
-import type { AddressRecord, DatasetMetadata } from "../types/resource";
+import type { AddressRecord, DatasetMetadata, RegistrySource } from "../types/resource";
 import type { ValidatedResources } from "../validation/resources";
 
 function lines(values: readonly string[]): string { return `${values.join("\n")}\n`; }
@@ -6,7 +6,7 @@ function rules(type: "IP-CIDR" | "IP-CIDR6", records: readonly AddressRecord[]):
   return records.map(({ cidr }) => `${type},${cidr}`);
 }
 
-export function renderFiles(resources: ValidatedResources, sourceSerial: string, fetchedAt: string): Map<string, string> {
+export function renderFiles(resources: ValidatedResources, sources: RegistrySource[], fetchedAt: string): Map<string, string> {
   const ipv4 = resources.ipv4.map(({ cidr }) => cidr);
   const ipv6 = resources.ipv6.map(({ cidr }) => cidr);
   const asns = resources.asns.map(({ asn }) => asn);
@@ -17,12 +17,14 @@ export function renderFiles(resources: ValidatedResources, sourceSerial: string,
   const qxV6 = resources.ipv6.map(({ cidr }) => `ip6-cidr, ${cidr}, direct`);
   const qxAsn = asns.map((asn) => `ip-asn, ${asn}, direct`);
   const metadata: DatasetMetadata = {
-    sourceUrl: "https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest",
-    sourceSerial,
+    sources,
     countryCode: "NG",
-    meaning: "AFRINIC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
+    meaning: "AFRINIC and RIPE NCC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
     fetchedAt,
     counts: { asns: asns.length, ipv4: ipv4.length, ipv6: ipv6.length },
+    crossRegistryDuplicates: resources.crossRegistryDuplicates,
+    crossRegistryConflicts: resources.crossRegistryConflicts,
+    crossRegistryOverlaps: resources.crossRegistryOverlaps,
   };
   return new Map([
     ["data/ASN.Nigeria.list", lines(surgeAsn)],

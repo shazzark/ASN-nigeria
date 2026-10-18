@@ -44,12 +44,18 @@ export async function publishFiles(files: ReadonlyMap<string, string>, root = pr
 }
 
 export async function filesMatch(files: ReadonlyMap<string, string>, root = process.cwd()): Promise<boolean> {
-  try {
-    for (const [relativePath, expected] of files) {
-      if (await readFile(resolve(root, relativePath), "utf8") !== expected) return false;
+  return (await changedFiles(files, root)).size === 0;
+}
+
+export async function changedFiles(files: ReadonlyMap<string, string>, root = process.cwd()): Promise<Map<string, string>> {
+  const changed = new Map<string, string>();
+  for (const [relativePath, expected] of files) {
+    try {
+      if (await readFile(resolve(root, relativePath), "utf8") !== expected) changed.set(relativePath, expected);
+    } catch (error) {
+      if ((error as NodeJS.ErrnoException).code === "ENOENT") changed.set(relativePath, expected);
+      else throw error;
     }
-    return true;
-  } catch {
-    return false;
   }
+  return changed;
 }

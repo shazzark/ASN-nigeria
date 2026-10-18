@@ -2,16 +2,26 @@ const test = require('node:test');
 const assert = require('node:assert/strict');
 const { renderFiles } = require('../dist/output/render.js');
 
-test('renders separate Surge and Quantumult X formats with distinct syntax', () => {
+test('renders separate proxy formats and keeps registry provenance and terms distinct', () => {
   const resources = {
-    asns: [{ asn: 64512, name: null, holderId: 'h', date: '20200101', status: 'allocated' }],
-    ipv4: [{ cidr: '192.0.2.0/24', holderId: 'h', date: '20200101', status: 'assigned' }],
-    ipv6: [{ cidr: '2001:db8::/32', holderId: 'h', date: '20200101', status: 'allocated' }],
+    asns: [{ asn: 64512, name: null, claims: [{ registry: 'afrinic', holderId: 'h', date: '20200101', status: 'allocated' }] }],
+    ipv4: [{ cidr: '192.0.2.0/24', claims: [{ registry: 'ripencc', holderId: 'r', date: '20200101', status: 'assigned' }] }],
+    ipv6: [{ cidr: '2001:db8::/32', claims: [{ registry: 'ripencc', holderId: 'r', date: '20200101', status: 'allocated' }] }],
+    crossRegistryDuplicates: { asns: 0, prefixes: 0 },
+    crossRegistryConflicts: [],
+    crossRegistryOverlaps: [],
   };
-  const files = renderFiles(resources, 'serial-1', '2026-01-01T00:00:00.000Z');
-  assert.equal(files.get('data/surge/IP.Nigeria.list'), 'IP-CIDR,192.0.2.0/24\nIP-CIDR6,2001:db8::/32\n');
-  assert.equal(files.get('data/quantumult-x/IP.Nigeria.list'), 'ip-cidr, 192.0.2.0/24, direct\nip6-cidr, 2001:db8::/32, direct\n');
-  assert.equal(files.get('data/quantumult-x/ASN.Nigeria.list'), 'ip-asn, 64512, direct\n');
-  assert.equal(JSON.parse(files.get('data/networks.json'))[0].name, null);
-  assert.match(files.get('data/metadata.json'), /not observed BGP routes/);
+  const sources = [
+    { registry: 'afrinic', sourceUrl: 'https://afrinic.example/stats', sourceSerial: 'a1', records: 12, documentationUrl: 'https://afrinic.example/readme', termsUrl: 'https://afrinic.example/terms', termsStatus: 'permission unresolved' },
+    { registry: 'ripencc', sourceUrl: 'https://ripe.example/stats', sourceSerial: 'r1', records: 20, documentationUrl: 'https://ripe.example/readme', termsUrl: 'https://ripe.example/terms', termsStatus: 'separate terms status' },
+  ];
+  const files = renderFiles(resources, sources, '2026-01-01T00:00:00.000Z');
+  assert.equal(files.get('data/surge/IPv4.Nigeria.list'), 'IP-CIDR,192.0.2.0/24\n');
+  assert.equal(files.get('data/quantumult-x/IPv4.Nigeria.list'), 'ip-cidr, 192.0.2.0/24, direct\n');
+  assert.equal(files.get('data/IPv6.Nigeria.list'), '2001:db8::/32\n');
+  const metadata = JSON.parse(files.get('data/metadata.json'));
+  assert.deepEqual(metadata.sources.map(({ registry, termsStatus }) => [registry, termsStatus]), [
+    ['afrinic', 'permission unresolved'], ['ripencc', 'separate terms status'],
+  ]);
+  assert.match(metadata.meaning, /not observed BGP routes/);
 });

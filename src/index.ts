@@ -1,7 +1,7 @@
-import { collectAfrinicData } from "./collect";
+import { collectDelegatedData } from "./collect";
 
-collectAfrinicData().then((count) => {
-  console.log(`Validated and generated allocation data for ${count} Nigerian ASNs from AFRINIC.`);
+collectDelegatedData().then((count) => {
+  console.log(`Validated and generated allocation data for ${count} Nigerian ASNs from AFRINIC and RIPE NCC.`);
 }).catch((error: unknown) => {
   console.error(`ASN collection failed: ${error instanceof Error ? error.message : String(error)}`);
   process.exitCode = 1;
