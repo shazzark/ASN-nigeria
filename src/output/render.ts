@@ -1,11 +1,45 @@
-import type { DatasetMetadata, NetworkRecord } from "../types/network";
+import type { AddressRecord, DatasetMetadata } from "../types/resource";
+import type { ValidatedResources } from "../validation/resources";
 
-export function renderFiles(networks: readonly NetworkRecord[], fetchedAt: string): Map<string, string> {
-  const metadata: DatasetMetadata = { sourceUrl: "https://bgp.he.net/country/NG", countryCode: "NG", count: networks.length, fetchedAt };
+function lines(values: readonly string[]): string { return `${values.join("\n")}\n`; }
+function rules(type: "IP-CIDR" | "IP-CIDR6", records: readonly AddressRecord[]): string[] {
+  return records.map(({ cidr }) => `${type},${cidr}`);
+}
+
+export function renderFiles(resources: ValidatedResources, sourceSerial: string, fetchedAt: string): Map<string, string> {
+  const ipv4 = resources.ipv4.map(({ cidr }) => cidr);
+  const ipv6 = resources.ipv6.map(({ cidr }) => cidr);
+  const asns = resources.asns.map(({ asn }) => asn);
+  const surgeV4 = rules("IP-CIDR", resources.ipv4);
+  const surgeV6 = rules("IP-CIDR6", resources.ipv6);
+  const surgeAsn = asns.map((asn) => `IP-ASN,${asn}`);
+  const qxV4 = resources.ipv4.map(({ cidr }) => `ip-cidr, ${cidr}, direct`);
+  const qxV6 = resources.ipv6.map(({ cidr }) => `ip6-cidr, ${cidr}, direct`);
+  const qxAsn = asns.map((asn) => `ip-asn, ${asn}, direct`);
+  const metadata: DatasetMetadata = {
+    sourceUrl: "https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest",
+    sourceSerial,
+    countryCode: "NG",
+    meaning: "AFRINIC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
+    fetchedAt,
+    counts: { asns: asns.length, ipv4: ipv4.length, ipv6: ipv6.length },
+  };
   return new Map([
-    ["data/ASN.Nigeria.list", `${networks.map(({ asn }) => `IP-ASN,${asn}`).join("\n")}\n`],
-    ["data/asns.txt", `${networks.map(({ asn }) => asn).join("\n")}\n`],
-    ["data/networks.json", `${JSON.stringify(networks, null, 2)}\n`],
+    ["data/ASN.Nigeria.list", lines(surgeAsn)],
+    ["data/asns.txt", lines(asns.map(String))],
+    ["data/IPv4.Nigeria.list", lines(ipv4)],
+    ["data/IPv6.Nigeria.list", lines(ipv6)],
+    ["data/IP.Nigeria.list", lines([...ipv4, ...ipv6])],
+    ["data/networks.json", `${JSON.stringify(resources.asns, null, 2)}\n`],
+    ["data/resources.json", `${JSON.stringify({ ipv4: resources.ipv4, ipv6: resources.ipv6 }, null, 2)}\n`],
     ["data/metadata.json", `${JSON.stringify(metadata, null, 2)}\n`],
+    ["data/surge/ASN.Nigeria.list", lines(surgeAsn)],
+    ["data/surge/IPv4.Nigeria.list", lines(surgeV4)],
+    ["data/surge/IPv6.Nigeria.list", lines(surgeV6)],
+    ["data/surge/IP.Nigeria.list", lines([...surgeV4, ...surgeV6])],
+    ["data/quantumult-x/ASN.Nigeria.list", lines(qxAsn)],
+    ["data/quantumult-x/IPv4.Nigeria.list", lines(qxV4)],
+    ["data/quantumult-x/IPv6.Nigeria.list", lines(qxV6)],
+    ["data/quantumult-x/IP.Nigeria.list", lines([...qxV4, ...qxV6])],
   ]);
 }

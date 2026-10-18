@@ -2,7 +2,7 @@
   "name": "asn-nigeria",
   "version": "1.0.0",
   "private": true,
-  "description": "Daily Nigerian ASN list collected from the Hurricane Electric BGP Toolkit",
+  "description": "Local Nigerian ASN and IP allocation lists collected from AFRINIC statistics",
   "type": "commonjs",
   "scripts": {
     "build": "tsc -p tsconfig.json",
