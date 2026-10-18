@@ -16,15 +16,15 @@ export function parseDelegatedStatistics(text: string): DelegatedSnapshot {
     if (!line || line.startsWith("#")) continue;
     const fields = line.split("|").map((field) => field.trim());
     if (/^2(?:\.\d+[a-z]*)?$/i.test(fields[0] ?? "")) {
-      if (serial !== undefined || fields.length < 7 || fields[1] !== "afrinic") throw new Error(`Invalid or duplicate AFRINIC version header on line ${index + 1}`);
+      if (serial !== undefined || fields.length !== 7 || fields[1] !== "afrinic") throw new Error(`Invalid or duplicate AFRINIC version header on line ${index + 1}`);
       serial = fields[2];
       declaredRecordCount = Number(fields[3]);
       if (!serial || !Number.isSafeInteger(declaredRecordCount) || declaredRecordCount < 0) throw new Error("Malformed AFRINIC version header");
       continue;
     }
-    if (fields.at(-1) === "summary") {
+    if (fields[5] === "summary") {
       const [, marker, summaryType, unused, summaryCount] = fields;
-      if (fields[0] !== "afrinic" || marker !== "*" || unused !== "*" || !TYPES.has(summaryType as ResourceType)
+      if (fields.length !== 6 || fields[0] !== "afrinic" || marker !== "*" || unused !== "*" || !TYPES.has(summaryType as ResourceType)
         || !/^\d+$/.test(summaryCount ?? "") || summaryCounts.has(summaryType as ResourceType)) {
         throw new Error(`Malformed AFRINIC summary line ${index + 1}`);
       }
@@ -32,7 +32,7 @@ export function parseDelegatedStatistics(text: string): DelegatedSnapshot {
       continue;
     }
     if (serial === undefined) throw new Error(`Record appeared before AFRINIC version header on line ${index + 1}`);
-    if (fields.length < 8) throw new Error(`Malformed delegated record on line ${index + 1}`);
+    if (fields.length !== 8) throw new Error(`Malformed delegated record on line ${index + 1}: expected 8 fields, found ${fields.length}`);
     const [registry, countryCode, type, start, value, date, status, holderId] = fields;
     if (registry !== "afrinic" || !countryCode || !/^[A-Z]{2}$/.test(countryCode)) throw new Error(`Unexpected registry or country code on line ${index + 1}`);
     if (!TYPES.has(type as ResourceType)) throw new Error(`Unexpected resource type on line ${index + 1}: ${type}`);

@@ -1,9 +1,11 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
-const { mkdtemp, readFile, readdir, rm } = require('node:fs/promises');
+const { mkdtemp, readFile, readdir, rm, mkdir, writeFile } = require('node:fs/promises');
 const { tmpdir } = require('node:os');
 const { join } = require('node:path');
 const { collectAfrinicData } = require('../dist/collect.js');
+const { publishFiles } = require('../dist/output/publish.js');
+const { rename } = require('node:fs/promises');
 
 const fixture = [
   '2|afrinic|fixture-serial|3|20260101|20260101|+0000',
@@ -41,4 +43,24 @@ test('identical records leave every output and metadata unchanged', async (t) =>
   await collectAfrinicData(fixture.replace('fixture-serial', 'new-global-serial'), '2026-01-02T00:00:00.000Z', root);
   const after = await Promise.all(paths.map((path) => readFile(join(root, 'data', path), 'utf8')));
   assert.deepEqual(after, before);
+});
+
+test('replacement failure restores every previously published file', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await mkdir(join(root, 'data'), { recursive: true });
+  await writeFile(join(root, 'data', 'first.txt'), 'old first', 'utf8');
+  await writeFile(join(root, 'data', 'second.txt'), 'old second', 'utf8');
+  let renames = 0;
+  const failSecondRename = async (from, to) => {
+    renames++;
+    if (renames === 2) throw new Error('injected replacement failure');
+    return rename(from, to);
+  };
+  await assert.rejects(publishFiles(new Map([
+    ['data/first.txt', 'new first'],
+    ['data/second.txt', 'new second'],
+  ]), root, failSecondRename), /injected replacement failure/);
+  assert.equal(await readFile(join(root, 'data', 'first.txt'), 'utf8'), 'old first');
+  assert.equal(await readFile(join(root, 'data', 'second.txt'), 'utf8'), 'old second');
 });

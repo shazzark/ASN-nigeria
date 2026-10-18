@@ -8,6 +8,7 @@ test('converts aligned and unaligned IPv4 start/count ranges to exact CIDRs', ()
 });
 
 test('validates IPv4 ranges and IPv6 prefix length and alignment', () => {
+  assert.throws(() => ipv4RangeToCidrs('001.2.3.4', '1'), /Invalid IPv4/);
   assert.throws(() => ipv4RangeToCidrs('256.0.0.1', '1'), /Invalid IPv4/);
   assert.throws(() => ipv4RangeToCidrs('255.255.255.255', '2'), /exceeds address space/);
   assert.equal(ipv6PrefixToCidr('2001:0db8:0001:0000::', '48'), '2001:db8:1::/48');

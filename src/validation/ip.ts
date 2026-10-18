@@ -3,7 +3,7 @@ const IPV6_LIMIT = 1n << 128n;
 
 export function parseIpv4(value: string): bigint {
   const octets = value.split(".");
-  if (octets.length !== 4 || octets.some((part) => !/^\d{1,3}$/.test(part) || Number(part) > 255)) throw new Error(`Invalid IPv4 address: ${value}`);
+  if (octets.length !== 4 || octets.some((part) => !/^\d{1,3}$/.test(part) || Number(part) > 255 || String(Number(part)) !== part)) throw new Error(`Invalid IPv4 address: ${value}`);
   return octets.reduce((address, octet) => (address << 8n) | BigInt(Number(octet)), 0n);
 }
 

@@ -26,8 +26,11 @@ test('parses delegated records and selects active NG resource types', () => {
 
 test('rejects missing headers, malformed records, record-count drift, and empty NG results', () => {
   assert.throws(() => parseDelegatedStatistics(''), /Missing AFRINIC/);
+  assert.throws(() => parseDelegatedStatistics(source(rows).replace('|+0000\n', '|+0000|unexpected\n')), /Invalid or duplicate AFRINIC version header/);
+  assert.throws(() => parseDelegatedStatistics(source(rows).replace('1|summary', '1|summary|unexpected')), /Malformed AFRINIC summary/);
   assert.throws(() => validateResources(parseDelegatedStatistics(source(['afrinic|NG|ipv4|bad|2|20200101|assigned|holder'])).records), /Invalid IPv4/);
   assert.throws(() => parseDelegatedStatistics(source(rows).replace('fixture-serial|3|', 'fixture-serial|4|')), /count mismatch/);
+  assert.throws(() => parseDelegatedStatistics(source(rows).replace('holder-v6\n', 'holder-v6|unexpected-extension\n')), /expected 8 fields/);
   assert.throws(() => parseDelegatedStatistics(source(['afrinic|US|asn|64513|1|20200101|allocated|holder'])), /no active NG/);
   assert.throws(() => parseDelegatedStatistics(source(['afrinic|NG|asn|64512|1|20200101|mystery|holder'])), /Malformed delegated record/);
 });
