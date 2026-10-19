@@ -60,8 +60,35 @@ For announced routes, [RIPE RIS](https://www.ripe.net/analyse/internet-measureme
 
 The [MIT license](LICENSE) applies only to original code in this repository. It does not license upstream registry data. Public AFRINIC-derived files retain source attribution and the no-liability disclaimer; the project does not state that AFRINIC has confirmed redistribution permission. RIPE-derived data is not collected or published.
 
-## Difference from ASN-China
+## Feature parity with ASN-China
 
-The [ASN-China](https://github.com/missuo/ASN-China) project is the inspiration for the country-specific ASN/IP-list goal and advertises daily updates. ASN Nigeria is an original TypeScript implementation with public AFRINIC allocation snapshots, exact IPv4 conversion, IPv6 validation, source-level provenance, and separate Surge and Quantumult X formats. It is not fully equivalent: coverage excludes RIPE NCC and the other three RIR datasets, source records do not include network names, and BGP-announced routes are not collected. Registry allocations and BGP routes have different meanings and remain separate.
+This checklist is based on the current [ASN-China README](https://github.com/missuo/ASN-China), its [`ASN_CN.py`](https://github.com/missuo/ASN-China/blob/main/scripts/ASN_CN.py), [`IP_CN.py`](https://github.com/missuo/ASN-China/blob/main/scripts/IP_CN.py), and [daily workflow](https://github.com/missuo/ASN-China/blob/main/.github/workflows/ci.yml), inspected on 2026-10-19. ASN-China's README does not describe its copied IP lists as BGP snapshots, so this comparison does not assume they are.
+
+| Feature | ASN-China currently does | ASN Nigeria | Status |
+| --- | --- | --- | --- |
+| ASN rules | Scrapes the `#asns` table from `bgp.he.net/country/CN`, including the ASN name in a comment. | Publishes AFRINIC active `NG` allocation/assignment ASNs; network names are `null`. | Core rule output exists; names are an optional descriptive annotation gap. |
+| IPv4, IPv6, combined IP files | Copies three ready-made lists from `cbuijs/ipasn` without transformation. | Converts AFRINIC IPv4 allocation ranges exactly to CIDRs and validates IPv6 allocation prefixes; publishes separate and combined lists. | Outputs exist, but dataset meaning and source differ. |
+| IP source lineage | README identifies `cbuijs/ipasn`; its README calls itself an “IP to ASN list” and says it updates at least every 24 hours. The reviewed source documentation does not explain country assignment, the generator, or redistribution terms. | AFRINIC registry allocation/assignment records, with per-source metadata. | Not an equivalent source. We do not infer that ASN-China's copied lists are BGP routes or registry allocations. |
+| Proxy formats | README shows ASN rule subscriptions for Surge and Quantumult X. | Publishes ASN and IP rule files separately in each client’s syntax. | Present. |
+| Scheduled updates | Runs on push, manual dispatch, and daily cron; automatically commits output. | Runs on push to `main`, manual dispatch, and daily cron; validates before collection and commits only when resource lists change. | Present, with stronger validation and no-op handling. |
+| Geographic coverage | China ASN/IP lists plus a separate US ASN list. | Nigeria-coded AFRINIC allocations only. | Country focus differs; NG records outside AFRINIC are a known coverage gap. |
+
+The source script [`ASN_CN.py`](https://github.com/missuo/ASN-China/blob/main/scripts/ASN_CN.py) fetches the HE country page and reads its ASN table. It does not fetch BGP route snapshots. [`IP_CN.py`](https://github.com/missuo/ASN-China/blob/main/scripts/IP_CN.py) downloads country, IPv4, and IPv6 lists from `cbuijs/ipasn` verbatim. The inspected [`ipasn` README](https://github.com/cbuijs/ipasn) did not establish how those country lists are derived or whether republication is allowed, so ASN Nigeria does not import them. A future equivalent IP dataset needs a documented method and terms that support this use.
+
+### Essential gaps and optional improvements
+
+The essential unresolved gaps are broader NG-coded registry coverage and a separately sourced country-IP dataset with established meaning and terms. The `ipasn` repository does have Nigeria IPv4 and IPv6 list files ([IPv4](https://github.com/cbuijs/ipasn/blob/master/country-africa-nigeria4.list), [IPv6](https://github.com/cbuijs/ipasn/blob/master/country-africa-nigeria6.list)); however, the checked documentation does not establish their country-assignment method or redistribution terms. This is a candidate, not a cleared source. Network names are an additional descriptive parity gap, but are not needed for proxy rules to match ASNs; no terms-cleared name source was verified, so names remain null. The published allocation files remain AFRINIC-only and are not labeled as BGP routes. RIPE NCC’s Article 3.5 contains an explicit reuse restriction for covered public services, but whether it covers its FTP statistics remains unresolved; RIPE data stays excluded. The question is applicability of that restriction, not whether the clause exists.
+
+Optional differences include the extra US ASN output in ASN-China, generated comment headers, and matching its exact list layout. They do not affect the ability to consume the Nigerian rules. To use the published ASN rules:
+
+```ini
+# Surge
+RULE-SET, https://raw.githubusercontent.com/shazzark/ASN-nigeria/main/data/surge/ASN.Nigeria.list, DIRECT
+
+# Quantumult X [filter_remote]
+https://raw.githubusercontent.com/shazzark/ASN-nigeria/main/data/quantumult-x/ASN.Nigeria.list, tag=NigeriaASN, force-policy=direct, update-interval=86400, opt-parser=true, enabled=true
+```
+
+Replace `ASN.Nigeria.list` with `IPv4.Nigeria.list`, `IPv6.Nigeria.list`, or `IP.Nigeria.list` to use those rule sets. The client-specific files are separate because Surge and Quantumult X use different rule syntax. These subscription URLs update when the daily workflow publishes changed records; they are not real-time feeds.
 
 Surge syntax is checked against its official [IP rule documentation](https://manual.nssurge.com/rules/ip.html). Quantumult X output follows examples in the [official sample configuration](https://github.com/crossutility/Quantumult-X/blob/master/sample.conf), which uses distinct lowercase `ip-cidr`, `ip6-cidr`, and `ip-asn` rules with an explicit policy.
