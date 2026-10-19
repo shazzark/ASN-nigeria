@@ -33,6 +33,57 @@ jobs:
             echo "Refusing to publish from $GITHUB_REF; only main may publish data." >&2
             exit 1
           fi
+      - name: Diagnose AFRINIC source connectivity
+        continue-on-error: true
+        shell: bash
+        run: |
+          source_url="https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest"
+          host="ftp.afrinic.net"
+          echo "DNS addresses (first five):"
+          getent ahosts "$host" | awk 'NR <= 5 { print $1 }' || true
+          for name in HTTPS_PROXY https_proxy HTTP_PROXY http_proxy ALL_PROXY all_proxy; do
+            if [[ -n "${!name:-}" ]]; then echo "$name is set"; else echo "$name is unset"; fi
+          done
+          echo "curl HEAD status, destination, peer and certificate verification (response body suppressed):"
+          curl --silent --show-error --location --head --max-time 15 --output /dev/null \
+            --user-agent 'asn-nigeria/2.0 (+https://github.com/shazzark/asn-nigeria)' \
+            --write-out 'http=%{http_code} final_url=%{url_effective} peer=%{remote_ip} tls_verify=%{ssl_verify_result}\n' \
+            "$source_url" 2>/dev/null || echo "curl probe failed (exit=$?)"
+          node --input-type=module <<'NODE'
+          import dns from 'node:dns/promises';
+          const url = 'https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest';
+          const controller = new AbortController();
+          const timer = setTimeout(() => controller.abort(), 10000);
+          const describe = (error, depth = 0) => {
+            if (depth > 4) return 'cause depth limit reached';
+            if (!(error instanceof Error)) return String(error);
+            const fields = ['code', 'errno', 'syscall', 'hostname', 'address', 'port'];
+            const own = [error.name, error.message, ...fields.flatMap((key) => {
+              const value = error[key];
+              return typeof value === 'string' || typeof value === 'number' ? [`${key}=${value}`] : [];
+            })].filter(Boolean).join(' ');
+            const nested = error.cause === undefined ? [] : [describe(error.cause, depth + 1)];
+            if (Array.isArray(error.errors)) nested.push(...error.errors.slice(0, 3).map((item) => describe(item, depth + 1)));
+            return [own, ...nested].filter(Boolean).join(' <- ');
+          };
+          try {
+            console.log('node_dns=' + JSON.stringify(await dns.lookup(new URL(url).hostname, { all: true })));
+          } catch (error) {
+            console.log('node_dns_error=' + describe(error));
+          }
+          try {
+            const response = await fetch(url, {
+              signal: controller.signal,
+              headers: { 'User-Agent': 'asn-nigeria/2.0 (+https://github.com/shazzark/asn-nigeria)' },
+            });
+            console.log(`node_fetch_status=${response.status} final_url=${response.url} content_type=${response.headers.get('content-type') ?? '(absent)'}`);
+            await response.body?.cancel();
+          } catch (error) {
+            console.log('node_fetch_error=' + describe(error));
+          } finally {
+            clearTimeout(timer);
+          }
+          NODE
       - name: Generate AFRINIC public dataset
         run: npm run update
       - name: Commit changed resource lists

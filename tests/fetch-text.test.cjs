@@ -85,3 +85,30 @@ test('caps repeated network failures at three attempts', async () => {
     global.fetch = originalFetch;
   }
 });
+
+test('reports curated nested network causes without printing full errors', async () => {
+  const originalFetch = global.fetch;
+  const socketError = Object.assign(new Error('socket unavailable'), {
+    code: 'EACCES',
+    address: '196.216.2.24',
+    port: 443,
+  });
+  global.fetch = async () => {
+    throw new TypeError('fetch failed', { cause: new AggregateError([socketError]) });
+  };
+
+  try {
+    await assert.rejects(
+      fetchDelegatedStatistics('https://example.test/stats', 'afrinic'),
+      (error) => {
+        assert.match(error.message, /EACCES/);
+        assert.match(error.message, /196\.216\.2\.24/);
+        assert.match(error.message, /port=443/);
+        assert.doesNotMatch(error.message, /stack|secret/i);
+        return true;
+      },
+    );
+  } finally {
+    global.fetch = originalFetch;
+  }
+});

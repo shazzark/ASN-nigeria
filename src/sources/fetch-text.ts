@@ -15,10 +15,24 @@ function retryAfterMs(value: string | null): number | undefined {
     : undefined;
 }
 
-function errorMessage(error: unknown): string {
+function errorMessage(error: unknown, depth = 0): string {
+  if (depth > 4) return "cause depth limit reached";
   if (!(error instanceof Error)) return String(error);
-  const cause = error.cause instanceof Error ? ` (${error.cause.message})` : "";
-  return `${error.message}${cause}`;
+
+  const fields = ["code", "errno", "syscall", "hostname", "address", "port"] as const;
+  const detail = fields.flatMap((field) => {
+    const value = Reflect.get(error, field);
+    return typeof value === "string" || typeof value === "number" ? [`${field}=${value}`] : [];
+  }).join(" ");
+  const own = [error.name, error.message, detail].filter(Boolean).join(" ");
+  const nested: string[] = [];
+  if (error.cause !== undefined) nested.push(errorMessage(error.cause, depth + 1));
+
+  const errors = Reflect.get(error, "errors");
+  if (Array.isArray(errors)) {
+    nested.push(...errors.slice(0, 3).map((item: unknown) => errorMessage(item, depth + 1)));
+  }
+  return [own, ...nested].filter(Boolean).join(" <- ");
 }
 
 export async function fetchDelegatedStatistics(url: string, registry: RegistryName): Promise<string> {
