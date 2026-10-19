@@ -17,20 +17,31 @@ export function ipv4RangeToCidrs(startText: string, countText: string): string[]
   if (!/^\d+$/.test(countText)) throw new Error(`Invalid IPv4 range count: ${countText}`);
   const count = BigInt(countText);
   if (count < 1n || start + count > IPV4_LIMIT) throw new Error(`IPv4 range exceeds address space: ${startText} + ${countText}`);
+  return rangeToCidrs(start, start + count - 1n, 32, formatIpv4);
+}
+
+export function ipv4InclusiveRangeToCidrs(startText: string, endText: string): string[] {
+  return rangeToCidrs(parseIpv4(startText), parseIpv4(endText), 32, formatIpv4);
+}
+
+export function ipv6InclusiveRangeToCidrs(startText: string, endText: string): string[] {
+  return rangeToCidrs(parseIpv6(startText), parseIpv6(endText), 128, formatIpv6);
+}
+
+function rangeToCidrs(start: bigint, end: bigint, width: number, format: (value: bigint) => string): string[] {
+  if (start > end || end >= (1n << BigInt(width))) throw new Error("IP range end precedes start or exceeds address space");
   const cidrs: string[] = [];
   let next = start;
-  let remaining = count;
-  while (remaining > 0n) {
+  while (next <= end) {
     let alignedBits = 0;
-    if (next === 0n) alignedBits = 32;
-    else while (alignedBits < 32 && ((next >> BigInt(alignedBits)) & 1n) === 0n) alignedBits++;
-    let blockBits = Math.floor(Math.log2(Number(remaining)));
-    while ((1n << BigInt(blockBits)) > remaining) blockBits--;
+    if (next === 0n) alignedBits = width;
+    else while (alignedBits < width && ((next >> BigInt(alignedBits)) & 1n) === 0n) alignedBits++;
+    const remaining = end - next + 1n;
+    let blockBits = remaining.toString(2).length - 1;
     const hostBits = Math.min(alignedBits, blockBits);
-    cidrs.push(`${formatIpv4(next)}/${32 - hostBits}`);
+    cidrs.push(`${format(next)}/${width - hostBits}`);
     const size = 1n << BigInt(hostBits);
     next += size;
-    remaining -= size;
   }
   return cidrs;
 }

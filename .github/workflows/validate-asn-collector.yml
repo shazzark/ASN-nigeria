@@ -1,4 +1,4 @@
-name: Update Nigerian allocation lists
+name: Update Nigerian ASN and IP lists
 
 on:
   push:
@@ -33,19 +33,19 @@ jobs:
             echo "Refusing to publish from $GITHUB_REF; only main may publish data." >&2
             exit 1
           fi
-      - name: Generate AFRINIC public dataset
+      - name: Generate validated allocation and country-geolocation datasets
         run: npm run update
-      - name: Commit changed resource lists
+      - name: Commit changed generated records
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/
-          git reset -- data/metadata.json
+          git reset -- data/metadata.json data/country-ip/metadata.json
           if git diff --cached --quiet -- data; then
-            echo "No published resource records changed; skipping commit."
+            echo "No published dataset records changed; skipping commit."
           else
-            git add data/metadata.json
-            git commit -m "Update Nigerian allocation lists"
+            git add data/metadata.json data/country-ip/metadata.json
+            git commit -m "Update Nigerian ASN and IP lists"
             git push
           fi

@@ -13,7 +13,7 @@
   ],
   "countryCode": "NG",
   "meaning": "AFRINIC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
-  "fetchedAt": "2026-10-19T07:11:20.767Z",
+  "fetchedAt": "2026-10-19T08:40:10.831Z",
   "counts": {
     "asns": 301,
     "ipv4": 418,

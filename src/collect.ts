@@ -6,6 +6,12 @@ import { changedFiles, filesMatch, publishFiles } from "./output/publish";
 import { renderFiles } from "./output/render";
 import { validateResources } from "./validation/resources";
 import type { RegistryName, RegistrySource } from "./types/resource";
+import type { DbipRelease } from "./sources/dbip";
+import { fetchDbipRelease } from "./sources/dbip";
+import { parseCsv, parseDbipAsnCsv, parseDbipCountryCsv } from "./parsers/dbip";
+import { validateCountryIp } from "./validation/country-ip";
+import { renderCountryIpFiles } from "./output/render-country-ip";
+import type { CountryIpDataset } from "./types/country-ip";
 
 const SOURCES = [
   {
@@ -24,6 +30,17 @@ export async function collectDelegatedData(
   fetchedAt = new Date().toISOString(),
   root = process.cwd(),
 ): Promise<number> {
+  const { resources, files } = await prepareAllocations(sourceTexts, fetchedAt);
+  await publishIfChanged(files, ["data/metadata.json"], root);
+  return resources.asns.length;
+}
+
+interface PreparedAllocations {
+  resources: ReturnType<typeof validateResources>;
+  files: Map<string, string>;
+}
+
+async function prepareAllocations(sourceTexts: Partial<Record<RegistryName, string>> | undefined, fetchedAt: string): Promise<PreparedAllocations> {
   const snapshots = await Promise.all(SOURCES.map(async (source) => {
     const text = sourceTexts?.[source.registry] ?? await source.fetch();
     return parseDelegatedStatistics(text, source.registry);
@@ -44,11 +61,82 @@ export async function collectDelegatedData(
     };
   });
   const files = renderFiles(resources, registrySources, fetchedAt);
-  const metadataPath = "data/metadata.json";
-  const dataFiles = new Map([...files].filter(([path]) => path !== metadataPath));
-  if (await filesMatch(dataFiles, root) && await metadataMatches(files.get(metadataPath)!, root, metadataPath)) return resources.asns.length;
+  return { resources, files };
+}
+
+export interface CountryIpFixture {
+  countryCsv: string;
+  asnCsv: string;
+  countryRelease: DbipRelease;
+  asnRelease: DbipRelease;
+}
+
+export interface CompleteCollectionOptions {
+  sourceTexts?: Partial<Record<RegistryName, string>>;
+  countryIp?: CountryIpFixture;
+  fetchedAt?: string;
+  root?: string;
+}
+
+async function fetchCountryIpDataset(): Promise<CountryIpFixture> {
+  const [country, asn] = await Promise.all([fetchDbipRelease("country"), fetchDbipRelease("asn")]);
+  if (country.release.releaseMonth !== asn.release.releaseMonth) {
+    throw new Error(`DB-IP release mismatch: country ${country.release.releaseMonth}, ASN ${asn.release.releaseMonth}`);
+  }
+  return {
+    countryCsv: country.text,
+    asnCsv: asn.text,
+    countryRelease: country.release,
+    asnRelease: asn.release,
+  };
+}
+
+function prepareCountryIp(fixture: CountryIpFixture): CountryIpDataset {
+  if (fixture.countryRelease.kind !== "country" || fixture.asnRelease.kind !== "asn") throw new Error("DB-IP source provenance has mismatched dataset types");
+  if (fixture.countryRelease.releaseMonth !== fixture.asnRelease.releaseMonth) throw new Error("DB-IP country and ASN datasets are from different monthly releases");
+  if (fixture.countryRelease.expectedRows !== parseCsv(fixture.countryCsv, "DB-IP country").length
+    || fixture.asnRelease.expectedRows !== parseCsv(fixture.asnCsv, "DB-IP ASN").length) {
+    throw new Error("DB-IP source record count does not match release provenance");
+  }
+  const countryRanges = parseDbipCountryCsv(fixture.countryCsv);
+  const asnRanges = parseDbipAsnCsv(fixture.asnCsv);
+  const validated = validateCountryIp(countryRanges, asnRanges);
+  return {
+    ...validated,
+    countryRangesCount: fixture.countryRelease.expectedRows,
+    asnRangesCount: fixture.asnRelease.expectedRows,
+    releaseMonth: fixture.countryRelease.releaseMonth,
+    sourceCountry: fixture.countryRelease,
+    sourceAsn: fixture.asnRelease,
+  };
+}
+
+export async function collectCompleteData(options: CompleteCollectionOptions = {}): Promise<{ allocationAsns: number; countryAsns: number }> {
+  const fetchedAt = options.fetchedAt ?? new Date().toISOString();
+  const root = options.root ?? process.cwd();
+  const [allocations, countryFixture] = await Promise.all([
+    prepareAllocations(options.sourceTexts, fetchedAt),
+    options.countryIp ? Promise.resolve(options.countryIp) : fetchCountryIpDataset(),
+  ]);
+  const countryIp = prepareCountryIp(countryFixture);
+  const countryIpFiles = renderCountryIpFiles(countryIp, allocations.resources.asns.map(({ asn }) => asn), fetchedAt);
+  const files = new Map([...allocations.files, ...countryIpFiles]);
+  await publishIfChanged(files, ["data/metadata.json", "data/country-ip/metadata.json"], root);
+  return { allocationAsns: allocations.resources.asns.length, countryAsns: countryIp.asns.length };
+}
+
+async function publishIfChanged(files: Map<string, string>, metadataPaths: readonly string[], root: string): Promise<void> {
+  const metadata = new Set(metadataPaths);
+  const dataFiles = new Map([...files].filter(([path]) => !metadata.has(path)));
+  if (await filesMatch(dataFiles, root)) {
+    let metadataUnchanged = true;
+    for (const path of metadataPaths) {
+      const expected = files.get(path);
+      if (expected === undefined || !(await metadataMatches(expected, root, path))) { metadataUnchanged = false; break; }
+    }
+    if (metadataUnchanged) return;
+  }
   await publishFiles(await changedFiles(files, root), root);
-  return resources.asns.length;
 }
 
 async function metadataMatches(expectedText: string, root: string, path: string): Promise<boolean> {

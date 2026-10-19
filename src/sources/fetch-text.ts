@@ -14,10 +14,10 @@ interface SourceResponse {
   statusText: string;
   contentType: string | null;
   retryAfter: string | null;
-  text: string;
+  body: Buffer;
 }
 
-type RequestSource = (url: string, signal: AbortSignal) => Promise<SourceResponse>;
+type RequestSource = (url: string, signal: AbortSignal, maxBytes: number) => Promise<SourceResponse>;
 
 class SourceProtocolError extends Error {}
 
@@ -50,20 +50,20 @@ function errorMessage(error: unknown, depth = 0): string {
   return [own, ...nested].filter(Boolean).join(" <- ");
 }
 
-function readResponseText(response: IncomingMessage): Promise<string> {
+function readResponseBuffer(response: IncomingMessage, maxBytes: number): Promise<Buffer> {
   return new Promise((resolve, reject) => {
-    const chunks: string[] = [];
+    const chunks: Buffer[] = [];
     let byteLength = 0;
-    response.setEncoding("utf8");
-    response.on("data", (chunk: string) => {
-      byteLength += Buffer.byteLength(chunk);
-      if (byteLength > MAX_RESPONSE_BYTES) {
-        response.destroy(new Error(`Source response exceeded ${MAX_RESPONSE_BYTES} bytes`));
+    response.on("data", (chunk: Buffer | string) => {
+      const bytes = Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk);
+      byteLength += bytes.length;
+      if (byteLength > maxBytes) {
+        response.destroy(new Error(`Source response exceeded ${maxBytes} bytes`));
         return;
       }
-      chunks.push(chunk);
+      chunks.push(bytes);
     });
-    response.on("end", () => resolve(chunks.join("")));
+    response.on("end", () => resolve(Buffer.concat(chunks)));
     response.on("error", reject);
   });
 }
@@ -80,7 +80,7 @@ function openHttpsResponse(url: URL, signal: AbortSignal): Promise<IncomingMessa
   });
 }
 
-async function requestSource(url: string, signal: AbortSignal): Promise<SourceResponse> {
+async function requestSource(url: string, signal: AbortSignal, maxBytes: number): Promise<SourceResponse> {
   let currentUrl = new URL(url);
   if (currentUrl.protocol !== "https:") throw new SourceProtocolError(`Refusing non-HTTPS source URL: ${currentUrl.protocol}`);
   if (currentUrl.username || currentUrl.password) throw new SourceProtocolError("Refusing source URL containing credentials");
@@ -101,13 +101,13 @@ async function requestSource(url: string, signal: AbortSignal): Promise<SourceRe
       continue;
     }
 
-    const text = await readResponseText(response);
+    const body = await readResponseBuffer(response, maxBytes);
     return {
       status,
       statusText: response.statusMessage ?? "",
       contentType: typeof response.headers["content-type"] === "string" ? response.headers["content-type"] : null,
       retryAfter: typeof response.headers["retry-after"] === "string" ? response.headers["retry-after"] : null,
-      text,
+      body,
     };
   }
 }
@@ -117,6 +117,18 @@ export async function fetchDelegatedStatistics(
   registry: RegistryName,
   request: RequestSource = requestSource,
 ): Promise<string> {
+  const body = await fetchSourceBuffer(url, registry, MAX_RESPONSE_BYTES,
+    [/^text\/plain(?:\s*;|$)/i, /^application\/octet-stream(?:\s*;|$)/i], request);
+  return body.toString("utf8");
+}
+
+export async function fetchSourceBuffer(
+  url: string,
+  source: string,
+  maxBytes: number,
+  acceptedContentTypes: readonly RegExp[],
+  request: RequestSource = requestSource,
+): Promise<Buffer> {
   let lastError: unknown;
   let backoffMs = 500;
 
@@ -125,21 +137,23 @@ export async function fetchDelegatedStatistics(
     const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
     let delayBeforeRetryMs = backoffMs;
     try {
-      const response = await request(url, controller.signal);
+      const response = await request(url, controller.signal, maxBytes);
+      const body = response.body ?? Buffer.from(Reflect.get(response, "text") as string ?? "");
       if (response.status < 200 || response.status >= 300) {
-        const error = new Error(`${registry} returned HTTP ${response.status} ${response.statusText}`);
+        const error = new Error(`${source} returned HTTP ${response.status} ${response.statusText}`);
         if (response.status !== 408 && response.status !== 429 && response.status < 500) throw error;
         lastError = error;
         delayBeforeRetryMs = retryAfterMs(response.retryAfter) ?? backoffMs;
       } else {
-        if (response.contentType && !/^text\/plain(?:\s*;|$)/i.test(response.contentType) && !/^application\/octet-stream(?:\s*;|$)/i.test(response.contentType)) {
-          throw new Error(`Unexpected ${registry} content type: ${response.contentType}`);
+        if (response.contentType && !acceptedContentTypes.some((pattern) => pattern.test(response.contentType!))) {
+          throw new Error(`Unexpected ${source} content type: ${response.contentType}`);
         }
-        return response.text;
+        if (body.length === 0) throw new Error(`${source} returned an empty response`);
+        return body;
       }
     } catch (error) {
       if (error instanceof SourceProtocolError) throw error;
-      if (error instanceof Error && (error.message.startsWith(`${registry} returned HTTP `) || error.message.startsWith(`Unexpected ${registry} content type:`))) {
+      if (error instanceof Error && (error.message.startsWith(`${source} returned HTTP `) || error.message.startsWith(`Unexpected ${source} content type:`) || error.message === `${source} returned an empty response`)) {
         throw error;
       }
       lastError = error instanceof Error && error.name === "AbortError"
@@ -155,5 +169,5 @@ export async function fetchDelegatedStatistics(
     }
   }
 
-  throw new Error(`${registry} request failed after ${MAX_ATTEMPTS} attempts: ${errorMessage(lastError)}`);
+  throw new Error(`${source} request failed after ${MAX_ATTEMPTS} attempts: ${errorMessage(lastError)}`);
 }
