@@ -1,0 +1,6111 @@
+{
+  "ipv4": [
+    {
+      "cidr": "41.57.120.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367C175",
+          "date": "20120426",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.58.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20100308",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.67.128.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3696694",
+          "date": "20100513",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.71.128.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3628388",
+          "date": "20100803",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.73.0.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3653CB9",
+          "date": "20161115",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.73.128.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369DB5E",
+          "date": "20100322",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.73.224.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20100406",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.75.80.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20101129",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.75.192.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20090901",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.64.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BB5BB",
+          "date": "20100324",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.72.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640700",
+          "date": "20100415",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.80.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FBCCD",
+          "date": "20100430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.152.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C6B38",
+          "date": "20100525",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.192.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369C94E",
+          "date": "20100705",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.76.248.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B5902",
+          "date": "20101216",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.77.40.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366388F",
+          "date": "20110202",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.77.168.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36178B7",
+          "date": "20111124",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.8.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364563F",
+          "date": "20091016",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.80.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B89F3",
+          "date": "20100319",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.88.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A3983",
+          "date": "20100322",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.100.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365032E",
+          "date": "20100402",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.156.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366A9A8",
+          "date": "20100812",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.172.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20100929",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36479AF",
+          "date": "20110107",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.224.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3695CC5",
+          "date": "20110128",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.78.252.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FCE1E",
+          "date": "20110304",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.79.4.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FBCCD",
+          "date": "20110318",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.79.64.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20110613",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.79.116.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3646035",
+          "date": "20110908",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.79.152.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A9BF3",
+          "date": "20111209",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.79.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FBCCD",
+          "date": "20120213",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.86.128.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B0C44",
+          "date": "20100527",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.87.64.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D8ADD",
+          "date": "20100806",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.138.160.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3628388",
+          "date": "20090814",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.184.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CC8EB",
+          "date": "20080717",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.189.0.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20080925",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.190.0.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3663618",
+          "date": "20080523",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.203.64.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20080103",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.203.96.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3638E56",
+          "date": "20080121",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.204.224.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DCCF2",
+          "date": "20060801",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.206.0.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDDEE",
+          "date": "20070122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.207.248.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368726B",
+          "date": "20121221",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.215.244.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20080827",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.216.160.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3613254",
+          "date": "20081218",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.216.216.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642D46",
+          "date": "20090528",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.217.0.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20160311",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.217.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3689F69",
+          "date": "20090729",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.219.128.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3696694",
+          "date": "20071120",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.220.64.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDDEE",
+          "date": "20060410",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.220.80.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362D462",
+          "date": "20130426",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.221.160.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20070910",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.222.40.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363DF0D",
+          "date": "20061018",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.222.64.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20061115",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.222.76.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3654AEE",
+          "date": "20120609",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.222.144.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364B8E1",
+          "date": "20201111",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.222.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B89F3",
+          "date": "20080415",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.223.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B4076",
+          "date": "20130531",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.223.64.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20061031",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.223.128.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E3517",
+          "date": "20070606",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.223.136.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BD8C4",
+          "date": "20070629",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.223.144.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3638E56",
+          "date": "20070803",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.242.48.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362F443",
+          "date": "20130725",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "41.242.64.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656B37",
+          "date": "20130729",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "45.222.96.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3654A44",
+          "date": "20160627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "62.173.32.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CC8EB",
+          "date": "20030404",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "80.88.7.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3658C57",
+          "date": "20170221",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "80.88.8.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368B3CA",
+          "date": "20170608",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "80.88.10.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366C09A",
+          "date": "20170816",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "80.248.0.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364B8E1",
+          "date": "20201111",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "82.101.128.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3695CC5",
+          "date": "20151006",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.22.216.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20191111",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.23.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3632D8F",
+          "date": "20191122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.23.164.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F151E",
+          "date": "20191014",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.36.132.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D2DBC",
+          "date": "20191015",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.36.148.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20190906",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.36.160.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C18C",
+          "date": "20190822",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.36.176.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A26CA",
+          "date": "20190821",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.36.228.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3633DE5",
+          "date": "20191015",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.38.56.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3653CB9",
+          "date": "20190708",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.38.192.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366C20F",
+          "date": "20190607",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.64.6.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C1D14",
+          "date": "20190807",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.64.7.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363A843",
+          "date": "20190722",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.64.48.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B1EE5",
+          "date": "20190607",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.67.0.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20190513",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.67.32.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FF74C",
+          "date": "20190626",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.67.168.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3666101",
+          "date": "20190320",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.68.70.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CAE5A",
+          "date": "20190607",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.68.104.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E657F",
+          "date": "20190403",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.68.108.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20190220",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.68.126.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DAB93",
+          "date": "20190311",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.68.168.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3633EE3",
+          "date": "20190529",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.69.144.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642405",
+          "date": "20190318",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.69.240.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3649F7F",
+          "date": "20190329",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.88.0.0/13",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDDEE",
+          "date": "20180904",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.128.192.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F6D9C",
+          "date": "20190116",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.130.0.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365B06C",
+          "date": "20210405",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.130.52.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3651686",
+          "date": "20181017",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.130.103.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D3290",
+          "date": "20181116",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.131.36.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FC6AF",
+          "date": "20180822",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.131.64.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369013C",
+          "date": "20180829",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.131.128.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A864A",
+          "date": "20180718",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.134.16.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EC67E",
+          "date": "20180806",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.134.112.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20180919",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.135.192.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3613254",
+          "date": "20180530",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.140.96.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369DB5E",
+          "date": "20180625",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.141.212.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F1964",
+          "date": "20180928",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.141.233.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362DADD",
+          "date": "20180627",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.141.234.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3617284",
+          "date": "20180608",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.164.32.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3689F69",
+          "date": "20180430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.164.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366DD1F",
+          "date": "20180411",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.165.124.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363DFDE",
+          "date": "20180209",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.165.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362B2F9",
+          "date": "20180209",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.176.240.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F8434",
+          "date": "20171213",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.176.244.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20180305",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.200.237.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362A22B",
+          "date": "20261014",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.18.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3627858",
+          "date": "20261012",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.30.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3689F69",
+          "date": "20260924",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.68.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36AD6A0",
+          "date": "20260911",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.96.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647A50",
+          "date": "20260917",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.164.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366AD7E",
+          "date": "20260811",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3646220",
+          "date": "20260731",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.201.252.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36316B1",
+          "date": "20260721",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.7.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367D5E1",
+          "date": "20260629",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.28.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F29BB",
+          "date": "20260622",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.52.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CFA24",
+          "date": "20260623",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.80.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364AD7C",
+          "date": "20260520",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.100.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368EBE7",
+          "date": "20260518",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.144.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365DED1",
+          "date": "20260504",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.152.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36816FC",
+          "date": "20260430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.155.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3693547",
+          "date": "20260506",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.164.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647B9E",
+          "date": "20260428",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363DFDE",
+          "date": "20260417",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.212.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365A98F",
+          "date": "20260408",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.216.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D413F",
+          "date": "20260407",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.220.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3655E48",
+          "date": "20260410",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.202.240.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CDF24",
+          "date": "20260327",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.203.32.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3694F05",
+          "date": "20260218",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.203.60.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366C036",
+          "date": "20260220",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.203.104.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20260122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.203.188.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3649362",
+          "date": "20251212",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.203.192.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36411D1",
+          "date": "20251217",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.44.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36599FB",
+          "date": "20251106",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.45.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F2927",
+          "date": "20251104",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.46.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F3E1E",
+          "date": "20251031",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.76.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3648901",
+          "date": "20251013",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.100.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368B126",
+          "date": "20260228",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.215.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369A983",
+          "date": "20250925",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.220.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368FEDB",
+          "date": "20250910",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.252.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367070E",
+          "date": "20250911",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.204.253.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364F714",
+          "date": "20250912",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.36.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36AD6A0",
+          "date": "20250805",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A6479",
+          "date": "20250801",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.92.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364165E",
+          "date": "20250715",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.106.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CA322",
+          "date": "20250710",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.108.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DED1D",
+          "date": "20250710",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.136.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640EF6",
+          "date": "20250704",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.144.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2F1D",
+          "date": "20250704",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.156.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36100E1",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D4F20",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.192.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3688F13",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.205.204.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DC679",
+          "date": "20250627",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.206.9.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367BAB9",
+          "date": "20250626",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.206.136.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F151E",
+          "date": "20250425",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.206.200.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E3941",
+          "date": "20250219",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.40.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3653CB9",
+          "date": "20241125",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.49.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D3290",
+          "date": "20250115",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.80.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20250425",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.88.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363BA14",
+          "date": "20241107",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.116.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362F370",
+          "date": "20241018",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.136.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F8DD3",
+          "date": "20241009",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FA291",
+          "date": "20240919",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.244.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3694F05",
+          "date": "20240919",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.207.252.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBC56",
+          "date": "20240909",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.208.53.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366BA9A",
+          "date": "20240814",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.208.112.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368F744",
+          "date": "20240722",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.208.116.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365A98F",
+          "date": "20240717",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.208.144.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C91FF",
+          "date": "20240711",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.208.223.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3674A7A",
+          "date": "20240612",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.209.28.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EC67E",
+          "date": "20240516",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.209.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366AD7E",
+          "date": "20240508",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.209.190.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36836B1",
+          "date": "20240222",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.209.224.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C793B",
+          "date": "20240830",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.209.228.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F221E",
+          "date": "20240823",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.60.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BD167",
+          "date": "20240111",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.168.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36922C6",
+          "date": "20231115",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.192.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C5FC3",
+          "date": "20231110",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.194.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CF9B2",
+          "date": "20231103",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.216.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C95B6",
+          "date": "20231020",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.210.240.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364E699",
+          "date": "20231017",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.40.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3633DE5",
+          "date": "20231002",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.80.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3619668",
+          "date": "20230829",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20230828",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.122.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A294B",
+          "date": "20230818",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.163.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3675C48",
+          "date": "20230802",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.164.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3672065",
+          "date": "20230801",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.211.228.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362417C",
+          "date": "20230710",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.40.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F33AE",
+          "date": "20230407",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.80.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DD6FD",
+          "date": "20230501",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.100.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3644373",
+          "date": "20230331",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.104.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3638009",
+          "date": "20230330",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.140.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3687924",
+          "date": "20230324",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.163.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364D757",
+          "date": "20230329",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.174.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366A9A8",
+          "date": "20230414",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.204.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698073",
+          "date": "20230619",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.206.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3695B3C",
+          "date": "20230619",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3648901",
+          "date": "20230530",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.229.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3683CAE",
+          "date": "20230324",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.232.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364BDCD",
+          "date": "20230208",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.240.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20230122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.212.252.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E25B4",
+          "date": "20230313",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.213.18.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3675C91",
+          "date": "20230215",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.213.76.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3624EB2",
+          "date": "20230511",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.213.84.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20221201",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.213.88.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3619AFB",
+          "date": "20221207",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.213.243.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36238E7",
+          "date": "20221222",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.14.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EE4A3",
+          "date": "20221107",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.56.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365BE71",
+          "date": "20221005",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.91.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A9BD6",
+          "date": "20220926",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.124.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BD892",
+          "date": "20221214",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.240.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367A534",
+          "date": "20220826",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.214.248.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36289D4",
+          "date": "20220817",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.215.56.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363FEF1",
+          "date": "20220720",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.215.176.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FB8C3",
+          "date": "20220421",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.215.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20220421",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.215.222.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F143F",
+          "date": "20220614",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.8.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3686B65",
+          "date": "20220430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.21.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3644DAB",
+          "date": "20220419",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.32.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20220421",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642B58",
+          "date": "20220323",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.128.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3679AE6",
+          "date": "20220421",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.134.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3670DC4",
+          "date": "20220315",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.152.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A14B3",
+          "date": "20220311",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.180.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3619BCC",
+          "date": "20220315",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.192.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F151E",
+          "date": "20220211",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.200.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20220225",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.216.236.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C38D9",
+          "date": "20220711",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.0.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364E5A6",
+          "date": "20220125",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.8.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368B25F",
+          "date": "20220125",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.180.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20211105",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642405",
+          "date": "20211027",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.212.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367D92E",
+          "date": "20211026",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.236.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362B2F5",
+          "date": "20211116",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.217.255.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3654AB5",
+          "date": "20220310",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.218.76.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DC8FA",
+          "date": "20210922",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.218.80.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EFBB1",
+          "date": "20210930",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.218.100.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C18C",
+          "date": "20210913",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.218.116.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363FFF0",
+          "date": "20210926",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.218.200.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367E4D9",
+          "date": "20210819",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.52.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20210707",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.82.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3611484",
+          "date": "20210824",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F60C5",
+          "date": "20210805",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.152.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20210602",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.188.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366D7B3",
+          "date": "20210520",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.194.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3632CFE",
+          "date": "20210615",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.219.220.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FAF9B",
+          "date": "20210531",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368726B",
+          "date": "20210329",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3683E8B",
+          "date": "20210330",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.130.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E8290",
+          "date": "20210625",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.160.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3631F16",
+          "date": "20210414",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.172.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647EBD",
+          "date": "20210325",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.188.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367C1FC",
+          "date": "20210219",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3653CB9",
+          "date": "20210430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.212.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C18C",
+          "date": "20210223",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.220.220.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DA634",
+          "date": "20211008",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.16.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B9898",
+          "date": "20210121",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20210114",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.75.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36272CF",
+          "date": "20210322",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.84.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E3941",
+          "date": "20201223",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.88.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F245C",
+          "date": "20201222",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.114.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CE20D",
+          "date": "20210325",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.136.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3639196",
+          "date": "20220907",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.160.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3672D5E",
+          "date": "20201123",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.164.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DAFA9",
+          "date": "20201216",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36AC99E",
+          "date": "20201009",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.221.236.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3694F05",
+          "date": "20200827",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.222.72.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365FF1A",
+          "date": "20201014",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.222.96.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20200714",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.222.116.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3628288",
+          "date": "20200714",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.1.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647EBD",
+          "date": "20200512",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.36.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366AD7E",
+          "date": "20200608",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.52.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F633B",
+          "date": "20200417",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.101.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365F66C",
+          "date": "20200427",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.180.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E8AB0",
+          "date": "20220228",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "102.223.255.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367D92E",
+          "date": "20200311",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "105.112.0.0/12",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FE55F",
+          "date": "20130920",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "105.235.192.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBDC4",
+          "date": "20121119",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "129.18.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20150904",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "129.56.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F361161E",
+          "date": "20150922",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "129.205.96.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20150914",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.65.4.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640DFD",
+          "date": "20130923",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.66.0.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBFDB",
+          "date": "20131010",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.68.192.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E6DE6",
+          "date": "20131121",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.72.32.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3635439",
+          "date": "20140108",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.73.8.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20140304",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.113.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20150128",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.117.64.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369E115",
+          "date": "20150305",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.118.0.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20141120",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "154.120.64.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20140221",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "155.93.0.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20160119",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "156.0.248.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369A5AC",
+          "date": "20170807",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "156.0.255.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36914A7",
+          "date": "20171127",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "160.119.124.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367C1FC",
+          "date": "20170331",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "160.119.196.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3617CB0",
+          "date": "20230419",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "160.119.246.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36700DB",
+          "date": "20170630",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "160.152.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBFDB",
+          "date": "20151109",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "160.226.0.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367C175",
+          "date": "20150528",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "165.73.192.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F7EC6",
+          "date": "20170630",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "165.90.240.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362D462",
+          "date": "20151028",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "168.253.112.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20150714",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "168.253.208.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C6B38",
+          "date": "20150310",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.159.64.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBFDB",
+          "date": "20150106",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.16.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B1FB2",
+          "date": "20150708",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.48.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36389CB",
+          "date": "20150825",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.188.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A34E4",
+          "date": "20160113",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.192.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20160113",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.232.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FFE79",
+          "date": "20160304",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.239.236.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A40DF",
+          "date": "20160308",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.255.40.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36594EA",
+          "date": "20140917",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.255.124.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20150223",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.255.180.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362016F",
+          "date": "20150423",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.255.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E1525",
+          "date": "20150522",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "169.255.236.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DBF13",
+          "date": "20150616",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "192.145.184.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3643088",
+          "date": "20200131",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "193.189.0.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3638E42",
+          "date": "19930105",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.1.133.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362836E",
+          "date": "20100909",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.1.176.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640DFD",
+          "date": "20160411",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.3.60.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365E2E3",
+          "date": "20200127",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.6.103.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36914A7",
+          "date": "20130107",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.6.188.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E9DB4",
+          "date": "20130409",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.6.204.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3633423",
+          "date": "20130408",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.6.216.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C1C74",
+          "date": "20150930",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.6.228.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3632CFE",
+          "date": "20160602",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.10.231.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367FE2B",
+          "date": "20130723",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.11.104.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36762F9",
+          "date": "20131119",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.11.150.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3657122",
+          "date": "20140410",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.11.184.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F361ED8C",
+          "date": "20131118",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.11.231.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3688B35",
+          "date": "20140217",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.0.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A339B",
+          "date": "20140922",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.103.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36307AB",
+          "date": "20141029",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.111.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363CC54",
+          "date": "20151013",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.112.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C793B",
+          "date": "20140410",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.161.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365F66C",
+          "date": "20140820",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.242.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368F545",
+          "date": "20150223",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.13.245.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36648E8",
+          "date": "20150511",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.22.6.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3683CAE",
+          "date": "20080205",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.27.128.0/17",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CBB02",
+          "date": "20110223",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.28.10.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BF8EF",
+          "date": "20071004",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.29.44.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364A17C",
+          "date": "20130522",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.32.224.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366500F",
+          "date": "20100216",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.40.160.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640C3C",
+          "date": "20130702",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.40.192.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D34A7",
+          "date": "20101119",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.41.80.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B2496",
+          "date": "20160531",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.41.84.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C085",
+          "date": "20160808",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.41.94.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36622B6",
+          "date": "20160819",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.43.215.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A0B3B",
+          "date": "20110510",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.43.232.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C1A2",
+          "date": "20120229",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.43.235.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368468C",
+          "date": "20120330",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.43.244.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366B92E",
+          "date": "20120808",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.43.251.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDD86",
+          "date": "20121115",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.45.48.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C684F",
+          "date": "20080925",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.46.20.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3660A2B",
+          "date": "20090902",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.46.27.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363775A",
+          "date": "20100402",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.46.144.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A864A",
+          "date": "20051021",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.46.240.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FE55F",
+          "date": "20051024",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.47.96.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640C3C",
+          "date": "20130702",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.26.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160727",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.28.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160727",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.30.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160727",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.32.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160727",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.62.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20181030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.49.90.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369EC27",
+          "date": "20221003",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.50.4.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20161227",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.60.58.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20181030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.60.104.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369EC27",
+          "date": "20221003",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.61.216.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368C007",
+          "date": "20160912",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.200.64.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20040505",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.200.112.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369DB5E",
+          "date": "20040701",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.207.0.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3696694",
+          "date": "20050307",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.4.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36AD2B8",
+          "date": "20121127",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.144.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F2720",
+          "date": "20061115",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.148.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20061229",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.200.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3652E31",
+          "date": "20120524",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.208.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D06F2",
+          "date": "20120829",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.251.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D26B6",
+          "date": "20090119",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.253.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C793B",
+          "date": "20081020",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.216.255.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D26B6",
+          "date": "20080929",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.0.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3696694",
+          "date": "20060123",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.64.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B9EC5",
+          "date": "20100916",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.128.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3645501",
+          "date": "20140909",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.192.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3655F84",
+          "date": "20110127",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.224.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A864A",
+          "date": "20100928",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.220.240.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C684F",
+          "date": "20100909",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.222.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3634E30",
+          "date": "20111212",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.223.112.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363CC54",
+          "date": "20160817",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "196.251.224.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36311CE",
+          "date": "20170207",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.148.80.0/21",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362D462",
+          "date": "20121122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.149.64.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B0C44",
+          "date": "20120619",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.156.192.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369DB5E",
+          "date": "20111215",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.157.216.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20120409",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.159.64.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B89F3",
+          "date": "20111205",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.210.0.0/16",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDDEE",
+          "date": "20130306",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.211.32.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20121221",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.214.96.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FBCCD",
+          "date": "20121209",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.234.32.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36479AF",
+          "date": "20130613",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.242.96.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20120321",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.242.240.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36479AF",
+          "date": "20120608",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.253.0.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20110518",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.255.0.0/18",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B0C44",
+          "date": "20101229",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.255.160.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20110331",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.255.208.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365032E",
+          "date": "20110613",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.255.244.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E8D0B",
+          "date": "20120502",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "197.255.252.0/22",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363DFDE",
+          "date": "20121112",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "204.8.206.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3687475",
+          "date": "20170426",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "204.8.207.0/24",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E00C6",
+          "date": "20170906",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "212.100.64.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3631D78",
+          "date": "20090206",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "213.255.128.0/19",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C684F",
+          "date": "20160318",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "217.14.80.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20021211",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "217.117.0.0/20",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20010206",
+          "status": "allocated"
+        }
+      ]
+    }
+  ],
+  "ipv6": [
+    {
+      "cidr": "2001:4270::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3696694",
+          "date": "20060615",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43b0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3631D78",
+          "date": "20090310",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:160::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C684F",
+          "date": "20100826",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:180::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A864A",
+          "date": "20100922",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:190::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640C3C",
+          "date": "20130702",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1e0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3655F84",
+          "date": "20110127",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:2f0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A0B3B",
+          "date": "20110706",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:370::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CBB02",
+          "date": "20110808",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:600::/44",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3634E30",
+          "date": "20111212",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:660::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3652E31",
+          "date": "20120611",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:6c0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D06F2",
+          "date": "20120829",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:9f0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3645501",
+          "date": "20140909",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:b10::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363CC54",
+          "date": "20151013",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:bb0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160718",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:bb1::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364814F",
+          "date": "20160718",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:d90::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F7EC6",
+          "date": "20170630",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1060::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C1C74",
+          "date": "20171204",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:11f0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20181030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:11f1::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20181030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1200::/44",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D34A7",
+          "date": "20181101",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1310::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369013C",
+          "date": "20181119",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1340::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F6D9C",
+          "date": "20190116",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:13c0::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C1D14",
+          "date": "20190807",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1410::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368F545",
+          "date": "20191030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1420::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36914A7",
+          "date": "20191030",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1690::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369EC27",
+          "date": "20221003",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43f8:1691::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369EC27",
+          "date": "20221003",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fc::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3672D5E",
+          "date": "20201123",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fc:5000::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363A843",
+          "date": "20221116",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fc:6000::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3644DAB",
+          "date": "20220419",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fc:c000::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F60C5",
+          "date": "20210805",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fc:e800::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36599FB",
+          "date": "20251106",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fd:2800::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36411D1",
+          "date": "20251217",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fd:6000::/40",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F143F",
+          "date": "20220707",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fd:a800::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368EBE7",
+          "date": "20260518",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43fe:1000::/44",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362C1A2",
+          "date": "20221026",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2001:43ff:800::/48",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3649362",
+          "date": "20251212",
+          "status": "assigned"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:180::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3672065",
+          "date": "20221005",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:480::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3619BCC",
+          "date": "20220315",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:7c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3686B65",
+          "date": "20240820",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:840::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3648901",
+          "date": "20230530",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:920::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CDF24",
+          "date": "20260327",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ba0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36816FC",
+          "date": "20260430",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:c20::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365DED1",
+          "date": "20260504",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:1080::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FB8C3",
+          "date": "20220421",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:12c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362F370",
+          "date": "20241018",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:13c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363BA14",
+          "date": "20241107",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:1540::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642D46",
+          "date": "20230818",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:1f80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367A534",
+          "date": "20221109",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:2280::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FE55F",
+          "date": "20220613",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:2300::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362B2F5",
+          "date": "20211116",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:26c0::/28",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F151E",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:2980::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3619AFB",
+          "date": "20221207",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:29c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364165E",
+          "date": "20250715",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:2a80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363FEF1",
+          "date": "20220720",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:2cc0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A6479",
+          "date": "20250801",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:32c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368FEDB",
+          "date": "20250910",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:3b80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364BDCD",
+          "date": "20230208",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:3d80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3675C91",
+          "date": "20230215",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:3e80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A9BD6",
+          "date": "20220926",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4180::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365BE71",
+          "date": "20221005",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4380::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A9BF3",
+          "date": "20221007",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:45c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365A98F",
+          "date": "20240816",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4720::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368B126",
+          "date": "20260228",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4800::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F245C",
+          "date": "20201222",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4b20::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647B9E",
+          "date": "20260428",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:4da0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364AD7C",
+          "date": "20260520",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:50c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F8DD3",
+          "date": "20241009",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:5380::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F362D462",
+          "date": "20221018",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:5480::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C6B38",
+          "date": "20220511",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:56a0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647A50",
+          "date": "20260917",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:5820::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3647EBD",
+          "date": "20260922",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6200::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3683E8B",
+          "date": "20210331",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:62c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3688F13",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:63c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D4F20",
+          "date": "20250627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6400::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3613254",
+          "date": "20210203",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6440::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364E699",
+          "date": "20231120",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:67c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DED1D",
+          "date": "20250710",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6d00::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3649F7F",
+          "date": "20210824",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6dc0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36AD6A0",
+          "date": "20250805",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6e00::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366D7B3",
+          "date": "20210520",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6e80::/28",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B89F3",
+          "date": "20220811",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:6f80::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367D92E",
+          "date": "20221221",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:7000::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36DAFA9",
+          "date": "20201216",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:72c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364F714",
+          "date": "20250912",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:7b40::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36C91FF",
+          "date": "20240711",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:7d40::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368F744",
+          "date": "20240722",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:7f00::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364E5A6",
+          "date": "20220125",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e830::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A2299",
+          "date": "20200320",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e878::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F633B",
+          "date": "20200417",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e888::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F367C1FC",
+          "date": "20200512",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e8b8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366AD7E",
+          "date": "20200608",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e8f0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3628288",
+          "date": "20200714",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e920::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F151E",
+          "date": "20200731",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:e980::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3694F05",
+          "date": "20200827",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ea38::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A26CA",
+          "date": "20190821",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ea40::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EBDC4",
+          "date": "20190823",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ea98::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F715E",
+          "date": "20191010",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eaa8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F368726B",
+          "date": "20191018",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eac0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F0163",
+          "date": "20191030",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eae0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F363DFDE",
+          "date": "20191111",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eb50::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3632D8F",
+          "date": "20191122",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ebb8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369A5AC",
+          "date": "20200124",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ec10::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3651686",
+          "date": "20181017",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ec38::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365B06C",
+          "date": "20210405",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ed20::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3642405",
+          "date": "20190318",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eec0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F364B8E1",
+          "date": "20201112",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eee8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F361161E",
+          "date": "20180525",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ef68::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36EC67E",
+          "date": "20180806",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ef90::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FC6AF",
+          "date": "20180822",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:eff8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36F1964",
+          "date": "20180928",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f098::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3654AEE",
+          "date": "20170602",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f128::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3640DFD",
+          "date": "20170821",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f270::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3654A44",
+          "date": "20160627",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f388::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3653CB9",
+          "date": "20161115",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f3a8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36479AF",
+          "date": "20161118",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f418::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369E115",
+          "date": "20150305",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f520::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BB5BB",
+          "date": "20151021",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f5a0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E0F10",
+          "date": "20160226",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f5c0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FDDEE",
+          "date": "20160509",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f638::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36E6DE6",
+          "date": "20131121",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f880::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36FBCCD",
+          "date": "20120905",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:f9e0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36ECAA2",
+          "date": "20130805",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fb98::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B0C44",
+          "date": "20120426",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fba8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365052E",
+          "date": "20120522",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fc60::/31",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F369DB5E",
+          "date": "20110316",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fc90::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3656665",
+          "date": "20110418",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fc98::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3698DD0",
+          "date": "20110420",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fd28::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36CC8EB",
+          "date": "20110609",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fd38::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F365032E",
+          "date": "20110612",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fea0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36BD8C4",
+          "date": "20101005",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fea8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36D8ADD",
+          "date": "20101007",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ff20::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36B5902",
+          "date": "20101216",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ff88::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F36A3983",
+          "date": "20110110",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ffb0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F366388F",
+          "date": "20110202",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:ffe8::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3695CC5",
+          "date": "20110303",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
+      "cidr": "2c0f:fff0::/32",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3689F69",
+          "date": "20110307",
+          "status": "allocated"
+        }
+      ]
+    }
+  ]
+}

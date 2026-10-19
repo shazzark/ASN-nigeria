@@ -1,4 +1,4 @@
-name: Validate ASN collector
+name: Update Nigerian allocation lists
 
 on:
   schedule:
@@ -6,10 +6,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: update-asn-nigeria
+  cancel-in-progress: false
 
 jobs:
-  validate:
+  update:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -20,3 +24,26 @@ jobs:
       - run: npm test
       - run: npm run typecheck
       - run: npm run build
+      - name: Restrict publication to main
+        shell: bash
+        run: |
+          if [[ "$GITHUB_REF" != "refs/heads/main" ]]; then
+            echo "Refusing to publish from $GITHUB_REF; only main may publish data." >&2
+            exit 1
+          fi
+      - name: Generate AFRINIC public dataset
+        run: npm run update
+      - name: Commit changed resource lists
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git reset -- data/metadata.json
+          if git diff --cached --quiet -- data; then
+            echo "No published resource records changed; skipping commit."
+          else
+            git add data/metadata.json
+            git commit -m "Update Nigerian allocation lists"
+            git push
+          fi

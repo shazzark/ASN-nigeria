@@ -17,6 +17,7 @@ export interface RegistrySource {
   documentationUrl: string;
   termsUrl: string;
   termsStatus: string;
+  attribution: string;
 }
 
 export interface DelegatedRecord {

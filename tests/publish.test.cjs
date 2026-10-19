@@ -37,15 +37,28 @@ async function snapshot(directory, prefix = '') {
   return result;
 }
 
-test('invalid source data from either registry preserves existing outputs', async (t) => {
+test('invalid AFRINIC source data preserves existing outputs', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
   t.after(() => rm(root, { recursive: true, force: true }));
   await collectDelegatedData(fixture(), '2026-01-01T00:00:00.000Z', root);
   const before = await snapshot(join(root, 'data'));
   const invalid = fixture();
-  invalid.ripencc = invalid.ripencc.replace('|3|', '|4|');
+  invalid.afrinic = invalid.afrinic.replace('|3|', '|4|');
   await assert.rejects(collectDelegatedData(invalid, '2026-01-02T00:00:00.000Z', root), /count mismatch/);
   assert.deepEqual(await snapshot(join(root, 'data')), before);
+});
+
+test('collector ignores RIPE fixture data and emits only AFRINIC-derived public files', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await collectDelegatedData(fixture(), '2026-01-01T00:00:00.000Z', root);
+  const publicMetadata = JSON.parse(await readFile(join(root, 'data', 'metadata.json'), 'utf8'));
+  const publicFiles = await snapshot(join(root, 'data'));
+  assert.deepEqual(publicMetadata.sources.map((source) => source.registry), ['afrinic']);
+  assert.equal((await readFile(join(root, 'data', 'asns.txt'), 'utf8')).trim(), '64512');
+  for (const contents of publicFiles.values()) {
+    assert.doesNotMatch(contents, /ripencc|64513|198\.51\.100\.0|holder-asn-ripe|holder-v4-ripe|holder-v6-ripe/);
+  }
 });
 
 test('unchanged records leave list files untouched while changed source serial refreshes only provenance metadata', async (t) => {
@@ -56,11 +69,12 @@ test('unchanged records leave list files untouched while changed source serial r
   const oldTime = new Date('2020-01-01T00:00:00.000Z');
   await utimes(listPath, oldTime, oldTime);
   const before = await stat(listPath);
-  await collectDelegatedData(fixture('ripe-serial-2'), '2026-01-02T00:00:00.000Z', root);
+  const changedAfrinicSerial = { ...fixture(), afrinic: fixture().afrinic.replace('afri-serial', 'afri-serial-2') };
+  await collectDelegatedData(changedAfrinicSerial, '2026-01-02T00:00:00.000Z', root);
   const after = await stat(listPath);
   assert.equal(after.mtimeMs, before.mtimeMs);
   const metadata = JSON.parse(await readFile(join(root, 'data', 'metadata.json'), 'utf8'));
-  assert.equal(metadata.sources.find((source) => source.registry === 'ripencc').sourceSerial, 'ripe-serial-2');
+  assert.equal(metadata.sources.find((source) => source.registry === 'afrinic').sourceSerial, 'afri-serial-2');
 });
 
 test('replacement failure restores every previously published file', async (t) => {

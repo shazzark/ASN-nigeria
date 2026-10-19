@@ -2,7 +2,6 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parseDelegatedStatistics } from "./parsers/delegated-stats";
 import { fetchAfrinicStatistics, AFRINIC_STATS_URL } from "./sources/afrinic";
-import { fetchRipeNccStatistics, RIPE_NCC_STATS_URL } from "./sources/ripe-ncc";
 import { changedFiles, filesMatch, publishFiles } from "./output/publish";
 import { renderFiles } from "./output/render";
 import { validateResources } from "./validation/resources";
@@ -15,15 +14,8 @@ const SOURCES = [
     sourceUrl: AFRINIC_STATS_URL,
     documentationUrl: "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
     termsUrl: "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
-    termsStatus: "AFRINIC permits download and use subject to a no-liability condition; redistribution of derived public lists is not expressly addressed.",
-  },
-  {
-    registry: "ripencc",
-    fetch: fetchRipeNccStatistics,
-    sourceUrl: RIPE_NCC_STATS_URL,
-    documentationUrl: "https://ftp.ripe.net/pub/stats/ripencc/_README-ripe-stats.txt",
-    termsUrl: "https://www.ripe.net/about-us/legal/copyright-statement/",
-    termsStatus: "RIPE NCC copyright terms restrict third-party reuse of covered materials; applicability to the FTP statistics file and transformed public lists is unresolved.",
+    termsStatus: "The source notice says files are freely available for download and use subject to a no-liability condition. It does not expressly address transformed public lists; publishing them here is the project's interpretation, not official confirmation.",
+    attribution: "Source: AFRINIC extended delegated statistics. See the linked statistics README; AFRINIC disclaims liability for loss or damage from use of report information.",
   },
 ] as const;
 
@@ -48,19 +40,21 @@ export async function collectDelegatedData(
       documentationUrl: source.documentationUrl,
       termsUrl: source.termsUrl,
       termsStatus: source.termsStatus,
+      attribution: source.attribution,
     };
   });
   const files = renderFiles(resources, registrySources, fetchedAt);
-  const dataFiles = new Map([...files].filter(([path]) => path !== "data/metadata.json"));
-  if (await filesMatch(dataFiles, root) && await metadataMatches(files.get("data/metadata.json")!, root)) return resources.asns.length;
+  const metadataPath = "data/metadata.json";
+  const dataFiles = new Map([...files].filter(([path]) => path !== metadataPath));
+  if (await filesMatch(dataFiles, root) && await metadataMatches(files.get(metadataPath)!, root, metadataPath)) return resources.asns.length;
   await publishFiles(await changedFiles(files, root), root);
   return resources.asns.length;
 }
 
-async function metadataMatches(expectedText: string, root: string): Promise<boolean> {
+async function metadataMatches(expectedText: string, root: string, path: string): Promise<boolean> {
   try {
     const expected = JSON.parse(expectedText) as Record<string, unknown>;
-    const actual = JSON.parse(await readFile(resolve(root, "data/metadata.json"), "utf8")) as Record<string, unknown>;
+    const actual = JSON.parse(await readFile(resolve(root, path), "utf8")) as Record<string, unknown>;
     if (typeof actual.fetchedAt !== "string" || Number.isNaN(Date.parse(actual.fetchedAt))) return false;
     delete actual.fetchedAt;
     delete expected.fetchedAt;

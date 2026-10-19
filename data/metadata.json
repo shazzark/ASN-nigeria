@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "registry": "afrinic",
+      "sourceUrl": "https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest",
+      "sourceSerial": "20261019",
+      "records": 19881,
+      "documentationUrl": "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
+      "termsUrl": "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
+      "termsStatus": "The source notice says files are freely available for download and use subject to a no-liability condition. It does not expressly address transformed public lists; publishing them here is the project's interpretation, not official confirmation.",
+      "attribution": "Source: AFRINIC extended delegated statistics. See the linked statistics README; AFRINIC disclaims liability for loss or damage from use of report information."
+    }
+  ],
+  "countryCode": "NG",
+  "meaning": "AFRINIC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
+  "fetchedAt": "2026-10-19T07:11:20.767Z",
+  "counts": {
+    "asns": 301,
+    "ipv4": 418,
+    "ipv6": 137
+  },
+  "crossRegistryDuplicates": {
+    "asns": 0,
+    "prefixes": 0
+  },
+  "crossRegistryConflicts": [],
+  "crossRegistryOverlaps": []
+}

@@ -1,0 +1,3614 @@
+[
+  {
+    "asn": 16284,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3656665",
+        "date": "20070920",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 25163,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364B8E1",
+        "date": "20201111",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 29091,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CC8EB",
+        "date": "20070920",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 30984,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3698DD0",
+        "date": "20050125",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 30988,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369DB5E",
+        "date": "20040701",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 30998,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3696694",
+        "date": "20050309",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36872,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B4076",
+        "date": "20130531",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36873,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FE55F",
+        "date": "20051024",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36887,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DCCF2",
+        "date": "20060116",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36911,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DCCF2",
+        "date": "20060804",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36920,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365052E",
+        "date": "20061031",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36921,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DCCF2",
+        "date": "20061107",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36922,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F2720",
+        "date": "20061115",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36923,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A2299",
+        "date": "20061115",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36932,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364814F",
+        "date": "20070116",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36933,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FDDEE",
+        "date": "20070122",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36938,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3654AEE",
+        "date": "20120612",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36940,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364814F",
+        "date": "20160816",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36957,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E3517",
+        "date": "20070626",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36970,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3638E56",
+        "date": "20070822",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36979,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3657122",
+        "date": "20070926",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 36993,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3611484",
+        "date": "20071210",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37001,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CF9B2",
+        "date": "20080109",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37004,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3653CB9",
+        "date": "20161115",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37005,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3683CAE",
+        "date": "20080206",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37018,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B89F3",
+        "date": "20080418",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37025,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3632CFE",
+        "date": "20080708",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37056,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36AF647",
+        "date": "20080925",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37058,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D26B6",
+        "date": "20080929",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37076,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3663618",
+        "date": "20140814",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37077,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36BD8C4",
+        "date": "20081201",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37088,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3613254",
+        "date": "20090219",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37104,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3625038",
+        "date": "20090611",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37106,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363DF0D",
+        "date": "20090618",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37125,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3689F69",
+        "date": "20090806",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37127,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3628388",
+        "date": "20090814",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37144,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3660A2B",
+        "date": "20090902",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37148,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36ECAA2",
+        "date": "20090917",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37170,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C684F",
+        "date": "20100204",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37178,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366500F",
+        "date": "20100216",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37192,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A3983",
+        "date": "20100330",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37194,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36BB5BB",
+        "date": "20100401",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37200,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365032E",
+        "date": "20100412",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37207,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363775A",
+        "date": "20100427",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37209,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FBCCD",
+        "date": "20100506",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37222,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C793B",
+        "date": "20100615",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37230,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C6B38",
+        "date": "20100630",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37248,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D8ADD",
+        "date": "20100811",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37249,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366A9A8",
+        "date": "20100819",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37258,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362836E",
+        "date": "20100909",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37269,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36EBDC4",
+        "date": "20101021",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37280,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369C94E",
+        "date": "20101124",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37282,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3698DD0",
+        "date": "20101129",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37286,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B5902",
+        "date": "20101216",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37296,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FCE1E",
+        "date": "20110304",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37297,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CBB02",
+        "date": "20110308",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37308,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36479AF",
+        "date": "20110323",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37328,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A0B3B",
+        "date": "20110510",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37340,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E0F10",
+        "date": "20110530",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37345,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366388F",
+        "date": "20110609",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37347,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F715E",
+        "date": "20110614",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37369,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3655F84",
+        "date": "20110824",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37377,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3646035",
+        "date": "20110912",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37398,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36178B7",
+        "date": "20111124",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37404,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364563F",
+        "date": "20111209",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37405,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3634E30",
+        "date": "20111212",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37407,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A9BF3",
+        "date": "20111215",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37420,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A864A",
+        "date": "20120213",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37426,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362C1A2",
+        "date": "20120229",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37433,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365052E",
+        "date": "20120320",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37443,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3695CC5",
+        "date": "20120427",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37445,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E8D0B",
+        "date": "20120502",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37452,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3652E31",
+        "date": "20120524",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37472,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367C175",
+        "date": "20120706",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37480,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B0C44",
+        "date": "20120715",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37490,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366B92E",
+        "date": "20230428",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37495,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D06F2",
+        "date": "20120830",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37506,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362D462",
+        "date": "20121017",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37521,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363DFDE",
+        "date": "20121112",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37522,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FDD86",
+        "date": "20121115",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37528,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36AD2B8",
+        "date": "20121127",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37540,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368726B",
+        "date": "20121221",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37565,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364A17C",
+        "date": "20130225",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37567,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36914A7",
+        "date": "20130227",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37587,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3633423",
+        "date": "20130408",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37588,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E9DB4",
+        "date": "20130409",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37605,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3656B37",
+        "date": "20130729",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37629,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3640DFD",
+        "date": "20130926",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37637,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36EBFDB",
+        "date": "20131010",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37657,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F361ED8C",
+        "date": "20131118",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37659,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367D92E",
+        "date": "20200511",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37660,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36762F9",
+        "date": "20131119",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37661,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E6DE6",
+        "date": "20131121",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37676,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3640C3C",
+        "date": "20130702",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37682,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F0163",
+        "date": "20130718",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37686,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B9EC5",
+        "date": "20130718",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37687,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367FE2B",
+        "date": "20130723",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37688,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362F443",
+        "date": "20130725",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37714,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369E115",
+        "date": "20150715",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37783,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3698DD0",
+        "date": "20181030",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 37793,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369EC27",
+        "date": "20221003",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327684,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3638E56",
+        "date": "20070806",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327704,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366388F",
+        "date": "20110208",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327705,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3645501",
+        "date": "20140909",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327721,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3635439",
+        "date": "20140120",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327729,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3688B35",
+        "date": "20140217",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327763,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368468C",
+        "date": "20140603",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327784,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365F66C",
+        "date": "20140820",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327803,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36594EA",
+        "date": "20141002",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327810,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36307AB",
+        "date": "20141029",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327843,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368F545",
+        "date": "20150223",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327891,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362016F",
+        "date": "20150528",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327895,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E1525",
+        "date": "20150608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327898,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DBF13",
+        "date": "20150619",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327915,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3640700",
+        "date": "20150721",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327924,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36389CB",
+        "date": "20150825",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327942,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363CC54",
+        "date": "20151013",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327952,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F361161E",
+        "date": "20151103",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327953,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C1C74",
+        "date": "20151103",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327981,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B1FB2",
+        "date": "20160303",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327985,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FFE79",
+        "date": "20160309",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 327986,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A40DF",
+        "date": "20160314",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328027,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B2496",
+        "date": "20160608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328034,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3694181",
+        "date": "20160617",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328035,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3654A44",
+        "date": "20160627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328053,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362C085",
+        "date": "20160808",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328080,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36622B6",
+        "date": "20161004",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328081,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368C007",
+        "date": "20161005",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328128,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36311CE",
+        "date": "20170207",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328131,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3658C57",
+        "date": "20170221",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328158,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3687475",
+        "date": "20170426",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328160,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367C1FC",
+        "date": "20170428",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328171,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3617CB0",
+        "date": "20170523",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328175,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368B3CA",
+        "date": "20170608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328177,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D34A7",
+        "date": "20170608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328183,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36648E8",
+        "date": "20170621",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328188,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F7EC6",
+        "date": "20170630",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328189,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36700DB",
+        "date": "20170630",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328203,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369A5AC",
+        "date": "20170807",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328221,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E00C6",
+        "date": "20170906",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328240,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366C09A",
+        "date": "20171031",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328256,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F8434",
+        "date": "20171213",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328305,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366DD1F",
+        "date": "20180411",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328309,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36ECAA2",
+        "date": "20180420",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328324,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3617284",
+        "date": "20180608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328332,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362DADD",
+        "date": "20180627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328357,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FC6AF",
+        "date": "20180822",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328362,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369013C",
+        "date": "20180829",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328376,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F1964",
+        "date": "20180928",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328387,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3651686",
+        "date": "20181017",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328395,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3698DD0",
+        "date": "20181030",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328401,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D3290",
+        "date": "20181116",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328415,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365B06C",
+        "date": "20210405",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328419,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F6D9C",
+        "date": "20190116",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328447,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DAB93",
+        "date": "20190311",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328451,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3642405",
+        "date": "20190318",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328457,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3649F7F",
+        "date": "20190329",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328496,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CAE5A",
+        "date": "20190606",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328497,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B1EE5",
+        "date": "20190607",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328503,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FF74C",
+        "date": "20190626",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328516,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363A843",
+        "date": "20190722",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328522,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C1D14",
+        "date": "20190807",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328527,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A26CA",
+        "date": "20190821",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328528,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362C18C",
+        "date": "20190822",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328555,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3633DE5",
+        "date": "20191015",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328556,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D2DBC",
+        "date": "20191015",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328580,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3632D8F",
+        "date": "20191122",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328585,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F151E",
+        "date": "20191127",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328609,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3643088",
+        "date": "20200131",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328613,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365E2E3",
+        "date": "20200210",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328617,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3676DA0",
+        "date": "20200214",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328630,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F0163",
+        "date": "20200318",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328658,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3647EBD",
+        "date": "20200512",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328668,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366AD7E",
+        "date": "20200608",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328696,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3628288",
+        "date": "20200714",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328722,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3694F05",
+        "date": "20200827",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328742,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36AC99E",
+        "date": "20201009",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328746,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365FF1A",
+        "date": "20201014",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328764,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3672D5E",
+        "date": "20201123",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328776,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DAFA9",
+        "date": "20201216",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328779,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F245C",
+        "date": "20201222",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328780,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E3941",
+        "date": "20201223",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328789,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36B9898",
+        "date": "20210121",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328823,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CE20D",
+        "date": "20210325",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328825,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3683E8B",
+        "date": "20210331",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328833,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3631F16",
+        "date": "20210414",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328834,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368726B",
+        "date": "20210414",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328854,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366D7B3",
+        "date": "20210520",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328861,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FAF9B",
+        "date": "20210531",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328873,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362B2F9",
+        "date": "20210614",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328875,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3633EE3",
+        "date": "20210616",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328881,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E8290",
+        "date": "20210625",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328905,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F60C5",
+        "date": "20210805",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328918,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367E4D9",
+        "date": "20210819",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328938,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DC8FA",
+        "date": "20210922",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328940,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363FFF0",
+        "date": "20210926",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328945,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36EFBB1",
+        "date": "20210930",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328951,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DA634",
+        "date": "20211008",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328976,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362B2F5",
+        "date": "20211116",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 328999,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368B25F",
+        "date": "20220125",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329001,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364E5A6",
+        "date": "20220125",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329015,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E8AB0",
+        "date": "20220228",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329019,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3654AB5",
+        "date": "20220310",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329022,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A14B3",
+        "date": "20220311",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329023,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3670DC4",
+        "date": "20220315",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329024,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3619BCC",
+        "date": "20220315",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329031,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3642B58",
+        "date": "20220323",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329050,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3644DAB",
+        "date": "20220419",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329051,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E0F10",
+        "date": "20220420",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329052,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FB8C3",
+        "date": "20220421",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329054,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3679AE6",
+        "date": "20220421",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329057,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3686B65",
+        "date": "20220430",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329083,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F143F",
+        "date": "20220614",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329099,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C38D9",
+        "date": "20220711",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329120,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36289D4",
+        "date": "20220817",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329123,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367A534",
+        "date": "20220826",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329127,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3639196",
+        "date": "20220907",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329142,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A9BD6",
+        "date": "20220926",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329145,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369EC27",
+        "date": "20221003",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329148,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3672065",
+        "date": "20221005",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329150,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365BE71",
+        "date": "20221005",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329171,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36EE4A3",
+        "date": "20221107",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329182,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3619AFB",
+        "date": "20221207",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329191,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36BD892",
+        "date": "20221214",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329199,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36238E7",
+        "date": "20221222",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329215,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364BDCD",
+        "date": "20230208",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329218,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3675C91",
+        "date": "20230215",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329230,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E25B4",
+        "date": "20230313",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329233,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3687924",
+        "date": "20230324",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329235,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364D757",
+        "date": "20230329",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329236,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3638009",
+        "date": "20230330",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329241,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3644373",
+        "date": "20230331",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329244,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F33AE",
+        "date": "20230407",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329256,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DD6FD",
+        "date": "20230502",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329258,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3624EB2",
+        "date": "20230511",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329267,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3648901",
+        "date": "20230530",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329273,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3698073",
+        "date": "20230619",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329275,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3695B3C",
+        "date": "20230619",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329285,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362417C",
+        "date": "20230710",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329299,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3675C48",
+        "date": "20230802",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329307,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3642D46",
+        "date": "20230818",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329308,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A294B",
+        "date": "20230818",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329315,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3619668",
+        "date": "20230829",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329347,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364E699",
+        "date": "20231017",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329349,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C95B6",
+        "date": "20231020",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329361,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C5FC3",
+        "date": "20231110",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329365,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36922C6",
+        "date": "20231115",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329385,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36BD167",
+        "date": "20240111",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329404,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36836B1",
+        "date": "20240222",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329441,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3674A7A",
+        "date": "20240612",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329454,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36C91FF",
+        "date": "20240711",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329458,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365A98F",
+        "date": "20240717",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329460,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368F744",
+        "date": "20240722",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329476,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366BA9A",
+        "date": "20240814",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329484,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F221E",
+        "date": "20240823",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329487,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36EBC56",
+        "date": "20240909",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329490,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36FA291",
+        "date": "20240919",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329503,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F8DD3",
+        "date": "20241009",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329511,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362F370",
+        "date": "20241018",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329514,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F363BA14",
+        "date": "20241107",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329519,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36272CF",
+        "date": "20241126",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329534,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367BAB9",
+        "date": "20250626",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329547,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DC679",
+        "date": "20250627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329550,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3688F13",
+        "date": "20250627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329553,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D4F20",
+        "date": "20250627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329560,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36100E1",
+        "date": "20250627",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329567,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3640EF6",
+        "date": "20250704",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329568,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A2F1D",
+        "date": "20250704",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329575,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36DED1D",
+        "date": "20250710",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329577,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CA322",
+        "date": "20250710",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329579,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364165E",
+        "date": "20250715",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329592,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36A6479",
+        "date": "20250801",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329611,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368FEDB",
+        "date": "20250910",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329613,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367070E",
+        "date": "20250911",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329614,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364F714",
+        "date": "20250912",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329623,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F369A983",
+        "date": "20250925",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329652,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F3E1E",
+        "date": "20251031",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329653,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F2927",
+        "date": "20251104",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329655,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36599FB",
+        "date": "20251106",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329682,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3649362",
+        "date": "20251212",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329685,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36411D1",
+        "date": "20251217",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329706,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F366C036",
+        "date": "20260220",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329709,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368B126",
+        "date": "20260228",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329716,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CDF24",
+        "date": "20260327",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329719,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36D413F",
+        "date": "20260407",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329724,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3655E48",
+        "date": "20260410",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329727,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36E1237",
+        "date": "20260416",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329739,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3647B9E",
+        "date": "20260428",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329740,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36816FC",
+        "date": "20260430",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329742,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F365DED1",
+        "date": "20260504",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329745,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3693547",
+        "date": "20260506",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329751,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F368EBE7",
+        "date": "20260518",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329754,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F364AD7C",
+        "date": "20260520",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329766,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36F29BB",
+        "date": "20260622",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329768,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36CFA24",
+        "date": "20260623",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329772,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F367D5E1",
+        "date": "20260629",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329777,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F36316B1",
+        "date": "20260721",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329786,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3646220",
+        "date": "20260731",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329813,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3647A50",
+        "date": "20260917",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329826,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3627858",
+        "date": "20261012",
+        "status": "allocated"
+      }
+    ]
+  },
+  {
+    "asn": 329830,
+    "name": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F362A22B",
+        "date": "20261014",
+        "status": "allocated"
+      }
+    ]
+  }
+]
