@@ -38,7 +38,7 @@ npm run update
 
 `npm run update` fetches AFRINIC's extended delegated-statistics file with a 30-second timeout, checks HTTP status and format counts, selects active `NG` records, validates resource values, and renders outputs only after validation. The parser and validator also accept synthetic RIPE records in tests; the live RIPE adapter was removed because the current RIPE NCC terms may restrict downloading and compiling statistics-service data. If a fetch or validation fails, existing output is preserved. If replacement fails mid-run, the collector tries to restore changed files; rollback is best-effort and not crash-atomic. When resource lists are unchanged, those files are not rewritten; changed source serials can update provenance metadata alone. Unknown extension columns fail closed until reviewed.
 
-The GitHub Actions workflow runs daily and can be started manually on `main`. It runs tests, typecheck, and build before fetching AFRINIC data. It commits generated files only when one or more resource lists change; metadata-only changes are not committed. Updates are daily snapshots, not real time.
+The GitHub Actions workflow runs after pushes to `main`, daily, and on manual dispatch to `main`. It runs tests, typecheck, and build before fetching AFRINIC data. It commits generated files only when one or more resource lists change; metadata-only changes are not committed. Updates are daily snapshots, not real time.
 
 ## Sources, terms, and licensing
 
