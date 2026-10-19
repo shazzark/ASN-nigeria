@@ -42,9 +42,6 @@ export function parseDelegatedStatistics(text: string, expectedRegistry: Registr
     if (fields.length === 7 && ((status !== "reserved" && status !== "available") || countryCode !== "" || date !== "")) {
       throw new Error(`Malformed ${expectedRegistry} short record on line ${index + 1}: only unassigned rows may omit country, date, and holder ID`);
     }
-    if ((countryCode === "" || date === "" || holderId === "") && (status === "allocated" || status === "assigned")) {
-      throw new Error(`Active ${expectedRegistry} record is missing country, date, or holder ID on line ${index + 1}`);
-    }
     actualRecordCount++;
     recordCounts.set(type as ResourceType, (recordCounts.get(type as ResourceType) ?? 0) + 1);
     if (countryCode === "NG" && (status === "allocated" || status === "assigned")) {

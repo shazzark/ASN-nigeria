@@ -8,7 +8,8 @@ export interface CountryIpMetadata {
   releaseMonth: string;
   records: { sourceCountryRows: number; sourceAsnRows: number; ipv4Ranges: number; ipv6Ranges: number; ipv4Cidrs: number; ipv6Cidrs: number; associatedAsns: number };
   asnClassification: string;
-  asnAssociationOverlapsWithAfrinicAllocation: number[];
+  asnOrganizationNames: string;
+  asnAssociationOverlapsWithRegistryAllocations: number[];
   sources: {
     country: DbipRelease & { termsUrl: string; termsStatus: string; attribution: string };
     asn: DbipRelease & { termsUrl: string; termsStatus: string; attribution: string };

@@ -16,6 +16,7 @@ export interface CountryRange extends IpRange {
 
 export interface AsnRange extends IpRange {
   asn: number;
+  organizations: string[];
 }
 
 export function parseCsv(text: string, label: string): string[][] {
@@ -72,7 +73,12 @@ function parseRange(startText: string, endText: string, label: string, rowNumber
   return { family, start, end, startText, endText };
 }
 
-function deduplicateAndValidateRanges<T extends IpRange>(ranges: T[], label: string, identity: (range: T) => string): T[] {
+function deduplicateAndValidateRanges<T extends IpRange>(
+  ranges: T[],
+  label: string,
+  identity: (range: T) => string,
+  mergeDuplicate?: (existing: T, duplicate: T) => void,
+): T[] {
   ranges.sort((left, right) => left.family === right.family
     ? left.start < right.start ? -1 : left.start > right.start ? 1 : left.end < right.end ? -1 : left.end > right.end ? 1 : 0
     : left.family === "ipv4" ? -1 : 1);
@@ -80,7 +86,10 @@ function deduplicateAndValidateRanges<T extends IpRange>(ranges: T[], label: str
   for (const range of ranges) {
     const previous = unique.at(-1);
     if (previous && previous.family === range.family && range.start <= previous.end) {
-      if (range.start === previous.start && range.end === previous.end && identity(range) === identity(previous)) continue;
+      if (range.start === previous.start && range.end === previous.end && identity(range) === identity(previous)) {
+        mergeDuplicate?.(previous, range);
+        continue;
+      }
       throw new Error(`${label} CSV contains overlapping or conflicting ranges: ${range.startText}-${range.endText}`);
     }
     unique.push(range);
@@ -101,11 +110,15 @@ export function parseDbipCountryCsv(text: string): CountryRange[] {
 export function parseDbipAsnCsv(text: string): AsnRange[] {
   const ranges = parseCsv(text, "DB-IP ASN").map((fields, index): AsnRange => {
     if (fields.length !== 4) throw new Error(`DB-IP ASN CSV record ${index + 1} has ${fields.length} fields; expected 4`);
-    const [startText = "", endText = "", asnText = ""] = fields;
+    const [startText = "", endText = "", asnText = "", organizationText = ""] = fields;
     if (!/^\d+$/.test(asnText)) throw new Error(`DB-IP ASN CSV has an invalid ASN on record ${index + 1}`);
     const asn = Number(asnText);
     if (!Number.isSafeInteger(asn) || asn < 1 || asn > 4_294_967_295) throw new Error(`DB-IP ASN CSV ASN is out of range on record ${index + 1}`);
-    return { ...parseRange(startText, endText, "DB-IP ASN", index + 1), asn };
+    const organization = organizationText.trim();
+    if (organization && /[\r\n\0]/.test(organization)) throw new Error(`DB-IP ASN CSV has an invalid organization on record ${index + 1}`);
+    return { ...parseRange(startText, endText, "DB-IP ASN", index + 1), asn, organizations: organization ? [organization] : [] };
   });
-  return deduplicateAndValidateRanges(ranges, "DB-IP ASN", ({ asn }) => String(asn));
+  return deduplicateAndValidateRanges(ranges, "DB-IP ASN", ({ asn }) => String(asn), (existing, duplicate) => {
+    existing.organizations.push(...duplicate.organizations);
+  });
 }

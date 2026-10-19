@@ -7130,54 +7130,81 @@
       "asn": 42,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "WoodyNet, Inc."
       ]
     },
     {
       "asn": 174,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Cogent Communications"
       ]
     },
     {
       "asn": 701,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Verizon Business"
       ]
     },
     {
       "asn": 715,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "WoodyNet, Inc."
       ]
     },
     {
       "asn": 2686,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "AT&T Corp."
       ]
     },
     {
       "asn": 2914,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NTT America, Inc."
       ]
     },
     {
       "asn": 3356,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Level 3 Communications, Inc."
       ]
     },
     {
       "asn": 3842,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "InMotion Hosting, Inc."
       ]
     },
     {
       "asn": 5377,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Marlink AS"
       ]
     },
     {
@@ -7185,36 +7212,54 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Orange S.A."
       ]
     },
     {
       "asn": 6453,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TATA COMMUNICATIONS (AMERICA) INC"
       ]
     },
     {
       "asn": 6775,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Andreas Fink trading as Fink Telecom Services GmbH"
       ]
     },
     {
       "asn": 6939,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Hurricane Electric LLC"
       ]
     },
     {
       "asn": 7862,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Chevron Corporation"
       ]
     },
     {
       "asn": 8772,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "NetAssist LLC"
       ]
     },
     {
@@ -7222,42 +7267,63 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Melbikomas UAB"
       ]
     },
     {
       "asn": 9009,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "M247 Europe SRL"
       ]
     },
     {
       "asn": 10929,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "eStruxture Data Centers Inc."
       ]
     },
     {
       "asn": 11355,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Shell Information Technology International, Inc."
       ]
     },
     {
       "asn": 12491,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Gilat Telecom Ltd."
       ]
     },
     {
       "asn": 12684,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SES ASTRA S.A."
       ]
     },
     {
       "asn": 13150,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CATO NETWORKS LTD"
       ]
     },
     {
@@ -7265,6 +7331,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Cloudflare, Inc."
       ]
     },
     {
@@ -7272,6 +7341,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Space Exploration Technologies Corporation"
       ]
     },
     {
@@ -7279,24 +7351,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Cloudflare, Inc."
       ]
     },
     {
       "asn": 15169,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Google LLC"
       ]
     },
     {
       "asn": 15641,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Arqiva Communications Ltd"
       ]
     },
     {
       "asn": 16276,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "OVH SAS"
       ]
     },
     {
@@ -7304,30 +7388,45 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Vodacom Business Nigeria"
       ]
     },
     {
       "asn": 16509,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Amazon.com, Inc."
       ]
     },
     {
       "asn": 16625,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Akamai Technologies, Inc."
       ]
     },
     {
       "asn": 20021,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ntirety, Inc."
       ]
     },
     {
       "asn": 20598,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Autonomous System number for Cyber Space,"
       ]
     },
     {
@@ -7335,42 +7434,63 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Akamai International B.V."
       ]
     },
     {
       "asn": 21245,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MEDIANOVA INTERNET HIZMETLERI VE TICARET ANONIM SIRKETI"
       ]
     },
     {
       "asn": 21859,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Zenlayer Inc"
       ]
     },
     {
       "asn": 22351,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "INTELSAT GLOBAL SERVICE CORPORATION"
       ]
     },
     {
       "asn": 23764,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "China Telecom Global Limited"
       ]
     },
     {
       "asn": 25163,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "21 st Century Technologies Limited"
       ]
     },
     {
       "asn": 25818,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "cmcnetworks"
       ]
     },
     {
@@ -7378,6 +7498,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "ipNX Nigeria Limited"
       ]
     },
     {
@@ -7385,6 +7508,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "SKYLOGIC S.P.A."
       ]
     },
     {
@@ -7392,12 +7518,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "MTN NIGERIA Communication limited"
       ]
     },
     {
       "asn": 30844,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Liquid Telecommunications Ltd"
       ]
     },
     {
@@ -7405,6 +7537,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Accelon"
       ]
     },
     {
@@ -7412,18 +7547,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "NAL-AS"
       ]
     },
     {
       "asn": 31027,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "GlobalConnect A/S"
       ]
     },
     {
       "asn": 31713,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Gateway Communications"
       ]
     },
     {
@@ -7431,18 +7575,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Oracle Corporation"
       ]
     },
     {
       "asn": 32034,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SPEEDCAST LATAM INC."
       ]
     },
     {
       "asn": 32167,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "LSHIY LLC"
       ]
     },
     {
@@ -7450,6 +7603,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Facebook, Inc."
       ]
     },
     {
@@ -7457,24 +7613,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Misaka Network, Inc."
       ]
     },
     {
       "asn": 36183,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Akamai Technologies, Inc."
       ]
     },
     {
       "asn": 36666,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "GloboTech Communications"
       ]
     },
     {
       "asn": 36872,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Intercom Data Network Limited"
       ]
     },
     {
@@ -7482,30 +7650,45 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Airtel Networks Limited"
       ]
     },
     {
       "asn": 36911,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "DIRECT ON PC LTD"
       ]
     },
     {
       "asn": 36920,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "KKON Technologies Ltd"
       ]
     },
     {
       "asn": 36922,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "United Bank for Africa"
       ]
     },
     {
       "asn": 36923,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SWIFT NETWORKS LIMITED"
       ]
     },
     {
@@ -7513,6 +7696,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "GVA Cote d'Ivoire SAS"
       ]
     },
     {
@@ -7520,6 +7706,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Nigeria Internet Registration Association"
       ]
     },
     {
@@ -7527,42 +7716,63 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Internet Exchange Point of Nigeria"
       ]
     },
     {
       "asn": 36957,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MICROACCESS LTD"
       ]
     },
     {
       "asn": 36970,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IPARTNERS LIMITED"
       ]
     },
     {
       "asn": 36979,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "First Bank of NG PLC"
       ]
     },
     {
       "asn": 36993,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "First City Monument Bank, PLC"
       ]
     },
     {
       "asn": 36994,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Vodacom"
       ]
     },
     {
       "asn": 37001,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Guaranty Trust Bank Plc"
       ]
     },
     {
@@ -7570,12 +7780,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Suburban Broadband Ltd"
       ]
     },
     {
       "asn": 37005,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ACCESS BANK PLC"
       ]
     },
     {
@@ -7583,36 +7799,54 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Galaxy Backbone PLC"
       ]
     },
     {
       "asn": 37025,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BANKPHB PLC"
       ]
     },
     {
       "asn": 37056,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Zenith Bank PLC"
       ]
     },
     {
       "asn": 37058,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SKYE BANK PLC"
       ]
     },
     {
       "asn": 37076,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Emerging Markets Telecommunication Services (EMTS) Limited"
       ]
     },
     {
       "asn": 37077,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "American University of Nigeria - AUN (formerly AAUN)"
       ]
     },
     {
@@ -7620,12 +7854,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "VDT COMMUNICATIONS LIMITED"
       ]
     },
     {
       "asn": 37104,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "STANBIC IBTC BANK PLC"
       ]
     },
     {
@@ -7633,12 +7873,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Layer3 Limited"
       ]
     },
     {
       "asn": 37144,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Unified Payment Services Limited"
       ]
     },
     {
@@ -7646,30 +7892,45 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Globacom Limited"
       ]
     },
     {
       "asn": 37170,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "University of Lagos"
       ]
     },
     {
       "asn": 37194,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Voix Networks Ltd"
       ]
     },
     {
       "asn": 37200,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SimbaNET Nigeria Limited"
       ]
     },
     {
       "asn": 37207,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigeria National Petroleum Corporation"
       ]
     },
     {
@@ -7677,18 +7938,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Hyperia Limited"
       ]
     },
     {
       "asn": 37222,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Interconnect Clearinghouse Nigeria Ltd"
       ]
     },
     {
       "asn": 37230,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Swifttalk Limited"
       ]
     },
     {
@@ -7696,24 +7966,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Phase3 Telecom Limited"
       ]
     },
     {
       "asn": 37249,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Computer Warehouse group"
       ]
     },
     {
       "asn": 37269,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Information Connectivity Solutions Limited"
       ]
     },
     {
       "asn": 37280,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Broad Based Communications Limited"
       ]
     },
     {
@@ -7721,6 +8003,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Main one Cable Company Nigeria Limited"
       ]
     },
     {
@@ -7728,42 +8013,63 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Nigeria ICT Forum of Partnership Institutions"
       ]
     },
     {
       "asn": 37296,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Afcom Satellite Networks Nigeria Limited"
       ]
     },
     {
       "asn": 37297,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Obafemi Awolowo University, Ife"
       ]
     },
     {
       "asn": 37308,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Steam Broadcasting and Communications Limited"
       ]
     },
     {
       "asn": 37328,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Wema Bank Plc"
       ]
     },
     {
       "asn": 37340,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SPECTRANET LIMITED"
       ]
     },
     {
       "asn": 37345,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Medallion Communications"
       ]
     },
     {
@@ -7771,66 +8077,99 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "NGCOM"
       ]
     },
     {
       "asn": 37350,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Dimension Data Ltd"
       ]
     },
     {
       "asn": 37398,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Juniper solutions Limited"
       ]
     },
     {
       "asn": 37404,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "University of Ibadan"
       ]
     },
     {
       "asn": 37405,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "University of Nigeria"
       ]
     },
     {
       "asn": 37420,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "University of JOS"
       ]
     },
     {
       "asn": 37426,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ASSET MANAGEMENT CORPORATION OF NIGERIA"
       ]
     },
     {
       "asn": 37433,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "KKON Technologies Ltd"
       ]
     },
     {
       "asn": 37443,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Usmanu Danfodiyo University"
       ]
     },
     {
       "asn": 37445,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Etranzact Int'l Plc"
       ]
     },
     {
       "asn": 37452,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Central Bank of Nigeria"
       ]
     },
     {
@@ -7838,12 +8177,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Angola Cables"
       ]
     },
     {
       "asn": 37472,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigerian Communications Satellite Ltd"
       ]
     },
     {
@@ -7851,6 +8196,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Cobranet Limited"
       ]
     },
     {
@@ -7858,6 +8206,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Eko-Konnect Research and Education Initiative"
       ]
     },
     {
@@ -7865,12 +8216,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Zinox Telecommunications Limited"
       ]
     },
     {
       "asn": 37518,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fiber Grid INC"
       ]
     },
     {
@@ -7878,54 +8235,81 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Internet Solutions Nigeria Limited"
       ]
     },
     {
       "asn": 37522,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FLOURMILLS OF NIGERIA PLC"
       ]
     },
     {
       "asn": 37528,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "American International School Abuja"
       ]
     },
     {
       "asn": 37540,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Winrock Nigeria Limited"
       ]
     },
     {
       "asn": 37565,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigerian Exchange Group PLC"
       ]
     },
     {
       "asn": 37567,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigeria Inter-Bank Settlement System Plc"
       ]
     },
     {
       "asn": 37587,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "UNION BANK OF NIGERIA PLC"
       ]
     },
     {
       "asn": 37588,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ORLEAN INVEST AFRICA LIMITED"
       ]
     },
     {
       "asn": 37605,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "General Telecommunication Networks (NIG) Limited"
       ]
     },
     {
@@ -7933,42 +8317,63 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "DOLPHIN TELECOMMUNICATION LIMITED"
       ]
     },
     {
       "asn": 37629,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "eStream Networks"
       ]
     },
     {
       "asn": 37637,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Smile Communications Nigeria"
       ]
     },
     {
       "asn": 37657,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Lagos State Government"
       ]
     },
     {
       "asn": 37659,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BillyRonks Global Ltd"
       ]
     },
     {
       "asn": 37660,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Premier Lotto Limited"
       ]
     },
     {
       "asn": 37661,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigerian Research and Education Network Limited by Guarantee"
       ]
     },
     {
@@ -7976,6 +8381,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "West Indian Ocean Cable Company"
       ]
     },
     {
@@ -7983,24 +8391,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Tizeti Network Limited"
       ]
     },
     {
       "asn": 37686,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ahmadu Bello University Zaria Nigeria"
       ]
     },
     {
       "asn": 37687,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Pan-Atlantic University"
       ]
     },
     {
       "asn": 37688,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BACKBONE CONNECTIVITY NETWORK (NIGERIA) LIMITED"
       ]
     },
     {
@@ -8008,48 +8428,72 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "BITFLUX COMMUNICATIONS LIMITED"
       ]
     },
     {
       "asn": 39120,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Convergenze S.p.A."
       ]
     },
     {
       "asn": 43357,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Owl Limited"
       ]
     },
     {
       "asn": 44324,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "MoeDove LLC"
       ]
     },
     {
       "asn": 44444,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Forcepoint UK Limited"
       ]
     },
     {
       "asn": 44559,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IT HOSTLINE LTD"
       ]
     },
     {
       "asn": 45566,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Google Singapore Pte. Ltd."
       ]
     },
     {
       "asn": 48031,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ivanov Vitaliy Sergeevich"
       ]
     },
     {
@@ -8057,48 +8501,72 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "ORANGE BUSINESS SERVICES U.S. Inc."
       ]
     },
     {
       "asn": 54113,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Fastly, Inc."
       ]
     },
     {
       "asn": 54728,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Dataplane.org"
       ]
     },
     {
       "asn": 54994,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Meteverse Limited."
       ]
     },
     {
       "asn": 55256,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Netskope Inc"
       ]
     },
     {
       "asn": 58057,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Securebit AG"
       ]
     },
     {
       "asn": 58061,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Scalaxy B.V."
       ]
     },
     {
       "asn": 58065,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Orion Network Limited"
       ]
     },
     {
@@ -8106,6 +8574,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Datacamp Limited"
       ]
     },
     {
@@ -8113,12 +8584,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "AFR-IX TELECOM S.L."
       ]
     },
     {
       "asn": 60728,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Andreas Fink trading as Fink Telecom Services GmbH"
       ]
     },
     {
@@ -8126,6 +8603,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Zscaler Switzerland GmbH"
       ]
     },
     {
@@ -8133,18 +8613,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Strong Technology, LLC."
       ]
     },
     {
       "asn": 63911,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NetActuate, Inc"
       ]
     },
     {
       "asn": 135377,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED"
       ]
     },
     {
@@ -8152,6 +8641,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "BrainStorm Network, Inc"
       ]
     },
     {
@@ -8159,18 +8651,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "HUAWEI INTERNATIONAL PTE. LTD."
       ]
     },
     {
       "asn": 139341,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ACEVILLE PTE.LTD."
       ]
     },
     {
       "asn": 139923,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ABCCLOUD SDN.BHD."
       ]
     },
     {
@@ -8178,24 +8679,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "ANY DIGITAL PTE. LTD."
       ]
     },
     {
       "asn": 142002,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Scloud Pte Ltd"
       ]
     },
     {
       "asn": 198504,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Star Satellite Communications Company - PJSC"
       ]
     },
     {
       "asn": 198566,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MAMUT RAHAL SOFTWARE - FZCO"
       ]
     },
     {
@@ -8203,72 +8716,108 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "G-Core Labs S.A."
       ]
     },
     {
       "asn": 199834,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IP Solus Inc"
       ]
     },
     {
       "asn": 200690,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Junxiao Shi"
       ]
     },
     {
       "asn": 200927,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "ProxyOmega LTD"
       ]
     },
     {
       "asn": 201217,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "RADISHCLOUD TECHNOLOGY LLC"
       ]
     },
     {
       "asn": 202610,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "NekoClaw Ltd"
       ]
     },
     {
       "asn": 202656,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ivanov Vitaliy Sergeevich"
       ]
     },
     {
       "asn": 203020,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "HostRoyale Technologies Pvt Ltd"
       ]
     },
     {
       "asn": 205563,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Marc Gomez"
       ]
     },
     {
       "asn": 206283,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Star Satellite Communications Company - PJSC"
       ]
     },
     {
       "asn": 206766,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Travchis LLC"
       ]
     },
     {
       "asn": 207990,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "HostRoyale Technologies Pvt Ltd"
       ]
     },
     {
@@ -8276,18 +8825,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "AfriCloud LLC"
       ]
     },
     {
       "asn": 210842,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Rohmad Kurniadin"
       ]
     },
     {
       "asn": 211119,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Rignet AS"
       ]
     },
     {
@@ -8295,30 +8853,45 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Datacamp Limited"
       ]
     },
     {
       "asn": 213476,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Litlink UAB"
       ]
     },
     {
       "asn": 213541,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "WS Telecom Inc"
       ]
     },
     {
       "asn": 214242,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Jiaxing Xing"
       ]
     },
     {
       "asn": 214266,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "ZERODESK LTD"
       ]
     },
     {
@@ -8326,180 +8899,270 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "SiteHUB Agency Ltd"
       ]
     },
     {
       "asn": 214669,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "STARLIGHT TECH TRADING CO., LIMITED"
       ]
     },
     {
       "asn": 215294,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Lumina broadband UAB"
       ]
     },
     {
       "asn": 216050,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Lietparkas UAB"
       ]
     },
     {
       "asn": 216253,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Interhive OU"
       ]
     },
     {
       "asn": 216435,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Plim Mobile Telecom LLC"
       ]
     },
     {
       "asn": 219013,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Santiago Fernandez Fernandez"
       ]
     },
     {
       "asn": 219283,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Haohao Zhang"
       ]
     },
     {
       "asn": 219412,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Lewis Brown"
       ]
     },
     {
       "asn": 265827,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CAPITALFUTURO SA"
       ]
     },
     {
       "asn": 327705,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Federal University of Technology, Akure(FUTA)"
       ]
     },
     {
       "asn": 327721,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Interswitch Limited"
       ]
     },
     {
       "asn": 327729,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Babcock University"
       ]
     },
     {
       "asn": 327763,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BOWEN UNIVERSITY"
       ]
     },
     {
       "asn": 327784,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fidelity Bank PLC"
       ]
     },
     {
       "asn": 327803,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Coscharis Technologies"
       ]
     },
     {
       "asn": 327891,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nanocom International Ltd"
       ]
     },
     {
       "asn": 327895,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Megafast Networks LTD"
       ]
     },
     {
       "asn": 327898,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CBC EMEA LTD"
       ]
     },
     {
       "asn": 327924,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "EXCELSIMO NETWORKS LIMITED"
       ]
     },
     {
       "asn": 327942,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "LANDMARK UNIVERSITY OMU-ARAN"
       ]
     },
     {
       "asn": 327953,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ABUJA ELECTRICITY DISTRIBUTION PLC"
       ]
     },
     {
       "asn": 327981,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ekovolt Telco Limited"
       ]
     },
     {
       "asn": 327985,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IDS Africa Limited"
       ]
     },
     {
       "asn": 327986,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "GUTTI GLOBAL NETWORKS"
       ]
     },
     {
       "asn": 328027,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Sahara Group Limited"
       ]
     },
     {
       "asn": 328035,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Zeta-web Nigeria Limited"
       ]
     },
     {
       "asn": 328043,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Clickatell PTY(LTD)"
       ]
     },
     {
       "asn": 328053,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Sterling Bank Plc"
       ]
     },
     {
       "asn": 328081,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "HollaTags Limited"
       ]
     },
     {
@@ -8507,12 +9170,18 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Orange Tunisie"
       ]
     },
     {
       "asn": 328128,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Tehilah Base Digital LTD"
       ]
     },
     {
@@ -8520,36 +9189,54 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Dotmac Technologies Limited"
       ]
     },
     {
       "asn": 328171,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TREFOIL NETWORKS LTD"
       ]
     },
     {
       "asn": 328175,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Xpress Payment Solutions Limited"
       ]
     },
     {
       "asn": 328183,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigerian Ports Authority"
       ]
     },
     {
       "asn": 328188,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Covenant University"
       ]
     },
     {
       "asn": 328189,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ECOBANK NIGERIA LIMITED"
       ]
     },
     {
@@ -8557,126 +9244,189 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Platinum Index Data Communications Ltd"
       ]
     },
     {
       "asn": 328221,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CORALPAY TECHNOLOGY (NIGERIA) LIMITED"
       ]
     },
     {
       "asn": 328240,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "DANGOTE INDUSTRIES LIMITED"
       ]
     },
     {
       "asn": 328256,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Skymax Integrated Network Ltd"
       ]
     },
     {
       "asn": 328290,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "INQ Cote d'Ivoire"
       ]
     },
     {
       "asn": 328305,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Yappingo Nigeria Limited"
       ]
     },
     {
       "asn": 328306,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Avanti Communications South Africa (Pty) Ltd"
       ]
     },
     {
       "asn": 328324,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Federal University of Agriculture"
       ]
     },
     {
       "asn": 328332,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "First Exploration and Petroleum Development Company Limited"
       ]
     },
     {
       "asn": 328357,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Castlenet Consulting Limited"
       ]
     },
     {
       "asn": 328376,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "ALFA O AND O VENTURES LTD"
       ]
     },
     {
       "asn": 328387,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "COZ Internet Ltd"
       ]
     },
     {
       "asn": 328401,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Soft Alliance and Resources Limited"
       ]
     },
     {
       "asn": 328419,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Bayero University"
       ]
     },
     {
       "asn": 328447,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "EKO Electricity Distribution PLC"
       ]
     },
     {
       "asn": 328451,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IP Express Ltd"
       ]
     },
     {
       "asn": 328457,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Brainshare Technologies and Services Nigeria Limited"
       ]
     },
     {
       "asn": 328496,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CyberSOC Africa Limited"
       ]
     },
     {
       "asn": 328497,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ibadan Electricity Distribution Company Plc"
       ]
     },
     {
       "asn": 328503,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Living Faith Church WorldWide"
       ]
     },
     {
       "asn": 328516,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Premium Pension Limited"
       ]
     },
     {
@@ -8684,24 +9434,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "PDS Networks Nigeria Limited"
       ]
     },
     {
       "asn": 328528,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NetIT Solutions LTD"
       ]
     },
     {
       "asn": 328555,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Timeless Network Services Ltd"
       ]
     },
     {
       "asn": 328556,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SYSCODES COMMUNICATIONS LIMITED"
       ]
     },
     {
@@ -8709,6 +9471,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "O'Play Digital Services Limited"
       ]
     },
     {
@@ -8716,24 +9481,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "MegaMore Wireless Broadband Limited"
       ]
     },
     {
       "asn": 328609,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Axa Mansard Insurance PLC"
       ]
     },
     {
       "asn": 328613,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Trakatel Limited"
       ]
     },
     {
       "asn": 328630,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Tizeti Network Limited"
       ]
     },
     {
@@ -8741,6 +9518,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "De Choicetech Integrated Ltd"
       ]
     },
     {
@@ -8748,54 +9528,81 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Nkponani Limited"
       ]
     },
     {
       "asn": 328696,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Tecpoint Global Solution limited"
       ]
     },
     {
       "asn": 328722,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Ciudad Infrastructure Limited"
       ]
     },
     {
       "asn": 328742,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Simplifyd Systems Nigeria Limited"
       ]
     },
     {
       "asn": 328746,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Globus Bank Limited"
       ]
     },
     {
       "asn": 328779,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Proline Technologies Limited"
       ]
     },
     {
       "asn": 328780,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "IMBIL TELECOM SOLUTIONS NIG. LTD"
       ]
     },
     {
       "asn": 328789,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MAFAB Communications Limited"
       ]
     },
     {
       "asn": 328823,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "JAIZ BANK PLC"
       ]
     },
     {
@@ -8803,108 +9610,162 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Access and Content Ltd"
       ]
     },
     {
       "asn": 328840,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "ST DIGITAL"
       ]
     },
     {
       "asn": 328854,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CEFLIX-SCEPTER LIMITED"
       ]
     },
     {
       "asn": 328861,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "National Identity Management Commission"
       ]
     },
     {
       "asn": 328873,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "National Assembly Abuja"
       ]
     },
     {
       "asn": 328875,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Upperlink Limited"
       ]
     },
     {
       "asn": 328881,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Petroleum Equalisation Fund (Management) Board"
       ]
     },
     {
       "asn": 328905,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nigerian Communications Commission (NCC)"
       ]
     },
     {
       "asn": 328918,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fibrehub Internetworking Services Ltd"
       ]
     },
     {
       "asn": 328938,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TELKO MANAGED SERVICES LIMITED"
       ]
     },
     {
       "asn": 328940,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Vovida Communications Ltd"
       ]
     },
     {
       "asn": 328945,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Netaccess Systems Limited"
       ]
     },
     {
       "asn": 328951,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Parallex Bank Limited"
       ]
     },
     {
       "asn": 328999,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BrowsePoint Telecom Nigeria Limited"
       ]
     },
     {
       "asn": 329001,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Kasi Cloud Limited"
       ]
     },
     {
       "asn": 329019,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Tangerine Life Insurance Limited"
       ]
     },
     {
       "asn": 329022,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Gifra Wireless Network Limited"
       ]
     },
     {
       "asn": 329023,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Treten Networks Limited"
       ]
     },
     {
@@ -8912,24 +9773,36 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "LULI FIBRA CABLE SOLUTION LIMITED"
       ]
     },
     {
       "asn": 329031,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Routelink Integrated Systems Ltd"
       ]
     },
     {
       "asn": 329050,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Julius Berger Nigeria PLC"
       ]
     },
     {
       "asn": 329054,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "9 Payment Service Bank Limited"
       ]
     },
     {
@@ -8937,6 +9810,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Smart City Technology Company Ltd"
       ]
     },
     {
@@ -8944,120 +9820,180 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Watch Tower Society of Jehovah's Witnesses (LTD/GTE)"
       ]
     },
     {
       "asn": 329099,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MANGONET INTEGRATED TECHNOLOGIES LIMITED"
       ]
     },
     {
       "asn": 329123,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "RATEL PLUS NIGERIA LIMITED"
       ]
     },
     {
       "asn": 329127,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Coquina Software Company Limited"
       ]
     },
     {
       "asn": 329148,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fibreworld Telecommunications Networks Limited"
       ]
     },
     {
       "asn": 329171,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "WOW Networks Limited"
       ]
     },
     {
       "asn": 329182,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "AMICS TECHNOLOGIES LIMITED"
       ]
     },
     {
       "asn": 329191,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nilmage Two4Seven Limited"
       ]
     },
     {
       "asn": 329199,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "STL FIBERCO LTD"
       ]
     },
     {
       "asn": 329215,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "LiFi.net Limited"
       ]
     },
     {
       "asn": 329230,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Pronto Broadband Solutions Limited"
       ]
     },
     {
       "asn": 329233,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SABI NETWORKS LIMITED"
       ]
     },
     {
       "asn": 329235,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "REXIFI TECHNOLOGIES LIMITED"
       ]
     },
     {
       "asn": 329236,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Teltwine Networks Limited"
       ]
     },
     {
       "asn": 329244,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Connect, Surf and Smile Limited"
       ]
     },
     {
       "asn": 329258,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nextgen Telcoms LTD"
       ]
     },
     {
       "asn": 329267,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FIBERONE BROADBAND LTD"
       ]
     },
     {
       "asn": 329273,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fastfeet Limited"
       ]
     },
     {
       "asn": 329275,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FBNQuest Capital Limited"
       ]
     },
     {
       "asn": 329299,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NOVA Commercial Bank LTD"
       ]
     },
     {
@@ -9065,48 +10001,72 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "ITC Global Communication Technologies Limited"
       ]
     },
     {
       "asn": 329308,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Verse Telecom Limited"
       ]
     },
     {
       "asn": 329315,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TDS Hitech Solutions Limited"
       ]
     },
     {
       "asn": 329349,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Optimus Bank Limited"
       ]
     },
     {
       "asn": 329365,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "E-Lapariah Technologies Ltd"
       ]
     },
     {
       "asn": 329404,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Providusbank PLC"
       ]
     },
     {
       "asn": 329441,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FZX Media Consulting Limited"
       ]
     },
     {
       "asn": 329454,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Vitel Wireless Limited"
       ]
     },
     {
@@ -9114,6 +10074,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "FieldBase Services Limited"
       ]
     },
     {
@@ -9121,144 +10084,216 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Linkorg Networks LTD"
       ]
     },
     {
       "asn": 329476,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TRADE MODERNISATION PROJECT LIMITED"
       ]
     },
     {
       "asn": 329487,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Fibernet Broadband Ltd"
       ]
     },
     {
       "asn": 329490,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Promethean Consulting Limited"
       ]
     },
     {
       "asn": 329503,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NGCOM LASTMILE SOLUTION LTD"
       ]
     },
     {
       "asn": 329511,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TeleWyz LTD"
       ]
     },
     {
       "asn": 329534,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FBNQuest Merchant Bank Limited"
       ]
     },
     {
       "asn": 329547,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Alpha Morgan Bank Limited"
       ]
     },
     {
       "asn": 329550,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Voisip Telecommunications Limited"
       ]
     },
     {
       "asn": 329568,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Robert & John Limited"
       ]
     },
     {
       "asn": 329577,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Olla Systems Limited"
       ]
     },
     {
       "asn": 329579,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Nationwaves Telcom Nigeria Limited"
       ]
     },
     {
       "asn": 329592,
       "families": [
         "ipv6"
+      ],
+      "organizationNames": [
+        "Sitehub Agency Ltd"
       ]
     },
     {
       "asn": 329613,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Iris Smart Technologies Limited"
       ]
     },
     {
       "asn": 329614,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "CORONA MANAGEMENT SYSTEMS LIMITED"
       ]
     },
     {
       "asn": 329623,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "NETWORK INTERNATIONAL PAYMENTS SERVICES NIGERIA LIMITED"
       ]
     },
     {
       "asn": 329653,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Premium Trust Bank Limited"
       ]
     },
     {
       "asn": 329655,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "FSDH Merchant Bank Limited"
       ]
     },
     {
       "asn": 329659,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Lineserve Limited"
       ]
     },
     {
       "asn": 329685,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MONIEPOINT MICROFINANCE BANK LIMITED"
       ]
     },
     {
       "asn": 329706,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "VAS2NETS TECHNOLOGIES LIMITED"
       ]
     },
     {
       "asn": 329709,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "MetroReach Limited"
       ]
     },
     {
       "asn": 329716,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "DMK Telecommunication Nig LTD"
       ]
     },
     {
       "asn": 329724,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "SIGNATURE BANK LIMITED"
       ]
     },
     {
@@ -9266,6 +10301,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "3 Way Protocol Limited"
       ]
     },
     {
@@ -9273,6 +10311,9 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "TRYANNET SOLUTIONS LIMITED"
       ]
     },
     {
@@ -9280,18 +10321,27 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "National Cybersecurity Coordination Centre"
       ]
     },
     {
       "asn": 394089,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Google LLC"
       ]
     },
     {
       "asn": 395793,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Arisk Communications inc."
       ]
     },
     {
@@ -9299,30 +10349,45 @@
       "families": [
         "ipv4",
         "ipv6"
+      ],
+      "organizationNames": [
+        "Google LLC"
       ]
     },
     {
       "asn": 399073,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "BUNNY TECHNOLOGY LLC"
       ]
     },
     {
       "asn": 400042,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "Campus Research Corporation"
       ]
     },
     {
       "asn": 400619,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "AROSSCLOUD INC."
       ]
     },
     {
       "asn": 401783,
       "families": [
         "ipv4"
+      ],
+      "organizationNames": [
+        "TOKALA COMMUNICATIONS INC."
       ]
     }
   ]

@@ -98,7 +98,7 @@ export function validateResources(records: readonly DelegatedRecord[]): Validate
         const key = Number(asn);
         const existing = asns.get(key);
         const merged = mergeClaim(existing, claim, `AS${key}`, asnDuplicates, crossRegistryConflicts);
-        if (!existing) asns.set(key, { asn: key, name: null, claims: [claim] });
+        if (!existing) asns.set(key, { asn: key, name: null, nameSource: null, claims: [claim] });
         else if (!merged) throw new Error(`Unable to merge claims for AS${key}`);
       }
     } else {

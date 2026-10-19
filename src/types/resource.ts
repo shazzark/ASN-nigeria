@@ -1,6 +1,6 @@
 export type ResourceType = "asn" | "ipv4" | "ipv6";
 export type AllocationStatus = "allocated" | "assigned";
-export type RegistryName = "afrinic" | "ripencc";
+export type RegistryName = "afrinic" | "apnic" | "ripencc";
 
 export interface ResourceClaim {
   registry: RegistryName;
@@ -14,6 +14,7 @@ export interface RegistrySource {
   sourceUrl: string;
   sourceSerial: string;
   records: number;
+  selectedNgRecords: number;
   documentationUrl: string;
   termsUrl: string;
   termsStatus: string;
@@ -33,7 +34,13 @@ export interface DelegatedRecord {
 
 export interface AsnRecord {
   asn: number;
-  name: null;
+  name: string | null;
+  nameSource: null | {
+    provider: "DB-IP IP to ASN Lite";
+    releaseMonth: string;
+    selectedBy: "most-frequent; lexical tie-break";
+    candidates: Array<{ name: string; records: number }>;
+  };
   claims: ResourceClaim[];
 }
 

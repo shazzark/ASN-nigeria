@@ -1,3 +1,4 @@
+# Source: DB-IP Lite NG geolocation classification; see metadata.json.
 ip6-cidr, 2001:470:1880::/48, direct
 ip6-cidr, 2001:470:1894::/48, direct
 ip6-cidr, 2001:470:1dab::/48, direct

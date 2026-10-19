@@ -43,6 +43,7 @@ const sourceText = [
   'afrinic|*|ipv6|*|0|summary',
   'afrinic|NG|asn|64512|1|20200101|allocated|holder',
 ].join('\n');
+const apnicSourceText = sourceText.replaceAll('afrinic', 'apnic');
 
 async function snapshot(directory, prefix = '') {
   const result = new Map();
@@ -69,6 +70,8 @@ test('converts inclusive DB-IP IPv4 and IPv6 ranges to minimal exact CIDRs', () 
 test('parses RFC 4180 quoted organization fields and validates country and ASN records', () => {
   const parsed = parseDbipAsnCsv(asnCsv);
   assert.equal(parsed.length, 4);
+  assert.deepEqual(parsed[0].organizations, ['Network, One']);
+  assert.deepEqual(parsed[2].organizations, ['IPv6 Network A']);
   assert.equal(parseDbipCountryCsv(countryCsv).length, 3);
   assert.throws(() => parseDbipAsnCsv('192.0.2.0,192.0.2.1,0,No ASN'), /invalid ASN|out of range/);
   assert.throws(() => parseDbipCountryCsv('192.0.2.0,192.0.2.1,ng'), /invalid country code/);
@@ -91,6 +94,9 @@ test('deduplicates identical source ranges but rejects conflicting and partial o
   assert.throws(() => parseDbipCountryCsv('192.0.2.0,192.0.2.255,NG\n192.0.2.0,192.0.2.255,US'), /overlapping or conflicting/);
   assert.throws(() => parseDbipCountryCsv('192.0.2.0,192.0.2.200,NG\n192.0.2.100,192.0.2.255,NG'), /overlapping or conflicting/);
   assert.throws(() => parseDbipAsnCsv('192.0.2.0,192.0.2.10,64512,A\n192.0.2.10,192.0.2.20,64513,B'), /overlapping or conflicting/);
+  const duplicateOrganizations = parseDbipAsnCsv('192.0.2.0,192.0.2.255,64512,Zulu\n192.0.2.0,192.0.2.255,64512,Alpha');
+  assert.equal(duplicateOrganizations.length, 1);
+  assert.deepEqual(duplicateOrganizations[0].organizations, ['Zulu', 'Alpha']);
 });
 
 test('associates ASNs only through overlap with DB-IP NG ranges and renders separate proxy formats', () => {
@@ -98,45 +104,67 @@ test('associates ASNs only through overlap with DB-IP NG ranges and renders sepa
   assert.deepEqual(validated.ipv4, ['192.0.2.1/32', '192.0.2.2/31', '192.0.2.4/30', '192.0.2.8/31', '192.0.2.10/32']);
   assert.deepEqual(validated.ipv6, ['2001:db8::2/127', '2001:db8::4/127']);
   assert.deepEqual(validated.asns.map(({ asn }) => asn), [64512, 64513, 64514, 64515]);
+  assert.deepEqual(validated.asns[0].organizationNames, ['Network, One']);
   const dataset = { ...validated, countryRangesCount: 3, asnRangesCount: 4, releaseMonth: '2026-10', sourceCountry: release('country', 3), sourceAsn: release('asn', 4) };
   const files = renderCountryIpFiles(dataset, [64512], '2026-10-19T00:00:00.000Z');
-  assert.equal(files.get('data/country-ip/surge/IPv4.Nigeria.list'), 'IP-CIDR,192.0.2.1/32\nIP-CIDR,192.0.2.2/31\nIP-CIDR,192.0.2.4/30\nIP-CIDR,192.0.2.8/31\nIP-CIDR,192.0.2.10/32\n');
-  assert.equal(files.get('data/country-ip/quantumult-x/IPv6.Nigeria.list'), 'ip6-cidr, 2001:db8::2/127, direct\nip6-cidr, 2001:db8::4/127, direct\n');
+  assert.equal(files.get('data/country-ip/surge/IPv4.Nigeria.list'), '# Source: DB-IP Lite NG geolocation classification; see metadata.json.\nIP-CIDR,192.0.2.1/32\nIP-CIDR,192.0.2.2/31\nIP-CIDR,192.0.2.4/30\nIP-CIDR,192.0.2.8/31\nIP-CIDR,192.0.2.10/32\n');
+  assert.equal(files.get('data/country-ip/quantumult-x/IPv6.Nigeria.list'), '# Source: DB-IP Lite NG geolocation classification; see metadata.json.\nip6-cidr, 2001:db8::2/127, direct\nip6-cidr, 2001:db8::4/127, direct\n');
   const metadata = JSON.parse(files.get('data/country-ip/metadata.json'));
-  assert.deepEqual(metadata.asnAssociationOverlapsWithAfrinicAllocation, [64512]);
+  assert.deepEqual(metadata.asnAssociationOverlapsWithRegistryAllocations, [64512]);
   assert.match(metadata.meaning, /geolocation/);
   assert.match(metadata.asnClassification, /not an RIR country assignment/);
 });
 
-test('organization text cannot inject proxy rules or new lines into rendered output', () => {
+test('organization text with line breaks is rejected before rendering rules', () => {
   const hostile = '192.0.2.0,192.0.2.255,64512,"Name\nIP-ASN,65000"';
-  const validated = validateCountryIp(parseDbipCountryCsv('192.0.2.1,192.0.2.2,NG'), parseDbipAsnCsv(hostile));
-  const dataset = { ...validated, countryRangesCount: 1, asnRangesCount: 1, releaseMonth: '2026-10', sourceCountry: release('country', 1), sourceAsn: release('asn', 1) };
-  const rendered = [...renderCountryIpFiles(dataset, [], '2026-10-19T00:00:00.000Z').values()].join('');
-  assert.doesNotMatch(rendered, /65000|Name/);
-  assert.match(rendered, /IP-ASN,64512/);
+  assert.throws(() => parseDbipAsnCsv(hostile), /invalid organization/);
 });
 
 test('empty country results, no ASN overlap, and mismatched source releases fail closed', async () => {
   assert.throws(() => validateCountryIp([], parseDbipAsnCsv(asnCsv)), /no NG records/);
   assert.throws(() => validateCountryIp(parseDbipCountryCsv('192.0.2.0,192.0.2.1,NG'), parseDbipAsnCsv('198.51.100.0,198.51.100.1,64512,Elsewhere')), /no ASN ranges overlapping/);
-  await assert.rejects(collectCompleteData({ countryIp: countryIp({ asnRelease: { ...release('asn', 4), releaseMonth: '2026-09' } }), sourceTexts: { afrinic: sourceText } }), /different monthly releases/);
+  await assert.rejects(collectCompleteData({ countryIp: countryIp({ asnRelease: { ...release('asn', 4), releaseMonth: '2026-09' } }), sourceTexts: { afrinic: sourceText, apnic: apnicSourceText } }), /different monthly releases/);
 });
 
 test('a failed complete collection preserves every previously published file', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-complete-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  const baseline = { sourceTexts: { afrinic: sourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
+  const baseline = { sourceTexts: { afrinic: sourceText, apnic: apnicSourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
   await collectCompleteData(baseline);
   const before = await snapshot(join(root, 'data'));
   await assert.rejects(collectCompleteData({ ...baseline, countryIp: countryIp({ countryCsv: 'not,a,valid,record' }), fetchedAt: '2026-10-20T00:00:00.000Z' }), /source record count/);
   assert.deepEqual(await snapshot(join(root, 'data')), before);
 });
 
+test('registry ASN labels use deterministic DB-IP source counts and retain all provenance', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'asn-ng-names-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  const namesCsv = [
+    '192.0.2.0,192.0.2.1,64512,Zulu',
+    '192.0.2.2,192.0.2.3,64512,Alpha',
+    '192.0.2.4,192.0.2.5,64512,Zulu',
+    '2001:db8::,2001:db8::1,64513,',
+  ].join('\n');
+  await collectCompleteData({
+    sourceTexts: { afrinic: sourceText, apnic: apnicSourceText },
+    countryIp: countryIp({ asnCsv: namesCsv, asnRelease: release('asn', 4) }),
+    fetchedAt: '2026-10-19T00:00:00.000Z', root,
+  });
+  const networks = JSON.parse(await readFile(join(root, 'data', 'networks.json'), 'utf8'));
+  const network = networks.find(({ asn }) => asn === 64512);
+  assert.equal(network.name, 'Zulu');
+  assert.deepEqual(network.nameSource, {
+    provider: 'DB-IP IP to ASN Lite', releaseMonth: '2026-10',
+    selectedBy: 'most-frequent; lexical tie-break',
+    candidates: [{ name: 'Zulu', records: 2 }, { name: 'Alpha', records: 1 }],
+  });
+  assert.equal(network.claims[0].registry, 'afrinic');
+});
+
 test('unchanged complete records do not rewrite outputs when only collection time changes', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-complete-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  const initial = { sourceTexts: { afrinic: sourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
+  const initial = { sourceTexts: { afrinic: sourceText, apnic: apnicSourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
   await collectCompleteData(initial);
   const path = join(root, 'data', 'country-ip', 'IPv4.Nigeria.list');
   const oldTime = new Date('2020-01-01T00:00:00.000Z');

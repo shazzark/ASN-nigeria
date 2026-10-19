@@ -1,3 +1,4 @@
+# Source: DB-IP Lite NG geolocation classification; see metadata.json.
 IP-CIDR,2.18.12.0/22
 IP-CIDR,2.27.252.0/24
 IP-CIDR,3.175.217.0/24

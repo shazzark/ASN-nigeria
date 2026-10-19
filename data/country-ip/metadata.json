@@ -1,7 +1,7 @@
 {
   "countryCode": "NG",
   "meaning": "DB-IP Lite's country-geolocation classification of IP ranges as NG. Coverage is limited to its Lite dataset and does not mean registry allocation, current BGP announcement, or physical location is guaranteed.",
-  "fetchedAt": "2026-10-19T08:40:10.831Z",
+  "fetchedAt": "2026-10-19T13:32:53.443Z",
   "releaseMonth": "2026-10",
   "records": {
     "sourceCountryRows": 710834,
@@ -13,7 +13,8 @@
     "associatedAsns": 355
   },
   "asnClassification": "An ASN is listed when DB-IP ASN Lite maps at least one address overlapping a DB-IP country-Lite NG range to that ASN. This is an address-to-ASN association, not an RIR country assignment.",
-  "asnAssociationOverlapsWithAfrinicAllocation": [
+  "asnOrganizationNames": "DB-IP ASN Lite organization labels are retained as published. They do not establish Nigerian registration; empty labels stay null. All labels for each associated ASN are preserved in resources.json.",
+  "asnAssociationOverlapsWithRegistryAllocations": [
     16284,
     25163,
     29091,

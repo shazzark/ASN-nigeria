@@ -1,7 +1,7 @@
 import type { AddressRecord, DatasetMetadata, RegistrySource } from "../types/resource";
 import type { ValidatedResources } from "../validation/resources";
 
-function lines(values: readonly string[]): string { return `${values.join("\n")}\n`; }
+function lines(values: readonly string[], comment?: string): string { return `${comment ? `# ${comment}\n` : ""}${values.join("\n")}\n`; }
 function rules(type: "IP-CIDR" | "IP-CIDR6", records: readonly AddressRecord[]): string[] {
   return records.map(({ cidr }) => `${type},${cidr}`);
 }
@@ -16,10 +16,11 @@ export function renderFiles(resources: ValidatedResources, sources: RegistrySour
   const qxV4 = resources.ipv4.map(({ cidr }) => `ip-cidr, ${cidr}, direct`);
   const qxV6 = resources.ipv6.map(({ cidr }) => `ip6-cidr, ${cidr}, direct`);
   const qxAsn = asns.map((asn) => `ip-asn, ${asn}, direct`);
+  const sourceComment = `Source: ${sources.map(({ registry }) => registry === "afrinic" ? "AFRINIC" : registry === "apnic" ? "APNIC" : "RIPE NCC").join(" and ")} NG-coded registry records; see metadata.json.`;
   const metadata: DatasetMetadata = {
     sources,
     countryCode: "NG",
-    meaning: `${sources.map(({ registry }) => registry === "afrinic" ? "AFRINIC" : "RIPE NCC").join(" and ")} registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.`,
+    meaning: `${sources.map(({ registry }) => registry === "afrinic" ? "AFRINIC" : registry === "apnic" ? "APNIC" : "RIPE NCC").join(" and ")} registry allocations and assignments recorded with country code NG; these records are not observed BGP routes and do not identify physical IP location.`,
     fetchedAt,
     counts: { asns: asns.length, ipv4: ipv4.length, ipv6: ipv6.length },
     crossRegistryDuplicates: resources.crossRegistryDuplicates,
@@ -28,7 +29,7 @@ export function renderFiles(resources: ValidatedResources, sources: RegistrySour
   };
   const output = (path: string) => `data/${path}`;
   return new Map([
-    [output("ASN.Nigeria.list"), lines(surgeAsn)],
+    [output("ASN.Nigeria.list"), lines(surgeAsn, sourceComment)],
     [output("asns.txt"), lines(asns.map(String))],
     [output("IPv4.Nigeria.list"), lines(ipv4)],
     [output("IPv6.Nigeria.list"), lines(ipv6)],
@@ -36,13 +37,13 @@ export function renderFiles(resources: ValidatedResources, sources: RegistrySour
     [output("networks.json"), `${JSON.stringify(resources.asns, null, 2)}\n`],
     [output("resources.json"), `${JSON.stringify({ ipv4: resources.ipv4, ipv6: resources.ipv6 }, null, 2)}\n`],
     [output("metadata.json"), `${JSON.stringify(metadata, null, 2)}\n`],
-    [output("surge/ASN.Nigeria.list"), lines(surgeAsn)],
-    [output("surge/IPv4.Nigeria.list"), lines(surgeV4)],
-    [output("surge/IPv6.Nigeria.list"), lines(surgeV6)],
-    [output("surge/IP.Nigeria.list"), lines([...surgeV4, ...surgeV6])],
-    [output("quantumult-x/ASN.Nigeria.list"), lines(qxAsn)],
-    [output("quantumult-x/IPv4.Nigeria.list"), lines(qxV4)],
-    [output("quantumult-x/IPv6.Nigeria.list"), lines(qxV6)],
-    [output("quantumult-x/IP.Nigeria.list"), lines([...qxV4, ...qxV6])],
+    [output("surge/ASN.Nigeria.list"), lines(surgeAsn, sourceComment)],
+    [output("surge/IPv4.Nigeria.list"), lines(surgeV4, sourceComment)],
+    [output("surge/IPv6.Nigeria.list"), lines(surgeV6, sourceComment)],
+    [output("surge/IP.Nigeria.list"), lines([...surgeV4, ...surgeV6], sourceComment)],
+    [output("quantumult-x/ASN.Nigeria.list"), lines(qxAsn, sourceComment)],
+    [output("quantumult-x/IPv4.Nigeria.list"), lines(qxV4, sourceComment)],
+    [output("quantumult-x/IPv6.Nigeria.list"), lines(qxV6, sourceComment)],
+    [output("quantumult-x/IP.Nigeria.list"), lines([...qxV4, ...qxV6], sourceComment)],
   ]);
 }

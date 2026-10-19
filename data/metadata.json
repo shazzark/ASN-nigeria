@@ -5,15 +5,27 @@
       "sourceUrl": "https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest",
       "sourceSerial": "20261019",
       "records": 19881,
+      "selectedNgRecords": 856,
       "documentationUrl": "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
       "termsUrl": "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
       "termsStatus": "The source notice says files are freely available for download and use subject to a no-liability condition. It does not expressly address transformed public lists; publishing them here is the project's interpretation, not official confirmation.",
       "attribution": "Source: AFRINIC extended delegated statistics. See the linked statistics README; AFRINIC disclaims liability for loss or damage from use of report information."
+    },
+    {
+      "registry": "apnic",
+      "sourceUrl": "https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest",
+      "sourceSerial": "20261019",
+      "records": 190759,
+      "selectedNgRecords": 0,
+      "documentationUrl": "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
+      "termsUrl": "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
+      "termsStatus": "APNIC's official extended-statistics README says the files are freely available for download and use, subject to a no-liability condition. The report is not an authoritative statement of present resource use or physical location.",
+      "attribution": "Source: APNIC extended allocation and assignment statistics. See the linked APNIC README and its no-liability condition."
     }
   ],
   "countryCode": "NG",
-  "meaning": "AFRINIC registry allocations and assignments to resource holders with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
-  "fetchedAt": "2026-10-19T08:40:10.831Z",
+  "meaning": "AFRINIC and APNIC registry allocations and assignments recorded with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
+  "fetchedAt": "2026-10-19T13:32:53.443Z",
   "counts": {
     "asns": 301,
     "ipv4": 418,

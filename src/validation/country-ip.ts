@@ -10,6 +10,7 @@ export interface ClassifiedRange {
 export interface CountryIpAsn {
   asn: number;
   families: AddressFamily[];
+  organizationNames: string[];
 }
 
 export interface ValidatedCountryIp {
@@ -32,6 +33,7 @@ function overlaps(left: IpRange, right: IpRange): boolean {
 function intersectingAsns(country: readonly CountryRange[], asnRanges: readonly AsnRange[]): CountryIpAsn[] {
   const selected = country.filter(({ countryCode }) => countryCode === "NG").sort(compareRanges);
   const associations = new Map<number, Set<AddressFamily>>();
+  const organizationNames = new Map<number, Set<string>>();
   let countryIndex = 0;
   let asnIndex = 0;
   while (countryIndex < selected.length && asnIndex < asnRanges.length) {
@@ -46,12 +48,17 @@ function intersectingAsns(country: readonly CountryRange[], asnRanges: readonly 
       const families = associations.get(asnRange.asn) ?? new Set<AddressFamily>();
       families.add(countryRange.family);
       associations.set(asnRange.asn, families);
+      if (asnRange.organizations.length) {
+        const names = organizationNames.get(asnRange.asn) ?? new Set<string>();
+        for (const organization of asnRange.organizations) names.add(organization);
+        organizationNames.set(asnRange.asn, names);
+      }
     }
     if (countryRange.end < asnRange.end) countryIndex += 1;
     else asnIndex += 1;
   }
   return [...associations].sort(([left], [right]) => left - right)
-    .map(([asn, families]) => ({ asn, families: [...families].sort() }));
+    .map(([asn, families]) => ({ asn, families: [...families].sort(), organizationNames: [...(organizationNames.get(asn) ?? [])].sort() }));
 }
 
 function toClassifiedRanges(ranges: readonly CountryRange[], family: AddressFamily): ClassifiedRange[] {

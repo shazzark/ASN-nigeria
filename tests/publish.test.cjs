@@ -23,6 +23,7 @@ const ripeRows = [
 ];
 const fixture = (ripeSerial = 'ripe-serial') => ({
   afrinic: source('afrinic', 'afri-serial', afrRows),
+  apnic: source('apnic', 'apnic-serial', []),
   ripencc: source('ripencc', ripeSerial, ripeRows),
 });
 
@@ -48,13 +49,13 @@ test('invalid AFRINIC source data preserves existing outputs', async (t) => {
   assert.deepEqual(await snapshot(join(root, 'data')), before);
 });
 
-test('collector ignores RIPE fixture data and emits only AFRINIC-derived public files', async (t) => {
+test('collector ignores RIPE fixture data and emits AFRINIC/APNIC-derived public files', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-'));
   t.after(() => rm(root, { recursive: true, force: true }));
   await collectDelegatedData(fixture(), '2026-01-01T00:00:00.000Z', root);
   const publicMetadata = JSON.parse(await readFile(join(root, 'data', 'metadata.json'), 'utf8'));
   const publicFiles = await snapshot(join(root, 'data'));
-  assert.deepEqual(publicMetadata.sources.map((source) => source.registry), ['afrinic']);
+  assert.deepEqual(publicMetadata.sources.map((source) => source.registry), ['afrinic', 'apnic']);
   assert.equal((await readFile(join(root, 'data', 'asns.txt'), 'utf8')).trim(), '64512');
   for (const contents of publicFiles.values()) {
     assert.doesNotMatch(contents, /ripencc|64513|198\.51\.100\.0|holder-asn-ripe|holder-v4-ripe|holder-v6-ripe/);

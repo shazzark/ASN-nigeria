@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parseDelegatedStatistics } from "./parsers/delegated-stats";
 import { fetchAfrinicStatistics, AFRINIC_STATS_URL } from "./sources/afrinic";
+import { fetchApnicStatistics, APNIC_STATS_URL } from "./sources/apnic";
 import { changedFiles, filesMatch, publishFiles } from "./output/publish";
 import { renderFiles } from "./output/render";
 import { validateResources } from "./validation/resources";
@@ -23,6 +24,15 @@ const SOURCES = [
     termsStatus: "The source notice says files are freely available for download and use subject to a no-liability condition. It does not expressly address transformed public lists; publishing them here is the project's interpretation, not official confirmation.",
     attribution: "Source: AFRINIC extended delegated statistics. See the linked statistics README; AFRINIC disclaims liability for loss or damage from use of report information.",
   },
+  {
+    registry: "apnic",
+    fetch: fetchApnicStatistics,
+    sourceUrl: APNIC_STATS_URL,
+    documentationUrl: "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
+    termsUrl: "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
+    termsStatus: "APNIC's official extended-statistics README says the files are freely available for download and use, subject to a no-liability condition. The report is not an authoritative statement of present resource use or physical location.",
+    attribution: "Source: APNIC extended allocation and assignment statistics. See the linked APNIC README and its no-liability condition.",
+  },
 ] as const;
 
 export async function collectDelegatedData(
@@ -30,17 +40,18 @@ export async function collectDelegatedData(
   fetchedAt = new Date().toISOString(),
   root = process.cwd(),
 ): Promise<number> {
-  const { resources, files } = await prepareAllocations(sourceTexts, fetchedAt);
+  const { resources, sources } = await prepareAllocations(sourceTexts);
+  const files = renderFiles(resources, sources, fetchedAt);
   await publishIfChanged(files, ["data/metadata.json"], root);
   return resources.asns.length;
 }
 
 interface PreparedAllocations {
   resources: ReturnType<typeof validateResources>;
-  files: Map<string, string>;
+  sources: RegistrySource[];
 }
 
-async function prepareAllocations(sourceTexts: Partial<Record<RegistryName, string>> | undefined, fetchedAt: string): Promise<PreparedAllocations> {
+async function prepareAllocations(sourceTexts: Partial<Record<RegistryName, string>> | undefined): Promise<PreparedAllocations> {
   const snapshots = await Promise.all(SOURCES.map(async (source) => {
     const text = sourceTexts?.[source.registry] ?? await source.fetch();
     return parseDelegatedStatistics(text, source.registry);
@@ -54,14 +65,14 @@ async function prepareAllocations(sourceTexts: Partial<Record<RegistryName, stri
       sourceUrl: source.sourceUrl,
       sourceSerial: snapshot.serial,
       records: snapshot.declaredRecordCount,
+      selectedNgRecords: snapshot.records.length,
       documentationUrl: source.documentationUrl,
       termsUrl: source.termsUrl,
       termsStatus: source.termsStatus,
       attribution: source.attribution,
     };
   });
-  const files = renderFiles(resources, registrySources, fetchedAt);
-  return { resources, files };
+  return { resources, sources: registrySources };
 }
 
 export interface CountryIpFixture {
@@ -111,16 +122,43 @@ function prepareCountryIp(fixture: CountryIpFixture): CountryIpDataset {
   };
 }
 
+function enrichRegistryNames(resources: PreparedAllocations["resources"], fixture: CountryIpFixture): void {
+  const counts = new Map<number, Map<string, number>>();
+  for (const range of parseDbipAsnCsv(fixture.asnCsv)) {
+    const names = counts.get(range.asn) ?? new Map<string, number>();
+    for (const organization of range.organizations) {
+      names.set(organization, (names.get(organization) ?? 0) + 1);
+    }
+    counts.set(range.asn, names);
+  }
+  for (const record of resources.asns) {
+    const candidates = [...(counts.get(record.asn) ?? [])]
+      .map(([name, records]) => ({ name, records }))
+      .sort((left, right) => right.records - left.records || (left.name < right.name ? -1 : left.name > right.name ? 1 : 0));
+    const selected = candidates[0];
+    if (!selected) continue;
+    record.name = selected.name;
+    record.nameSource = {
+      provider: "DB-IP IP to ASN Lite",
+      releaseMonth: fixture.asnRelease.releaseMonth,
+      selectedBy: "most-frequent; lexical tie-break",
+      candidates,
+    };
+  }
+}
+
 export async function collectCompleteData(options: CompleteCollectionOptions = {}): Promise<{ allocationAsns: number; countryAsns: number }> {
   const fetchedAt = options.fetchedAt ?? new Date().toISOString();
   const root = options.root ?? process.cwd();
   const [allocations, countryFixture] = await Promise.all([
-    prepareAllocations(options.sourceTexts, fetchedAt),
+    prepareAllocations(options.sourceTexts),
     options.countryIp ? Promise.resolve(options.countryIp) : fetchCountryIpDataset(),
   ]);
   const countryIp = prepareCountryIp(countryFixture);
+  enrichRegistryNames(allocations.resources, countryFixture);
+  const allocationFiles = renderFiles(allocations.resources, allocations.sources, fetchedAt);
   const countryIpFiles = renderCountryIpFiles(countryIp, allocations.resources.asns.map(({ asn }) => asn), fetchedAt);
-  const files = new Map([...allocations.files, ...countryIpFiles]);
+  const files = new Map([...allocationFiles, ...countryIpFiles]);
   await publishIfChanged(files, ["data/metadata.json", "data/country-ip/metadata.json"], root);
   return { allocationAsns: allocations.resources.asns.length, countryAsns: countryIp.asns.length };
 }
