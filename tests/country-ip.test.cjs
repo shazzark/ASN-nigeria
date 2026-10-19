@@ -44,6 +44,9 @@ const sourceText = [
   'afrinic|NG|asn|64512|1|20200101|allocated|holder',
 ].join('\n');
 const apnicSourceText = sourceText.replaceAll('afrinic', 'apnic');
+const arinSourceText = sourceText.replaceAll('afrinic', 'arin');
+const lacnicSourceText = sourceText.replaceAll('afrinic', 'lacnic');
+const registrySourceTexts = { afrinic: sourceText, apnic: apnicSourceText, arin: arinSourceText, lacnic: lacnicSourceText };
 
 async function snapshot(directory, prefix = '') {
   const result = new Map();
@@ -123,13 +126,13 @@ test('organization text with line breaks is rejected before rendering rules', ()
 test('empty country results, no ASN overlap, and mismatched source releases fail closed', async () => {
   assert.throws(() => validateCountryIp([], parseDbipAsnCsv(asnCsv)), /no NG records/);
   assert.throws(() => validateCountryIp(parseDbipCountryCsv('192.0.2.0,192.0.2.1,NG'), parseDbipAsnCsv('198.51.100.0,198.51.100.1,64512,Elsewhere')), /no ASN ranges overlapping/);
-  await assert.rejects(collectCompleteData({ countryIp: countryIp({ asnRelease: { ...release('asn', 4), releaseMonth: '2026-09' } }), sourceTexts: { afrinic: sourceText, apnic: apnicSourceText } }), /different monthly releases/);
+  await assert.rejects(collectCompleteData({ countryIp: countryIp({ asnRelease: { ...release('asn', 4), releaseMonth: '2026-09' } }), sourceTexts: registrySourceTexts }), /different monthly releases/);
 });
 
 test('a failed complete collection preserves every previously published file', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-complete-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  const baseline = { sourceTexts: { afrinic: sourceText, apnic: apnicSourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
+  const baseline = { sourceTexts: registrySourceTexts, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
   await collectCompleteData(baseline);
   const before = await snapshot(join(root, 'data'));
   await assert.rejects(collectCompleteData({ ...baseline, countryIp: countryIp({ countryCsv: 'not,a,valid,record' }), fetchedAt: '2026-10-20T00:00:00.000Z' }), /source record count/);
@@ -146,7 +149,7 @@ test('registry ASN labels use deterministic DB-IP source counts and retain all p
     '2001:db8::,2001:db8::1,64513,',
   ].join('\n');
   await collectCompleteData({
-    sourceTexts: { afrinic: sourceText, apnic: apnicSourceText },
+    sourceTexts: registrySourceTexts,
     countryIp: countryIp({ asnCsv: namesCsv, asnRelease: release('asn', 4) }),
     fetchedAt: '2026-10-19T00:00:00.000Z', root,
   });
@@ -164,7 +167,7 @@ test('registry ASN labels use deterministic DB-IP source counts and retain all p
 test('unchanged complete records do not rewrite outputs when only collection time changes', async (t) => {
   const root = await mkdtemp(join(tmpdir(), 'asn-ng-complete-'));
   t.after(() => rm(root, { recursive: true, force: true }));
-  const initial = { sourceTexts: { afrinic: sourceText, apnic: apnicSourceText }, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
+  const initial = { sourceTexts: registrySourceTexts, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root };
   await collectCompleteData(initial);
   const path = join(root, 'data', 'country-ip', 'IPv4.Nigeria.list');
   const oldTime = new Date('2020-01-01T00:00:00.000Z');
@@ -172,4 +175,24 @@ test('unchanged complete records do not rewrite outputs when only collection tim
   const before = await stat(path);
   await collectCompleteData({ ...initial, fetchedAt: '2026-10-20T00:00:00.000Z' });
   assert.equal((await stat(path)).mtimeMs, before.mtimeMs);
+});
+
+test('every generated Surge and Quantumult X subscription uses current rule-line syntax', async (t) => {
+  const root = await mkdtemp(join(tmpdir(), 'asn-ng-syntax-'));
+  t.after(() => rm(root, { recursive: true, force: true }));
+  await collectCompleteData({ sourceTexts: registrySourceTexts, countryIp: countryIp(), fetchedAt: '2026-10-19T00:00:00.000Z', root });
+  const files = await snapshot(join(root, 'data'));
+  const listFiles = [...files].filter(([path]) => path.endsWith('.list') && !/^(?:IP|IPv4|IPv6)\.Nigeria\.list$|^country-ip[\\/](?:IP|IPv4|IPv6)\.Nigeria\.list$/.test(path));
+  assert.equal(listFiles.length, 18);
+  for (const [path, contents] of listFiles) {
+    const qx = path.includes(`${join('quantumult-x', '')}`);
+    const lines = contents.trimEnd().split(/\r?\n/);
+    assert.ok(lines[0].startsWith('# Source: '), `${path}: missing supported source comment`);
+    for (const line of lines.slice(1)) {
+      const valid = qx
+        ? /^(?:ip-cidr, .+, direct|ip6-cidr, .+, direct|ip-asn, \d+, direct)$/.test(line)
+        : /^(?:IP-CIDR|IP-CIDR6),[^,]+(?:,no-resolve)?$|^IP-ASN,\d+$/.test(line);
+      assert.ok(valid, `${path}: invalid rule line: ${line}`);
+    }
+  }
 });

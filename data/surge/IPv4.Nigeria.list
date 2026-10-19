@@ -1,4 +1,4 @@
-# Source: AFRINIC and APNIC NG-coded registry records; see metadata.json.
+# Source: AFRINIC, APNIC, ARIN and LACNIC NG-coded registry records; see metadata.json.
 IP-CIDR,41.57.120.0/22
 IP-CIDR,41.58.0.0/16
 IP-CIDR,41.67.128.0/18

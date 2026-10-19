@@ -1,4 +1,4 @@
-# Source: AFRINIC and APNIC NG-coded registry records; see metadata.json.
+# Source: AFRINIC, APNIC, ARIN and LACNIC NG-coded registry records; see metadata.json.
 ip6-cidr, 2001:4270::/32, direct
 ip6-cidr, 2001:43b0::/32, direct
 ip6-cidr, 2001:43f8:160::/48, direct

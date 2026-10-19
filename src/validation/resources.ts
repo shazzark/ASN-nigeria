@@ -35,6 +35,7 @@ function mergeClaim<T extends { claims: ResourceClaim[] }>(
       if (previous.registry === claim.registry) continue;
       if (previous.date !== claim.date) fields.add("date");
       if (previous.status !== claim.status) fields.add("status");
+      if (previous.holderId !== claim.holderId) fields.add("holderId");
     }
     if (fields.size) {
       conflicts.push({

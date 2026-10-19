@@ -16,11 +16,16 @@ export function renderFiles(resources: ValidatedResources, sources: RegistrySour
   const qxV4 = resources.ipv4.map(({ cidr }) => `ip-cidr, ${cidr}, direct`);
   const qxV6 = resources.ipv6.map(({ cidr }) => `ip6-cidr, ${cidr}, direct`);
   const qxAsn = asns.map((asn) => `ip-asn, ${asn}, direct`);
-  const sourceComment = `Source: ${sources.map(({ registry }) => registry === "afrinic" ? "AFRINIC" : registry === "apnic" ? "APNIC" : "RIPE NCC").join(" and ")} NG-coded registry records; see metadata.json.`;
+  const registryNames: Record<RegistrySource["registry"], string> = {
+    afrinic: "AFRINIC", apnic: "APNIC", arin: "ARIN", lacnic: "LACNIC", ripencc: "RIPE NCC",
+  };
+  const names = sources.map(({ registry }) => registryNames[registry]);
+  const sourceList = names.length < 2 ? names[0] ?? "registry" : `${names.slice(0, -1).join(", ")} and ${names.at(-1)}`;
+  const sourceComment = `Source: ${sourceList} NG-coded registry records; see metadata.json.`;
   const metadata: DatasetMetadata = {
     sources,
     countryCode: "NG",
-    meaning: `${sources.map(({ registry }) => registry === "afrinic" ? "AFRINIC" : registry === "apnic" ? "APNIC" : "RIPE NCC").join(" and ")} registry allocations and assignments recorded with country code NG; these records are not observed BGP routes and do not identify physical IP location.`,
+    meaning: `${sourceList} registry allocations and assignments recorded with country code NG; these records are not observed BGP routes and do not identify physical IP location.`,
     fetchedAt,
     counts: { asns: asns.length, ipv4: ipv4.length, ipv6: ipv6.length },
     crossRegistryDuplicates: resources.crossRegistryDuplicates,

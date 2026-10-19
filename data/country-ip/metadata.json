@@ -1,7 +1,7 @@
 {
   "countryCode": "NG",
   "meaning": "DB-IP Lite's country-geolocation classification of IP ranges as NG. Coverage is limited to its Lite dataset and does not mean registry allocation, current BGP announcement, or physical location is guaranteed.",
-  "fetchedAt": "2026-10-19T13:32:53.443Z",
+  "fetchedAt": "2026-10-19T13:54:49.229Z",
   "releaseMonth": "2026-10",
   "records": {
     "sourceCountryRows": 710834,

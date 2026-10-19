@@ -3,6 +3,8 @@ import { resolve } from "node:path";
 import { parseDelegatedStatistics } from "./parsers/delegated-stats";
 import { fetchAfrinicStatistics, AFRINIC_STATS_URL } from "./sources/afrinic";
 import { fetchApnicStatistics, APNIC_STATS_URL } from "./sources/apnic";
+import { fetchArinStatistics, ARIN_STATS_URL } from "./sources/arin";
+import { fetchLacnicStatistics, LACNIC_STATS_URL } from "./sources/lacnic";
 import { changedFiles, filesMatch, publishFiles } from "./output/publish";
 import { renderFiles } from "./output/render";
 import { validateResources } from "./validation/resources";
@@ -32,6 +34,24 @@ const SOURCES = [
     termsUrl: "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
     termsStatus: "APNIC's official extended-statistics README says the files are freely available for download and use, subject to a no-liability condition. The report is not an authoritative statement of present resource use or physical location.",
     attribution: "Source: APNIC extended allocation and assignment statistics. See the linked APNIC README and its no-liability condition.",
+  },
+  {
+    registry: "arin",
+    fetch: fetchArinStatistics,
+    sourceUrl: ARIN_STATS_URL,
+    documentationUrl: "https://www.arin.net/reference/research/statistics/nro_stats/",
+    termsUrl: "https://www.arin.net/reference/research/statistics/nro_stats/",
+    termsStatus: "ARIN's extended-statistics page says the daily files are available for use via HTTPS. Its linked statistics README defines the exchange format but gives no separate redistribution license; ARIN's Whois-specific terms are not treated as governing this statistics feed. This publication relies on the official availability-for-use statement and makes no broader license claim.",
+    attribution: "Source: ARIN extended delegation statistics. See ARIN's extended-statistics page and linked RIR statistics format README.",
+  },
+  {
+    registry: "lacnic",
+    fetch: fetchLacnicStatistics,
+    sourceUrl: LACNIC_STATS_URL,
+    documentationUrl: "https://ftp.lacnic.net/pub/stats/lacnic/README",
+    termsUrl: "https://ftp.lacnic.net/pub/stats/lacnic/disclaimer.txt",
+    termsStatus: "LACNIC's source notice says the files are freely available for download and use, on the condition that LACNIC is not held responsible for loss or damage arising from use of report information.",
+    attribution: "Source: LACNIC delegated statistics. See LACNIC's report README and its download/use disclaimer.",
   },
 ] as const;
 

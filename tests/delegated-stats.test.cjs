@@ -19,11 +19,17 @@ const ripeRows = [
   'ripencc|NG|ipv6|2001:db8:2::|48|20210103|allocated|holder-v6-ripe',
 ];
 
-test('parses and filters AFRINIC and RIPE NCC records with registry provenance', () => {
+test('parses and filters all registry feed identifiers with per-record provenance', () => {
   const afrinic = parseDelegatedStatistics(source('afrinic', [...afrinicRows, 'afrinic|US|asn|64514|1|20200101|allocated|holder-us', 'afrinic|NG|asn|64515|1|20200101|reserved|holder-reserved']), 'afrinic');
   const ripe = parseDelegatedStatistics(source('ripencc', ripeRows), 'ripencc');
+  const arinEmpty = parseDelegatedStatistics(source('arin', []), 'arin');
+  const lacnicEmpty = parseDelegatedStatistics(source('lacnic', []), 'lacnic');
   assert.equal(afrinic.registry, 'afrinic');
   assert.equal(ripe.registry, 'ripencc');
+  assert.equal(arinEmpty.registry, 'arin');
+  assert.equal(lacnicEmpty.registry, 'lacnic');
+  assert.deepEqual(arinEmpty.records, []);
+  assert.deepEqual(lacnicEmpty.records, []);
   assert.equal(afrinic.declaredRecordCount, 5);
   assert.equal(afrinic.records.length, 3);
   const resources = validateResources([...afrinic.records, ...ripe.records]);
@@ -65,7 +71,7 @@ test('deduplicates identical cross-registry outputs, retains both claims, and re
   assert.equal(resources.crossRegistryDuplicates.asns, 1);
   assert.equal(resources.crossRegistryDuplicates.prefixes, 1);
   assert.deepEqual(resources.crossRegistryConflicts.map((item) => [item.resource, item.fields]), [
-    ['192.0.2.0/24', ['date', 'status']], ['AS64512', ['date', 'status']],
+    ['192.0.2.0/24', ['date', 'holderId', 'status']], ['AS64512', ['date', 'holderId', 'status']],
   ]);
 });
 

@@ -1,4 +1,4 @@
-# Source: AFRINIC and APNIC NG-coded registry records; see metadata.json.
+# Source: AFRINIC, APNIC, ARIN and LACNIC NG-coded registry records; see metadata.json.
 ip-asn, 16284, direct
 ip-asn, 25163, direct
 ip-asn, 29091, direct

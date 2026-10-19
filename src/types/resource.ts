@@ -1,6 +1,6 @@
 export type ResourceType = "asn" | "ipv4" | "ipv6";
 export type AllocationStatus = "allocated" | "assigned";
-export type RegistryName = "afrinic" | "apnic" | "ripencc";
+export type RegistryName = "afrinic" | "apnic" | "arin" | "lacnic" | "ripencc";
 
 export interface ResourceClaim {
   registry: RegistryName;
