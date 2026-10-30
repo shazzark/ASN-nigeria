@@ -219,7 +219,6 @@ ip-cidr, 102.214.56.0/22, direct
 ip-cidr, 102.214.91.0/24, direct
 ip-cidr, 102.214.124.0/23, direct
 ip-cidr, 102.214.240.0/22, direct
-ip-cidr, 102.214.248.0/22, direct
 ip-cidr, 102.215.56.0/22, direct
 ip-cidr, 102.215.176.0/22, direct
 ip-cidr, 102.215.204.0/22, direct

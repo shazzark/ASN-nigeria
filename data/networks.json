@@ -4512,19 +4512,6 @@
     ]
   },
   {
-    "asn": 329120,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36289D4",
-        "date": "20220817",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
     "asn": 329123,
     "name": "RATEL PLUS NIGERIA LIMITED",
     "nameSource": {
