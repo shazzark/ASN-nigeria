@@ -3,7 +3,7 @@
     {
       "registry": "afrinic",
       "sourceUrl": "https://ftp.afrinic.net/stats/afrinic/delegated-afrinic-extended-latest",
-      "sourceSerial": "20261030",
+      "sourceSerial": "20261101",
       "records": 19940,
       "selectedNgRecords": 854,
       "documentationUrl": "https://ftp.afrinic.net/stats/afrinic/README-EXTENDED.txt",
@@ -14,8 +14,8 @@
     {
       "registry": "apnic",
       "sourceUrl": "https://ftp.apnic.net/stats/apnic/delegated-apnic-extended-latest",
-      "sourceSerial": "20261030",
-      "records": 191058,
+      "sourceSerial": "20261101",
+      "records": 191090,
       "selectedNgRecords": 0,
       "documentationUrl": "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
       "termsUrl": "https://ftp.apnic.net/stats/apnic/README-EXTENDED.TXT",
@@ -25,8 +25,8 @@
     {
       "registry": "arin",
       "sourceUrl": "https://ftp.arin.net/pub/stats/arin/delegated-arin-extended-latest",
-      "sourceSerial": "1793278822401",
-      "records": 204524,
+      "sourceSerial": "1793451621828",
+      "records": 204626,
       "selectedNgRecords": 0,
       "documentationUrl": "https://www.arin.net/reference/research/statistics/nro_stats/",
       "termsUrl": "https://www.arin.net/reference/research/statistics/nro_stats/",
@@ -36,8 +36,8 @@
     {
       "registry": "lacnic",
       "sourceUrl": "https://ftp.lacnic.net/pub/stats/lacnic/delegated-lacnic-extended-latest",
-      "sourceSerial": "20261029",
-      "records": 97635,
+      "sourceSerial": "20261031",
+      "records": 97636,
       "selectedNgRecords": 0,
       "documentationUrl": "https://ftp.lacnic.net/pub/stats/lacnic/README",
       "termsUrl": "https://ftp.lacnic.net/pub/stats/lacnic/disclaimer.txt",
@@ -47,7 +47,7 @@
   ],
   "countryCode": "NG",
   "meaning": "AFRINIC, APNIC, ARIN and LACNIC registry allocations and assignments recorded with country code NG; these records are not observed BGP routes and do not identify physical IP location.",
-  "fetchedAt": "2026-10-30T10:56:22.282Z",
+  "fetchedAt": "2026-11-01T11:23:13.988Z",
   "counts": {
     "asns": 300,
     "ipv4": 417,
