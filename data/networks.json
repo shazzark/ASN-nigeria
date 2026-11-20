@@ -1306,19 +1306,6 @@
     ]
   },
   {
-    "asn": 37377,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F3646035",
-        "date": "20110912",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
     "asn": 37398,
     "name": "Juniper solutions Limited",
     "nameSource": {
@@ -1383,19 +1370,6 @@
         "registry": "afrinic",
         "holderId": "F3634E30",
         "date": "20111212",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
-    "asn": 37407,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36A9BF3",
-        "date": "20111215",
         "status": "allocated"
       }
     ]
@@ -2653,19 +2627,6 @@
         "registry": "afrinic",
         "holderId": "F362C085",
         "date": "20160808",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
-    "asn": 328080,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36622B6",
-        "date": "20161004",
         "status": "allocated"
       }
     ]
@@ -4253,19 +4214,6 @@
     ]
   },
   {
-    "asn": 329015,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36E8AB0",
-        "date": "20220228",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
     "asn": 329019,
     "name": "Tangerine Life Insurance Limited",
     "nameSource": {
@@ -4850,19 +4798,6 @@
     ]
   },
   {
-    "asn": 329241,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F3644373",
-        "date": "20230331",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
     "asn": 329244,
     "name": "Connect, Surf and Smile Limited",
     "nameSource": {
@@ -4881,19 +4816,6 @@
         "registry": "afrinic",
         "holderId": "F36F33AE",
         "date": "20230407",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
-    "asn": 329256,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36DD6FD",
-        "date": "20230502",
         "status": "allocated"
       }
     ]

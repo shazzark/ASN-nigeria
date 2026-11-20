@@ -61,11 +61,9 @@ ip-asn, 37340, direct
 ip-asn, 37345, direct
 ip-asn, 37347, direct
 ip-asn, 37369, direct
-ip-asn, 37377, direct
 ip-asn, 37398, direct
 ip-asn, 37404, direct
 ip-asn, 37405, direct
-ip-asn, 37407, direct
 ip-asn, 37420, direct
 ip-asn, 37426, direct
 ip-asn, 37433, direct
@@ -125,7 +123,6 @@ ip-asn, 328027, direct
 ip-asn, 328034, direct
 ip-asn, 328035, direct
 ip-asn, 328053, direct
-ip-asn, 328080, direct
 ip-asn, 328081, direct
 ip-asn, 328128, direct
 ip-asn, 328131, direct
@@ -200,7 +197,6 @@ ip-asn, 328951, direct
 ip-asn, 328976, direct
 ip-asn, 328999, direct
 ip-asn, 329001, direct
-ip-asn, 329015, direct
 ip-asn, 329019, direct
 ip-asn, 329022, direct
 ip-asn, 329023, direct
@@ -229,9 +225,7 @@ ip-asn, 329230, direct
 ip-asn, 329233, direct
 ip-asn, 329235, direct
 ip-asn, 329236, direct
-ip-asn, 329241, direct
 ip-asn, 329244, direct
-ip-asn, 329256, direct
 ip-asn, 329258, direct
 ip-asn, 329267, direct
 ip-asn, 329273, direct

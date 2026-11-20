@@ -309,28 +309,6 @@
       ]
     },
     {
-      "cidr": "41.79.116.0/22",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F3646035",
-          "date": "20110908",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
-      "cidr": "41.79.152.0/22",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36A9BF3",
-          "date": "20111209",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
       "cidr": "41.79.204.0/22",
       "claims": [
         {
@@ -2168,28 +2146,6 @@
       ]
     },
     {
-      "cidr": "102.212.80.0/24",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36DD6FD",
-          "date": "20230501",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
-      "cidr": "102.212.100.0/22",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F3644373",
-          "date": "20230331",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
       "cidr": "102.212.104.0/22",
       "claims": [
         {
@@ -3092,17 +3048,6 @@
       ]
     },
     {
-      "cidr": "102.223.180.0/23",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36E8AB0",
-          "date": "20220228",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
       "cidr": "102.223.255.0/24",
       "claims": [
         {
@@ -3868,17 +3813,6 @@
           "registry": "afrinic",
           "holderId": "F362C085",
           "date": "20160808",
-          "status": "assigned"
-        }
-      ]
-    },
-    {
-      "cidr": "196.41.94.0/24",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36622B6",
-          "date": "20160819",
           "status": "assigned"
         }
       ]
@@ -5256,17 +5190,6 @@
           "registry": "afrinic",
           "holderId": "F365BE71",
           "date": "20221005",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
-      "cidr": "2c0f:4380::/32",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36A9BF3",
-          "date": "20221007",
           "status": "allocated"
         }
       ]

@@ -60,7 +60,6 @@ ip6-cidr, 2c0f:3b80::/32, direct
 ip6-cidr, 2c0f:3d80::/32, direct
 ip6-cidr, 2c0f:3e80::/32, direct
 ip6-cidr, 2c0f:4180::/32, direct
-ip6-cidr, 2c0f:4380::/32, direct
 ip6-cidr, 2c0f:45c0::/32, direct
 ip6-cidr, 2c0f:4720::/32, direct
 ip6-cidr, 2c0f:4800::/32, direct
