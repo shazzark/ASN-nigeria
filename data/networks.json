@@ -4,7 +4,7 @@
     "name": "Vodacom Business Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -27,12 +27,12 @@
     "name": "21 st Century Technologies Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
           "name": "21 st Century Technologies Limited",
-          "records": 2
+          "records": 1
         }
       ]
     },
@@ -50,7 +50,7 @@
     "name": "ipNX Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -86,12 +86,12 @@
     "name": "Accelon",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
           "name": "Accelon",
-          "records": 11
+          "records": 12
         }
       ]
     },
@@ -109,7 +109,7 @@
     "name": "NAL-AS",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -132,7 +132,7 @@
     "name": "Intercom Data Network Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -155,12 +155,12 @@
     "name": "Airtel Networks Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
           "name": "Airtel Networks Limited",
-          "records": 22
+          "records": 23
         }
       ]
     },
@@ -191,7 +191,7 @@
     "name": "DIRECT ON PC LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -214,7 +214,7 @@
     "name": "KKON Technologies Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -250,7 +250,7 @@
     "name": "United Bank for Africa",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -273,7 +273,7 @@
     "name": "SWIFT NETWORKS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -322,7 +322,7 @@
     "name": "Nigeria Internet Registration Association",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -345,7 +345,7 @@
     "name": "Internet Exchange Point of Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -368,7 +368,7 @@
     "name": "MICROACCESS LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -391,7 +391,7 @@
     "name": "IPARTNERS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -414,7 +414,7 @@
     "name": "First Bank of NG PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -437,7 +437,7 @@
     "name": "First City Monument Bank, PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -460,7 +460,7 @@
     "name": "Guaranty Trust Bank Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -483,7 +483,7 @@
     "name": "Suburban Broadband Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -506,7 +506,7 @@
     "name": "ACCESS BANK PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -529,7 +529,7 @@
     "name": "Galaxy Backbone PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -552,7 +552,7 @@
     "name": "BANKPHB PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -575,7 +575,7 @@
     "name": "Zenith Bank PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -598,7 +598,7 @@
     "name": "SKYE BANK PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -621,7 +621,7 @@
     "name": "Emerging Markets Telecommunication Services (EMTS) Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -641,18 +641,8 @@
   },
   {
     "asn": 37077,
-    "name": "American University of Nigeria - AUN (formerly AAUN)",
-    "nameSource": {
-      "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
-      "selectedBy": "most-frequent; lexical tie-break",
-      "candidates": [
-        {
-          "name": "American University of Nigeria - AUN (formerly AAUN)",
-          "records": 1
-        }
-      ]
-    },
+    "name": null,
+    "nameSource": null,
     "claims": [
       {
         "registry": "afrinic",
@@ -667,7 +657,7 @@
     "name": "VDT COMMUNICATIONS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -690,7 +680,7 @@
     "name": "STANBIC IBTC BANK PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -726,12 +716,12 @@
     "name": "Layer3 Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
           "name": "Layer3 Limited",
-          "records": 3
+          "records": 4
         }
       ]
     },
@@ -762,7 +752,7 @@
     "name": "Unified Payment Services Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -785,7 +775,7 @@
     "name": "Globacom Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -808,7 +798,7 @@
     "name": "University of Lagos",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -857,7 +847,7 @@
     "name": "Voix Networks Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -880,7 +870,7 @@
     "name": "SimbaNET Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -903,7 +893,7 @@
     "name": "Nigeria National Petroleum Corporation",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -926,7 +916,7 @@
     "name": "Hyperia Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -949,7 +939,7 @@
     "name": "Interconnect Clearinghouse Nigeria Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -972,7 +962,7 @@
     "name": "Swifttalk Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -995,7 +985,7 @@
     "name": "Phase3 Telecom Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1018,7 +1008,7 @@
     "name": "Computer Warehouse group",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1054,7 +1044,7 @@
     "name": "Information Connectivity Solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1077,7 +1067,7 @@
     "name": "Broad Based Communications Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1100,7 +1090,7 @@
     "name": "Main one Cable Company Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1123,7 +1113,7 @@
     "name": "Nigeria ICT Forum of Partnership Institutions",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1146,7 +1136,7 @@
     "name": "Afcom Satellite Networks Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1169,7 +1159,7 @@
     "name": "Obafemi Awolowo University, Ife",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1192,7 +1182,7 @@
     "name": "Steam Broadcasting and Communications Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1215,7 +1205,7 @@
     "name": "Wema Bank Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1238,7 +1228,7 @@
     "name": "SPECTRANET LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1261,7 +1251,7 @@
     "name": "Medallion Communications",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1284,7 +1274,7 @@
     "name": "NGCOM",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1333,7 +1323,7 @@
     "name": "Juniper solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1356,7 +1346,7 @@
     "name": "University of Ibadan",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1379,7 +1369,7 @@
     "name": "University of Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1415,7 +1405,7 @@
     "name": "University of JOS",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1438,7 +1428,7 @@
     "name": "ASSET MANAGEMENT CORPORATION OF NIGERIA",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1461,7 +1451,7 @@
     "name": "KKON Technologies Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1484,7 +1474,7 @@
     "name": "Usmanu Danfodiyo University",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1507,7 +1497,7 @@
     "name": "Etranzact Int'l Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1530,7 +1520,7 @@
     "name": "Central Bank of Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1553,7 +1543,7 @@
     "name": "Nigerian Communications Satellite Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1576,7 +1566,7 @@
     "name": "Cobranet Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1612,7 +1602,7 @@
     "name": "Eko-Konnect Research and Education Initiative",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1635,7 +1625,7 @@
     "name": "Zinox Telecommunications Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1658,7 +1648,7 @@
     "name": "Internet Solutions Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1681,7 +1671,7 @@
     "name": "FLOURMILLS OF NIGERIA PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1704,7 +1694,7 @@
     "name": "American International School Abuja",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1727,7 +1717,7 @@
     "name": "Winrock Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1750,7 +1740,7 @@
     "name": "Nigerian Exchange Group PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1773,7 +1763,7 @@
     "name": "Nigeria Inter-Bank Settlement System Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1796,7 +1786,7 @@
     "name": "UNION BANK OF NIGERIA PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1819,7 +1809,7 @@
     "name": "ORLEAN INVEST AFRICA LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1842,7 +1832,7 @@
     "name": "General Telecommunication Networks (NIG) Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1865,7 +1855,7 @@
     "name": "eStream Networks",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1888,7 +1878,7 @@
     "name": "Smile Communications Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1911,7 +1901,7 @@
     "name": "Lagos State Government",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1934,7 +1924,7 @@
     "name": "BillyRonks Global Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1957,7 +1947,7 @@
     "name": "Premier Lotto Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -1980,12 +1970,12 @@
     "name": "Nigerian Research and Education Network Limited by Guarantee",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
           "name": "Nigerian Research and Education Network Limited by Guarantee",
-          "records": 5
+          "records": 4
         }
       ]
     },
@@ -2016,7 +2006,7 @@
     "name": "Tizeti Network Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2039,7 +2029,7 @@
     "name": "Ahmadu Bello University Zaria Nigeria",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2062,7 +2052,7 @@
     "name": "Pan-Atlantic University",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2085,7 +2075,7 @@
     "name": "BACKBONE CONNECTIVITY NETWORK (NIGERIA) LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2108,7 +2098,7 @@
     "name": "BITFLUX COMMUNICATIONS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2183,7 +2173,7 @@
     "name": "Federal University of Technology, Akure(FUTA)",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2206,7 +2196,7 @@
     "name": "Interswitch Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2229,7 +2219,7 @@
     "name": "Babcock University",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2252,7 +2242,7 @@
     "name": "BOWEN UNIVERSITY",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2275,7 +2265,7 @@
     "name": "Fidelity Bank PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2298,7 +2288,7 @@
     "name": "Coscharis Technologies",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2347,7 +2337,7 @@
     "name": "Nanocom International Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2370,7 +2360,7 @@
     "name": "Megafast Networks LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2393,7 +2383,7 @@
     "name": "CBC EMEA LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2429,7 +2419,7 @@
     "name": "EXCELSIMO NETWORKS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2452,7 +2442,7 @@
     "name": "LANDMARK UNIVERSITY OMU-ARAN",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2472,8 +2462,18 @@
   },
   {
     "asn": 327952,
-    "name": null,
-    "nameSource": null,
+    "name": "NATCOM Development and Investment Limited",
+    "nameSource": {
+      "provider": "DB-IP IP to ASN Lite",
+      "releaseMonth": "2026-11",
+      "selectedBy": "most-frequent; lexical tie-break",
+      "candidates": [
+        {
+          "name": "NATCOM Development and Investment Limited",
+          "records": 1
+        }
+      ]
+    },
     "claims": [
       {
         "registry": "afrinic",
@@ -2488,7 +2488,7 @@
     "name": "ABUJA ELECTRICITY DISTRIBUTION PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2511,7 +2511,7 @@
     "name": "Ekovolt Telco Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2534,7 +2534,7 @@
     "name": "IDS Africa Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2557,7 +2557,7 @@
     "name": "GUTTI GLOBAL NETWORKS",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2580,7 +2580,7 @@
     "name": "Sahara Group Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2616,7 +2616,7 @@
     "name": "Zeta-web Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2639,7 +2639,7 @@
     "name": "Sterling Bank Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2675,7 +2675,7 @@
     "name": "HollaTags Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2698,7 +2698,7 @@
     "name": "Tehilah Base Digital LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2747,7 +2747,7 @@
     "name": "Dotmac Technologies Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2770,7 +2770,7 @@
     "name": "TREFOIL NETWORKS LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2793,7 +2793,7 @@
     "name": "Xpress Payment Solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2829,7 +2829,7 @@
     "name": "Nigerian Ports Authority",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2852,7 +2852,7 @@
     "name": "Covenant University",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2875,7 +2875,7 @@
     "name": "ECOBANK NIGERIA LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2898,7 +2898,7 @@
     "name": "Platinum Index Data Communications Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2921,7 +2921,7 @@
     "name": "CORALPAY TECHNOLOGY (NIGERIA) LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2944,7 +2944,7 @@
     "name": "DANGOTE INDUSTRIES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2967,7 +2967,7 @@
     "name": "Skymax Integrated Network Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -2990,7 +2990,7 @@
     "name": "Yappingo Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3026,7 +3026,7 @@
     "name": "Federal University of Agriculture",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3049,7 +3049,7 @@
     "name": "First Exploration and Petroleum Development Company Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3072,7 +3072,7 @@
     "name": "Castlenet Consulting Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3092,8 +3092,18 @@
   },
   {
     "asn": 328362,
-    "name": null,
-    "nameSource": null,
+    "name": "University of Ilorin",
+    "nameSource": {
+      "provider": "DB-IP IP to ASN Lite",
+      "releaseMonth": "2026-11",
+      "selectedBy": "most-frequent; lexical tie-break",
+      "candidates": [
+        {
+          "name": "University of Ilorin",
+          "records": 1
+        }
+      ]
+    },
     "claims": [
       {
         "registry": "afrinic",
@@ -3108,7 +3118,7 @@
     "name": "ALFA O AND O VENTURES LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3131,7 +3141,7 @@
     "name": "COZ Internet Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3167,7 +3177,7 @@
     "name": "Soft Alliance and Resources Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3203,7 +3213,7 @@
     "name": "Bayero University",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3226,7 +3236,7 @@
     "name": "EKO Electricity Distribution PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3249,7 +3259,7 @@
     "name": "IP Express Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3272,7 +3282,7 @@
     "name": "Brainshare Technologies and Services Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3295,7 +3305,7 @@
     "name": "CyberSOC Africa Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3318,7 +3328,7 @@
     "name": "Ibadan Electricity Distribution Company Plc",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3341,7 +3351,7 @@
     "name": "Living Faith Church WorldWide",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3364,7 +3374,7 @@
     "name": "Premium Pension Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3400,7 +3410,7 @@
     "name": "PDS Networks Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3423,7 +3433,7 @@
     "name": "NetIT Solutions LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3446,7 +3456,7 @@
     "name": "Timeless Network Services Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3469,7 +3479,7 @@
     "name": "SYSCODES COMMUNICATIONS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3492,7 +3502,7 @@
     "name": "O'Play Digital Services Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3515,7 +3525,7 @@
     "name": "MegaMore Wireless Broadband Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3538,7 +3548,7 @@
     "name": "Axa Mansard Insurance PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3561,7 +3571,7 @@
     "name": "Trakatel Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3584,7 +3594,7 @@
     "name": "Skystar Global Solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3607,7 +3617,7 @@
     "name": "Tizeti Network Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3630,7 +3640,7 @@
     "name": "De Choicetech Integrated Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3653,7 +3663,7 @@
     "name": "Nkponani Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3676,7 +3686,7 @@
     "name": "Tecpoint Global Solution limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3699,7 +3709,7 @@
     "name": "Ciudad Infrastructure Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3722,7 +3732,7 @@
     "name": "Simplifyd Systems Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3745,7 +3755,7 @@
     "name": "Globus Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3794,7 +3804,7 @@
     "name": "Proline Technologies Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3817,7 +3827,7 @@
     "name": "IMBIL TELECOM SOLUTIONS NIG. LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3840,7 +3850,7 @@
     "name": "MAFAB Communications Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3863,7 +3873,7 @@
     "name": "JAIZ BANK PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3886,7 +3896,7 @@
     "name": "Access and Content Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3935,7 +3945,7 @@
     "name": "CEFLIX-SCEPTER LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3958,7 +3968,7 @@
     "name": "National Identity Management Commission",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -3981,7 +3991,7 @@
     "name": "National Assembly Abuja",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4004,7 +4014,7 @@
     "name": "Upperlink Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4027,7 +4037,7 @@
     "name": "Petroleum Equalisation Fund (Management) Board",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4050,7 +4060,7 @@
     "name": "Nigerian Communications Commission (NCC)",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4073,7 +4083,7 @@
     "name": "Fibrehub Internetworking Services Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4096,7 +4106,7 @@
     "name": "TELKO MANAGED SERVICES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4119,7 +4129,7 @@
     "name": "Vovida Communications Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4142,7 +4152,7 @@
     "name": "Netaccess Systems Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4165,7 +4175,7 @@
     "name": "Parallex Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4201,7 +4211,7 @@
     "name": "BrowsePoint Telecom Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4224,7 +4234,7 @@
     "name": "Kasi Cloud Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4260,7 +4270,7 @@
     "name": "Tangerine Life Insurance Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4283,7 +4293,7 @@
     "name": "Gifra Wireless Network Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4306,7 +4316,7 @@
     "name": "Treten Networks Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4329,7 +4339,7 @@
     "name": "LULI FIBRA CABLE SOLUTION LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4352,7 +4362,7 @@
     "name": "Routelink Integrated Systems Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4375,7 +4385,7 @@
     "name": "Julius Berger Nigeria PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4424,7 +4434,7 @@
     "name": "9 Payment Service Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4447,7 +4457,7 @@
     "name": "Smart City Technology Company Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4470,7 +4480,7 @@
     "name": "Watch Tower Society of Jehovah's Witnesses (LTD/GTE)",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4493,7 +4503,7 @@
     "name": "MANGONET INTEGRATED TECHNOLOGIES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4512,24 +4522,11 @@
     ]
   },
   {
-    "asn": 329120,
-    "name": null,
-    "nameSource": null,
-    "claims": [
-      {
-        "registry": "afrinic",
-        "holderId": "F36289D4",
-        "date": "20220817",
-        "status": "allocated"
-      }
-    ]
-  },
-  {
     "asn": 329123,
     "name": "RATEL PLUS NIGERIA LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4552,7 +4549,7 @@
     "name": "Coquina Software Company Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4601,7 +4598,7 @@
     "name": "Fibreworld Telecommunications Networks Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4637,7 +4634,7 @@
     "name": "WOW Networks Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4660,7 +4657,7 @@
     "name": "AMICS TECHNOLOGIES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4683,7 +4680,7 @@
     "name": "Nilmage Two4Seven Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4706,7 +4703,7 @@
     "name": "STL FIBERCO LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4729,7 +4726,7 @@
     "name": "LiFi.net Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4765,7 +4762,7 @@
     "name": "Pronto Broadband Solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4788,7 +4785,7 @@
     "name": "SABI NETWORKS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4811,7 +4808,7 @@
     "name": "REXIFI TECHNOLOGIES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4834,7 +4831,7 @@
     "name": "Teltwine Networks Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4870,7 +4867,7 @@
     "name": "Connect, Surf and Smile Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4906,7 +4903,7 @@
     "name": "Nextgen Telcoms LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4929,7 +4926,7 @@
     "name": "FIBERONE BROADBAND LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4952,7 +4949,7 @@
     "name": "Fastfeet Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -4975,7 +4972,7 @@
     "name": "FBNQuest Capital Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5011,7 +5008,7 @@
     "name": "NOVA Commercial Bank LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5034,7 +5031,7 @@
     "name": "ITC Global Communication Technologies Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5057,7 +5054,7 @@
     "name": "Verse Telecom Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5080,7 +5077,7 @@
     "name": "TDS Hitech Solutions Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5116,7 +5113,7 @@
     "name": "Optimus Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5152,7 +5149,7 @@
     "name": "E-Lapariah Technologies Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5188,7 +5185,7 @@
     "name": "Providusbank PLC",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5211,7 +5208,7 @@
     "name": "FZX Media Consulting Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5234,7 +5231,7 @@
     "name": "Vitel Wireless Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5257,7 +5254,7 @@
     "name": "FieldBase Services Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5280,7 +5277,7 @@
     "name": "Linkorg Networks LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5303,7 +5300,7 @@
     "name": "TRADE MODERNISATION PROJECT LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5339,7 +5336,7 @@
     "name": "Fibernet Broadband Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5362,7 +5359,7 @@
     "name": "Promethean Consulting Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5385,7 +5382,7 @@
     "name": "NGCOM LASTMILE SOLUTION LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5408,7 +5405,7 @@
     "name": "TeleWyz LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5457,7 +5454,7 @@
     "name": "FBNQuest Merchant Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5480,7 +5477,7 @@
     "name": "Alpha Morgan Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5503,7 +5500,7 @@
     "name": "Voisip Telecommunications Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5565,7 +5562,7 @@
     "name": "Robert & John Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5601,7 +5598,7 @@
     "name": "Olla Systems Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5624,7 +5621,7 @@
     "name": "Nationwaves Telcom Nigeria Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5647,7 +5644,7 @@
     "name": "Sitehub Agency Ltd",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5683,7 +5680,7 @@
     "name": "Iris Smart Technologies Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5706,7 +5703,7 @@
     "name": "CORONA MANAGEMENT SYSTEMS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5729,7 +5726,7 @@
     "name": "NETWORK INTERNATIONAL PAYMENTS SERVICES NIGERIA LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5765,7 +5762,7 @@
     "name": "Premium Trust Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5788,7 +5785,7 @@
     "name": "FSDH Merchant Bank Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5824,7 +5821,7 @@
     "name": "MONIEPOINT MICROFINANCE BANK LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5847,7 +5844,7 @@
     "name": "VAS2NETS TECHNOLOGIES LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5870,7 +5867,7 @@
     "name": "MetroReach Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5893,7 +5890,7 @@
     "name": "DMK Telecommunication Nig LTD",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5929,7 +5926,7 @@
     "name": "SIGNATURE BANK LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5965,7 +5962,7 @@
     "name": "3 Way Protocol Limited",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -5988,7 +5985,7 @@
     "name": "TRYANNET SOLUTIONS LIMITED",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {
@@ -6037,7 +6034,7 @@
     "name": "National Cybersecurity Coordination Centre",
     "nameSource": {
       "provider": "DB-IP IP to ASN Lite",
-      "releaseMonth": "2026-10",
+      "releaseMonth": "2026-11",
       "selectedBy": "most-frequent; lexical tie-break",
       "candidates": [
         {

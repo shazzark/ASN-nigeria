@@ -1,6 +1,7 @@
 # Source: DB-IP Lite NG geolocation classification; see metadata.json.
 ip-asn, 42, direct
 ip-asn, 174, direct
+ip-asn, 209, direct
 ip-asn, 701, direct
 ip-asn, 715, direct
 ip-asn, 2686, direct
@@ -26,6 +27,7 @@ ip-asn, 14593, direct
 ip-asn, 14789, direct
 ip-asn, 15169, direct
 ip-asn, 15641, direct
+ip-asn, 15830, direct
 ip-asn, 16276, direct
 ip-asn, 16284, direct
 ip-asn, 16509, direct
@@ -53,7 +55,6 @@ ip-asn, 32167, direct
 ip-asn, 32934, direct
 ip-asn, 35487, direct
 ip-asn, 36183, direct
-ip-asn, 36666, direct
 ip-asn, 36872, direct
 ip-asn, 36873, direct
 ip-asn, 36911, direct
@@ -76,7 +77,6 @@ ip-asn, 37025, direct
 ip-asn, 37056, direct
 ip-asn, 37058, direct
 ip-asn, 37076, direct
-ip-asn, 37077, direct
 ip-asn, 37088, direct
 ip-asn, 37104, direct
 ip-asn, 37125, direct
@@ -141,19 +141,20 @@ ip-asn, 37687, direct
 ip-asn, 37688, direct
 ip-asn, 37714, direct
 ip-asn, 39120, direct
+ip-asn, 40776, direct
 ip-asn, 43357, direct
 ip-asn, 44324, direct
 ip-asn, 44444, direct
 ip-asn, 44559, direct
 ip-asn, 45566, direct
 ip-asn, 48031, direct
+ip-asn, 50833, direct
+ip-asn, 51747, direct
 ip-asn, 51964, direct
 ip-asn, 54113, direct
 ip-asn, 54728, direct
 ip-asn, 54994, direct
 ip-asn, 55256, direct
-ip-asn, 58057, direct
-ip-asn, 58061, direct
 ip-asn, 58065, direct
 ip-asn, 60068, direct
 ip-asn, 60171, direct
@@ -161,6 +162,7 @@ ip-asn, 60728, direct
 ip-asn, 62044, direct
 ip-asn, 62651, direct
 ip-asn, 63911, direct
+ip-asn, 134494, direct
 ip-asn, 135377, direct
 ip-asn, 136258, direct
 ip-asn, 136907, direct
@@ -185,20 +187,22 @@ ip-asn, 207990, direct
 ip-asn, 209179, direct
 ip-asn, 210842, direct
 ip-asn, 211119, direct
+ip-asn, 211612, direct
 ip-asn, 212238, direct
 ip-asn, 213476, direct
 ip-asn, 213541, direct
+ip-asn, 214238, direct
 ip-asn, 214242, direct
 ip-asn, 214266, direct
 ip-asn, 214354, direct
 ip-asn, 214669, direct
+ip-asn, 214731, direct
 ip-asn, 215294, direct
 ip-asn, 216050, direct
 ip-asn, 216253, direct
 ip-asn, 216435, direct
 ip-asn, 219013, direct
 ip-asn, 219283, direct
-ip-asn, 219412, direct
 ip-asn, 265827, direct
 ip-asn, 327705, direct
 ip-asn, 327721, direct
@@ -211,6 +215,7 @@ ip-asn, 327895, direct
 ip-asn, 327898, direct
 ip-asn, 327924, direct
 ip-asn, 327942, direct
+ip-asn, 327952, direct
 ip-asn, 327953, direct
 ip-asn, 327981, direct
 ip-asn, 327985, direct
@@ -238,6 +243,7 @@ ip-asn, 328306, direct
 ip-asn, 328324, direct
 ip-asn, 328332, direct
 ip-asn, 328357, direct
+ip-asn, 328362, direct
 ip-asn, 328376, direct
 ip-asn, 328387, direct
 ip-asn, 328401, direct

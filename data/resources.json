@@ -2421,17 +2421,6 @@
       ]
     },
     {
-      "cidr": "102.214.248.0/22",
-      "claims": [
-        {
-          "registry": "afrinic",
-          "holderId": "F36289D4",
-          "date": "20220817",
-          "status": "allocated"
-        }
-      ]
-    },
-    {
       "cidr": "102.215.56.0/22",
       "claims": [
         {
