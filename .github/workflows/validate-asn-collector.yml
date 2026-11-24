@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: '23 4 * * *'
+    - cron: '23 * * * *'
   workflow_dispatch:
 
 permissions:
@@ -35,6 +35,19 @@ jobs:
           fi
       - name: Generate validated allocation and country-geolocation datasets
         run: npm run update
+      - name: Summarize successful collection
+        run: |
+          node <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require('node:fs');
+          const registry = JSON.parse(fs.readFileSync('data/metadata.json', 'utf8'));
+          const country = JSON.parse(fs.readFileSync('data/country-ip/metadata.json', 'utf8'));
+          console.log('## Successful dataset check');
+          console.log('Checked at (UTC): ' + new Date().toISOString());
+          console.log('Registry counts: ' + JSON.stringify(registry.counts));
+          console.log('Country-IP counts: ' + JSON.stringify(country.records));
+          console.log('DB-IP release: ' + country.releaseMonth);
+          console.log('A successful check does not create a commit when dataset records are unchanged.');
+          NODE
       - name: Commit changed generated records
         shell: bash
         run: |
