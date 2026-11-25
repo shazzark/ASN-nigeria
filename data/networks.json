@@ -6090,5 +6090,18 @@
         "status": "allocated"
       }
     ]
+  },
+  {
+    "asn": 329851,
+    "name": null,
+    "nameSource": null,
+    "claims": [
+      {
+        "registry": "afrinic",
+        "holderId": "F3618200",
+        "date": "20261124",
+        "status": "allocated"
+      }
+    ]
   }
 ]

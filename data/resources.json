@@ -1233,6 +1233,17 @@
       ]
     },
     {
+      "cidr": "102.200.136.0/23",
+      "claims": [
+        {
+          "registry": "afrinic",
+          "holderId": "F3618200",
+          "date": "20261124",
+          "status": "allocated"
+        }
+      ]
+    },
+    {
       "cidr": "102.200.237.0/24",
       "claims": [
         {
